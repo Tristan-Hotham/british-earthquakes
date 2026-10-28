@@ -1,0 +1,1427 @@
+name,type,county,country,lat,lon,n_25km,n_10km,biggest_mag,biggest_date,biggest_km,biggest_id
+Lerwick,Town,Shetland Islands,Scotland,60.1546,-1.1468,5,2,3.3,2009-01-15,14.4,M124756
+Stromness,Town,Orkney Islands,Scotland,58.9622,-3.2992,2,0,1.4,1991-12-07,20.4,M122850
+Kirkwall,Town,Orkney Islands,Scotland,58.9811,-2.9611,3,2,1.4,1991-12-07,1.3,M122850
+Stornoway,Town,Na h-Eileanan an Iar,Scotland,58.2077,-6.3861,0,0,,,,
+Thurso,Town,Highland,Scotland,58.595,-3.5211,3,1,2.5,1862-07-03,7.7,H335
+Wick,Town,Highland,Scotland,58.4427,-3.0919,1,0,1.0,2022-07-31,16.6,M126398
+Dingwall,Town,Highland,Scotland,57.5953,-4.4253,21,0,5.1,1816-08-13,19.3,H23
+Kingussie,Town,Highland,Scotland,57.0803,-4.0512,12,2,3.7,1858-06-06,25.0,H129
+Inverness,City,Highland,Scotland,57.48,-4.2262,21,11,5.1,1816-08-13,8.4,H23
+Fortrose,Town,Highland,Scotland,57.5816,-4.1308,19,0,5.1,1816-08-13,20.7,H23
+Invergordon,Town,Highland,Scotland,57.6884,-4.1692,4,1,1.6,2011-01-18,24.5,M124913
+Cromarty,Town,Highland,Scotland,57.6808,-4.0347,4,1,1.2,1977-05-17,22.9,M120339
+Alness,Town,Highland,Scotland,57.6955,-4.2497,8,2,2.4,2011-05-28,23.9,M124937
+Tain,Town,Highland,Scotland,57.8116,-4.0539,8,0,2.0,1894-01-21,22.6,H417
+Dornoch,Town,Highland,Scotland,57.8807,-4.0279,7,0,2.0,1894-01-21,15.6,H417
+Aviemore,Town,Highland,Scotland,57.1917,-3.829,8,3,2.6,1995-08-28,6.0,M123364
+Nairn,Town,Highland,Scotland,57.5846,-3.8688,3,1,1.2,1977-05-17,11.6,M120339
+Grantown-on-Spey,Town,Highland,Scotland,57.3308,-3.6082,5,0,2.6,1995-08-28,17.8,M123364
+Forres,Town,Moray,Scotland,57.6102,-3.6128,2,0,1.2,1977-05-17,23.2,M120339
+Burghead,Town,Moray,Scotland,57.701,-3.4886,0,0,,,,
+Dufftown,Town,Moray,Scotland,57.4451,-3.1285,1,1,1.2,1985-04-11,4.6,M121296
+Charlestown of Aberlour,Town,Moray,Scotland,57.4705,-3.2255,1,1,1.2,1985-04-11,3.8,M121296
+Rothes,Town,Moray,Scotland,57.527,-3.2078,1,1,1.2,1985-04-11,5.7,M121296
+Lossiemouth,Town,Moray,Scotland,57.7222,-3.2816,0,0,,,,
+Elgin,Town,Moray,Scotland,57.6502,-3.315,1,0,1.2,1985-04-11,20.9,M121296
+Alford,Town,Aberdeenshire,Scotland,57.2319,-2.7021,1,0,1.1,1978-03-23,24.4,M120401
+Huntly,Town,Aberdeenshire,Scotland,57.4475,-2.7863,2,1,1.2,1985-04-11,23.0,M121296
+Keith,Town,Moray,Scotland,57.5427,-2.9528,3,0,1.2,1985-04-11,14.5,M121296
+Portsoy,Town,Aberdeenshire,Scotland,57.6833,-2.6915,1,0,1.1,1981-03-19,10.7,M120785
+Cullen,Town,Moray,Scotland,57.6911,-2.8192,1,1,1.1,1981-03-19,6.6,M120785
+Buckie,Town,Moray,Scotland,57.6763,-2.9649,2,0,1.2,1985-04-11,24.8,M121296
+Findochty,Town,Moray,Scotland,57.6981,-2.9015,1,1,1.1,1981-03-19,7.5,M120785
+Kintore,Town,Aberdeenshire,Scotland,57.237,-2.3451,0,0,,,,
+Inverurie,Town,Aberdeenshire,Scotland,57.2842,-2.3748,1,0,1.1,1978-03-23,24.1,M120401
+Turriff,Town,Aberdeenshire,Scotland,57.5375,-2.464,1,0,1.1,1978-03-23,14.4,M120401
+Aberchirder,Town,Aberdeenshire,Scotland,57.5603,-2.6288,2,0,1.1,1978-03-23,12.5,M120401
+Macduff,Town,Aberdeenshire,Scotland,57.67,-2.4964,1,0,1.1,1981-03-19,21.2,M120785
+Banff,Town,Aberdeenshire,Scotland,57.6649,-2.5234,1,0,1.1,1981-03-19,20.1,M120785
+Aberdeen,City,Aberdeen City,Scotland,57.1499,-2.0938,0,0,,,,
+Westhill,Town,Aberdeenshire,Scotland,57.1534,-2.2762,0,0,,,,
+Blackburn,Town,Aberdeenshire,Scotland,57.2039,-2.2891,0,0,,,,
+Oldmeldrum,Town,Aberdeenshire,Scotland,57.3352,-2.3204,1,0,1.1,1978-03-23,22.9,M120401
+Ellon,Town,Aberdeenshire,Scotland,57.3639,-2.0736,0,0,,,,
+Fraserburgh,Town,Aberdeenshire,Scotland,57.6935,-2.0051,0,0,,,,
+Rosehearty,Town,Aberdeenshire,Scotland,57.6967,-2.1145,1,0,2.0,1980-06-24,23.2,M120592
+Peterhead,Town,Aberdeenshire,Scotland,57.5082,-1.7835,0,0,,,,
+Tobermory,Town,Argyll and Bute,Scotland,56.6229,-6.0681,96,21,4.0,2017-08-04,23.1,M125747
+Oban,Town,Argyll and Bute,Scotland,56.412,-5.4726,126,30,4.4,1907-01-17,10.2,H74
+Inveraray,Town,Argyll and Bute,Scotland,56.2306,-5.0742,101,14,5.2,1880-11-28,14.7,H18
+Fort William,Town,Highland,Scotland,56.8196,-5.106,98,27,4.5,1817-04-23,16.7,H62
+Callander,Town,Stirling,Scotland,56.2433,-4.213,120,18,4.8,1839-10-23,24.3,H41
+Dunblane,Town,Stirling,Scotland,56.1885,-3.9642,401,37,4.8,1839-10-23,24.7,H41
+Doune,Town,Stirling,Scotland,56.1896,-4.0526,350,30,4.6,1608-11-08,22.8,H55
+Auchterarder,Town,Perth and Kinross,Scotland,56.2964,-3.7064,396,95,4.8,1839-10-23,20.1,H41
+Crieff,Town,Perth and Kinross,Scotland,56.373,-3.8404,199,21,4.8,1839-10-23,8.5,H41
+Aberfeldy,Town,Perth and Kinross,Scotland,56.619,-3.8684,37,4,4.8,1839-10-23,23.9,H41
+Pitlochry,Town,Perth and Kinross,Scotland,56.7026,-3.7329,9,3,2.3,1975-11-26,12.5,M120236
+Kinross,Town,Perth and Kinross,Scotland,56.2051,-3.4213,312,4,3.7,1912-05-03,21.7,H133
+Perth,City,Perth and Kinross,Scotland,56.3955,-3.4389,78,10,3.2,1809-01-18,23.1,H199
+Blairgowrie and Rattray,Town,Perth and Kinross,Scotland,56.5924,-3.3399,21,0,2.6,1971-09-07,24.1,M120099
+Ladybank,Town,Fife,Scotland,56.2744,-3.1227,7,2,1.6,1984-02-21,10.0,M121091
+Auchtermuchty,Town,Fife,Scotland,56.2921,-3.2329,13,0,1.6,1971-08-06,23.6,M120096
+Markinch,Town,Fife,Scotland,56.2021,-3.1351,10,1,1.6,1984-02-21,16.5,M121091
+Leven,Town,Fife,Scotland,56.1962,-2.996,7,1,1.6,1984-02-21,14.7,M121091
+Falkland,Town,Fife,Scotland,56.252,-3.2067,13,0,1.6,1984-02-21,15.6,M121091
+Newburgh,Town,Fife,Scotland,56.3508,-3.2394,28,0,2.6,1971-09-07,23.9,M120099
+Glenrothes,Town,Fife,Scotland,56.1952,-3.1713,12,1,1.6,1984-02-21,18.4,M121091
+Leslie,Town,Fife,Scotland,56.2015,-3.2129,17,0,1.6,1984-02-21,19.5,M121091
+Cupar,Town,Fife,Scotland,56.3195,-3.0116,3,1,1.6,1984-02-21,1.4,M121091
+Kirriemuir,Town,Angus,Scotland,56.6731,-3.0045,1,0,1.5,1983-01-27,22.1,M120984
+Alyth,Town,Perth and Kinross,Scotland,56.6219,-3.2298,1,0,1.1,1983-03-19,23.9,M121007
+Coupar Angus,Town,Perth and Kinross,Scotland,56.5461,-3.2678,22,0,2.6,1971-09-07,24.2,M120099
+Ballater,Town,Aberdeenshire,Scotland,57.0493,-3.0402,0,0,,,,
+St Andrews,Town,Fife,Scotland,56.3394,-2.795,3,0,1.6,1984-02-21,12.4,M121091
+Pittenweem,Town,Fife,Scotland,56.2132,-2.73,4,1,1.6,1984-02-21,20.8,M121091
+Anstruther,Town,Fife,Scotland,56.2249,-2.6965,3,1,1.6,1984-02-21,21.7,M121091
+Monifieth,Town,Angus,Scotland,56.483,-2.8161,2,0,1.6,1984-02-21,20.5,M121091
+Broughty Ferry,Town,Dundee City,Scotland,56.4674,-2.8761,3,0,1.6,1984-02-21,17.1,M121091
+Newport-on-Tay,Town,Fife,Scotland,56.4402,-2.9414,2,0,1.6,1984-02-21,12.9,M121091
+Tayport,Town,Fife,Scotland,56.4465,-2.88,2,0,1.6,1984-02-21,14.9,M121091
+Dundee,City,Dundee City,Scotland,56.4584,-2.9737,2,0,1.6,1984-02-21,14.6,M121091
+Carnoustie,Town,Angus,Scotland,56.5014,-2.709,1,0,1.5,1983-01-27,15.8,M120984
+Forfar,Town,Angus,Scotland,56.6441,-2.889,1,0,1.5,1983-01-27,14.7,M120984
+Brechin,Town,Angus,Scotland,56.7322,-2.6603,1,0,1.5,1983-01-27,10.4,M120984
+Crail,Town,Fife,Scotland,56.2598,-2.6278,2,0,1.6,1984-02-21,23.9,M121091
+Arbroath,Town,Angus,Scotland,56.5623,-2.5841,1,1,1.5,1983-01-27,9.4,M120984
+Montrose,Town,Angus,Scotland,56.7092,-2.4672,1,0,1.5,1983-01-27,13.6,M120984
+Laurencekirk,Town,Aberdeenshire,Scotland,56.8333,-2.4655,1,0,1.5,1983-01-27,24.4,M120984
+Banchory,Town,Aberdeenshire,Scotland,57.0515,-2.505,0,0,,,,
+Inverbervie,Town,Aberdeenshire,Scotland,56.8447,-2.2798,0,0,,,,
+Stonehaven,Town,Aberdeenshire,Scotland,56.9637,-2.2082,0,0,,,,
+Portlethen,Town,Aberdeenshire,Scotland,57.0633,-2.1307,0,0,,,,
+Campbeltown,Town,Argyll and Bute,Scotland,55.4239,-5.6056,33,1,4.0,1999-03-04,23.3,M123767
+Lochgilphead,Town,Argyll and Bute,Scotland,56.0377,-5.433,80,8,5.2,1880-11-28,18.9,H18
+Millport,Town,North Ayrshire,Scotland,55.7531,-4.9284,22,1,4.1,1927-01-27,24.4,H101
+Dunoon,Town,Argyll and Bute,Scotland,55.9544,-4.928,59,8,4.1,1927-01-27,17.7,H101
+Rothesay,Town,Argyll and Bute,Scotland,55.8349,-5.0546,45,2,4.1,1927-01-27,12.4,H101
+Maybole,Town,South Ayrshire,Scotland,55.3546,-4.6811,3,0,1.5,2024-08-12,17.2,M130448
+Ayr,Town,South Ayrshire,Scotland,55.4582,-4.629,7,0,2.0,1998-09-15,23.0,M123728
+Troon,Town,South Ayrshire,Scotland,55.5438,-4.664,12,0,2.5,1975-11-02,20.6,M120231
+Irvine,Town,North Ayrshire,Scotland,55.6156,-4.6649,11,1,2.5,1975-11-02,20.1,M120231
+Prestwick,Town,South Ayrshire,Scotland,55.4989,-4.611,10,0,2.0,1998-09-15,22.3,M123728
+Stevenston,Town,North Ayrshire,Scotland,55.6407,-4.7571,13,5,2.5,1975-11-02,15.1,M120231
+Kilwinning,Town,North Ayrshire,Scotland,55.6541,-4.6957,14,5,3.0,1836-10-24,24.7,H255
+Saltcoats,Town,North Ayrshire,Scotland,55.6343,-4.7878,13,6,2.5,1975-11-02,13.1,M120231
+Largs,Town,North Ayrshire,Scotland,55.7943,-4.8694,19,1,4.1,1927-01-27,24.4,H101
+Ardrossan,Town,North Ayrshire,Scotland,55.6406,-4.8145,14,6,2.5,1975-11-02,11.9,M120231
+Dumbarton,Town,West Dunbartonshire,Scotland,55.9457,-4.5667,37,2,3.3,1910-12-14,18.2,H188
+Port Glasgow,Town,Inverclyde,Scotland,55.9345,-4.6903,38,1,3.5,1972-08-29,25.0,M120128
+Greenock,Town,Inverclyde,Scotland,55.9485,-4.7572,48,2,3.5,1908-07-03,22.3,H160
+Gourock,Town,Inverclyde,Scotland,55.9613,-4.8186,45,4,4.1,1927-01-27,24.5,H101
+Helensburgh,Town,Argyll and Bute,Scotland,56.0039,-4.7334,59,4,3.5,1908-07-03,19.2,H160
+Alexandria,Town,West Dunbartonshire,Scotland,55.9879,-4.5824,57,1,3.3,1910-12-14,21.3,H188
+Galston,Town,East Ayrshire,Scotland,55.6004,-4.3798,3,0,1.5,2024-08-12,24.0,M130448
+Newmilns,Town,East Ayrshire,Scotland,55.6075,-4.3242,3,0,1.3,2008-09-12,22.8,M124728
+Darvel,Town,East Ayrshire,Scotland,55.6098,-4.281,4,0,1.3,2008-09-12,22.6,M124728
+Cumnock,Town,East Ayrshire,Scotland,55.4549,-4.2672,10,4,1.5,2024-08-12,12.1,M130448
+Kilmarnock,Town,East Ayrshire,Scotland,55.6101,-4.4945,6,0,1.4,2020-06-03,20.8,M126098
+Barrhead,Town,East Renfrewshire,Scotland,55.8008,-4.3896,22,5,3.3,1910-12-14,10.5,H188
+Stewarton,Town,East Ayrshire,Scotland,55.6815,-4.5128,11,0,3.0,1836-10-24,17.8,H255
+Johnstone,Town,Renfrewshire,Scotland,55.8369,-4.5131,25,7,3.3,1910-12-14,14.2,H188
+Milngavie,Town,East Dunbartonshire,Scotland,55.9412,-4.3161,36,15,3.7,1940-07-16,20.8,H135
+Renfrew,Town,Renfrewshire,Scotland,55.8799,-4.3853,26,16,3.3,1910-12-14,5.3,H188
+Erskine,Town,Renfrewshire,Scotland,55.9079,-4.4641,28,18,3.3,1910-12-14,10.7,H188
+Bearsden,Town,East Dunbartonshire,Scotland,55.9195,-4.3337,34,20,3.7,1940-07-16,22.7,H135
+Paisley,Town,Renfrewshire,Scotland,55.8451,-4.4284,22,9,3.3,1910-12-14,8.9,H188
+Clydebank,Town,West Dunbartonshire,Scotland,55.9099,-4.4268,28,19,3.3,1910-12-14,8.6,H188
+New Cumnock,Town,East Ayrshire,Scotland,55.3968,-4.1839,12,6,1.5,2024-08-12,14.8,M130448
+Sanquhar,Town,Dumfries and Galloway,Scotland,55.3681,-3.9251,27,1,2.7,1749-02-14,11.4,H316
+Hamilton,Town,South Lanarkshire,Scotland,55.776,-4.0334,11,0,3.3,1910-12-14,20.3,H188
+Wishaw,Town,North Lanarkshire,Scotland,55.7745,-3.9211,9,2,1.7,1976-08-30,11.7,M120304
+Motherwell,Town,North Lanarkshire,Scotland,55.79,-3.9936,14,0,3.7,1940-07-16,23.4,H135
+East Kilbride,Town,South Lanarkshire,Scotland,55.7581,-4.1661,16,0,3.3,1910-12-14,16.0,H188
+Larkhall,Town,South Lanarkshire,Scotland,55.7375,-3.9724,8,0,1.7,1976-08-30,14.7,M120304
+Kilsyth,Town,North Lanarkshire,Scotland,55.9784,-4.0579,82,6,3.7,1940-07-16,4.3,H135
+Cumbernauld,Town,North Lanarkshire,Scotland,55.945,-3.9939,54,5,3.7,1940-07-16,6.1,H135
+Bishopbriggs,Town,East Dunbartonshire,Scotland,55.9044,-4.2248,33,6,3.7,1940-07-16,17.6,H135
+Coatbridge,Town,North Lanarkshire,Scotland,55.8624,-4.0291,24,2,3.7,1940-07-16,15.4,H135
+Glasgow,City,Glasgow City,Scotland,55.8636,-4.2369,28,5,3.7,1940-07-16,21.2,H135
+Uddingston,Town,South Lanarkshire,Scotland,55.8198,-4.0825,22,0,3.7,1940-07-16,20.7,H135
+Kirkintilloch,Town,East Dunbartonshire,Scotland,55.9414,-4.1572,45,1,3.7,1940-07-16,11.8,H135
+Airdrie,Town,North Lanarkshire,Scotland,55.866,-3.9809,23,2,3.7,1940-07-16,15.0,H135
+Bellshill,Town,North Lanarkshire,Scotland,55.8188,-4.024,18,0,3.7,1940-07-16,20.2,H135
+Rutherglen,Town,South Lanarkshire,Scotland,55.8289,-4.2135,27,1,3.7,1940-07-16,23.3,H135
+Stirling,City,Stirling,Scotland,56.1155,-3.9342,364,31,3.7,1912-05-03,13.1,H133
+Bridge of Allan,Town,Stirling,Scotland,56.155,-3.948,369,28,3.7,1912-05-03,11.7,H133
+Carluke,Town,South Lanarkshire,Scotland,55.7348,-3.8403,14,3,1.7,1976-08-30,6.5,M120304
+Lanark,Town,South Lanarkshire,Scotland,55.6738,-3.7759,18,2,1.9,2020-12-31,21.3,M126176
+Whitburn,Town,West Lothian,Scotland,55.8667,-3.685,24,4,3.7,1940-07-16,24.7,H135
+Falkirk,Town,Falkirk,Scotland,55.9993,-3.7848,250,5,3.7,1912-05-03,21.2,H133
+Bathgate,Town,West Lothian,Scotland,55.9025,-3.6418,114,3,3.7,1940-07-16,24.9,H135
+Blackburn,Town,West Lothian,Scotland,55.8711,-3.6229,27,4,3.2,1889-01-18,16.5,H212
+Armadale,Town,West Lothian,Scotland,55.8987,-3.7001,108,3,3.7,1940-07-16,21.9,H135
+Culross,Town,Fife,Scotland,56.0565,-3.6298,323,140,3.7,1912-05-03,17.2,H133
+Clackmannan,Town,Clackmannanshire,Scotland,56.1073,-3.7527,360,211,3.7,1912-05-03,9.3,H133
+Dollar,Town,Clackmannanshire,Scotland,56.163,-3.6715,344,221,3.7,1912-05-03,6.8,H133
+Alva,Town,Clackmannanshire,Scotland,56.153,-3.8027,363,181,3.7,1912-05-03,4.6,H133
+Tillicoultry,Town,Clackmannanshire,Scotland,56.1531,-3.7393,361,224,3.7,1912-05-03,4.5,H133
+Denny,Town,Falkirk,Scotland,56.0228,-3.9075,261,12,3.7,1912-05-03,20.5,H133
+Alloa,Town,Clackmannanshire,Scotland,56.116,-3.7917,362,197,3.7,1912-05-03,8.3,H133
+Grangemouth,Town,Falkirk,Scotland,56.0196,-3.7219,268,18,3.7,1912-05-03,19.2,H133
+Moffat,Town,Dumfries and Galloway,Scotland,55.3333,-3.4443,102,14,3.4,1888-07-19,14.3,H173
+Biggar,Town,South Lanarkshire,Scotland,55.6242,-3.5241,27,4,1.9,1983-11-15,15.7,M121060
+Broxburn,Town,West Lothian,Scotland,55.9343,-3.4694,289,3,3.2,1889-01-18,9.9,H212
+Linlithgow,Town,West Lothian,Scotland,55.977,-3.6007,234,2,3.2,1889-01-18,19.2,H212
+Livingston,Town,West Lothian,Scotland,55.8841,-3.5188,151,2,3.2,1889-01-18,10.1,H212
+Queensferry,Town,City of Edinburgh,Scotland,55.9866,-3.4052,383,0,3.2,1889-01-18,13.3,H212
+Inverkeithing,Town,Fife,Scotland,56.0303,-3.3983,297,2,3.2,1889-01-18,18.0,H212
+Lochgelly,Town,Fife,Scotland,56.1294,-3.3099,140,2,2.7,1736-04-30,24.0,H315
+Cowdenbeath,Town,Fife,Scotland,56.1118,-3.3441,225,4,2.7,1736-04-30,22.5,H315
+Bo'ness,Town,Falkirk,Scotland,56.0175,-3.6055,249,8,3.7,1912-05-03,21.8,H133
+Dunfermline,City,Fife,Scotland,56.0712,-3.4638,245,7,3.7,1912-05-03,23.2,H133
+Innerleithen,Town,Scottish Borders,Scotland,55.6193,-3.063,47,7,4.2,1728-03-01,16.5,H84
+Peebles,Town,Scottish Borders,Scotland,55.652,-3.1874,184,12,2.6,1986-10-09,22.0,M121631
+Musselburgh,Town,East Lothian,Scotland,55.9428,-3.0493,267,122,3.2,1889-01-18,21.1,H212
+Prestonpans,Town,East Lothian,Scotland,55.9595,-2.9842,261,66,3.1,1968-10-16,5.8,H247
+Loanhead,Town,Midlothian,Scotland,55.8778,-3.1483,275,252,3.2,1889-01-18,13.3,H212
+Edinburgh,City,City of Edinburgh,Scotland,55.9533,-3.1891,269,78,3.2,1889-01-18,14.1,H212
+Bonnyrigg,Town,Midlothian,Scotland,55.874,-3.1071,273,249,3.2,1889-01-18,15.8,H212
+Penicuik,Town,Midlothian,Scotland,55.8319,-3.2239,278,166,3.2,1889-01-18,9.5,H212
+Dalkeith,Town,Midlothian,Scotland,55.8886,-3.0807,271,243,3.2,1889-01-18,17.6,H212
+Kinghorn,Town,Fife,Scotland,56.0693,-3.1759,226,3,3.2,1889-01-18,25.0,H212
+Burntisland,Town,Fife,Scotland,56.0592,-3.2339,255,3,3.2,1889-01-18,22.5,H212
+Methil,Town,Fife,Scotland,56.1865,-3.0199,8,1,1.7,1979-02-08,25.0,M120467
+Buckhaven,Town,Fife,Scotland,56.171,-3.0341,14,1,1.7,1979-02-08,23.2,M120467
+Kirkcaldy,Town,Fife,Scotland,56.1096,-3.1633,75,3,3.1,1968-10-16,21.0,H247
+Hawick,Town,Scottish Borders,Scotland,55.4276,-2.7847,18,1,4.2,1728-03-01,17.0,H84
+Selkirk,Town,Scottish Borders,Scotland,55.5478,-2.8407,19,4,4.2,1728-03-01,4.1,H84
+Galashiels,Town,Scottish Borders,Scotland,55.6148,-2.8075,19,3,4.2,1728-03-01,3.9,H84
+Melrose,Town,Scottish Borders,Scotland,55.5972,-2.7194,10,2,4.2,1728-03-01,6.0,H84
+Lauder,Town,Scottish Borders,Scotland,55.7197,-2.7491,15,0,4.2,1728-03-01,16.0,H84
+Tranent,Town,East Lothian,Scotland,55.9446,-2.954,262,68,3.1,1968-10-16,6.8,H247
+East Linton,Town,East Lothian,Scotland,55.9878,-2.657,3,0,1.6,1978-03-31,24.0,M120404
+Haddington,Town,East Lothian,Scotland,55.9554,-2.7838,192,1,3.1,1968-10-16,17.5,H247
+Cockenzie and Port Seton,Town,East Lothian,Scotland,55.9716,-2.9529,259,45,3.1,1968-10-16,8.1,H247
+North Berwick,Town,East Lothian,Scotland,56.0587,-2.7171,7,0,1.7,1979-02-08,24.6,M120467
+Kelso,Town,Scottish Borders,Scotland,55.5986,-2.4346,5,0,4.2,1728-03-01,23.8,H84
+Jedburgh,Town,Scottish Borders,Scotland,55.4778,-2.5554,10,0,4.2,1728-03-01,19.7,H84
+Duns,Town,Scottish Borders,Scotland,55.7779,-2.3435,2,0,1.8,1999-11-25,12.8,M123827
+Dunbar,Town,East Lothian,Scotland,56.0017,-2.5156,3,0,1.8,2021-03-08,18.9,M126195
+Coldstream,Town,Scottish Borders,Scotland,55.6519,-2.251,4,0,2.8,1972-08-22,21.6,M120127
+Wooler,Town,Northumberland,England,55.5466,-2.0163,11,4,2.8,1972-08-22,8.5,M120127
+Berwick-upon-Tweed,Town,Northumberland,England,55.7712,-2.0042,4,0,2.8,1972-08-22,19.8,M120127
+Eyemouth,Town,Scottish Borders,Scotland,55.8723,-2.0894,0,0,,,,
+Alnwick,Town,Northumberland,England,55.4116,-1.7056,12,2,2.8,1972-08-22,25.0,M120127
+Rothbury,Town,Northumberland,England,55.31,-1.9099,9,0,1.8,1998-03-07,18.6,M123662
+Amble,Town,Northumberland,England,55.3336,-1.5843,6,2,1.8,2004-04-25,9.0,M124378
+Stranraer,Town,Dumfries and Galloway,Scotland,54.9036,-5.0276,1,0,1.1,2017-08-30,24.9,M125762
+Girvan,Town,South Ayrshire,Scotland,55.2421,-4.8553,2,1,1.3,1983-04-15,3.9,M121011
+Whithorn,Town,Dumfries and Galloway,Scotland,54.734,-4.4149,2,0,1.7,1983-09-28,17.6,M121047
+Gatehouse of Fleet,Town,Dumfries and Galloway,Scotland,54.8807,-4.1872,7,1,2.0,1983-06-08,20.4,M121024
+Wigtown,Town,Dumfries and Galloway,Scotland,54.8673,-4.4446,2,1,1.7,1983-09-28,2.9,M121047
+Newton Stewart,Town,Dumfries and Galloway,Scotland,54.9672,-4.4832,4,1,1.7,1983-09-28,9.0,M121047
+Kirkcudbright,Town,Dumfries and Galloway,Scotland,54.8379,-4.0479,5,1,2.0,1983-06-08,13.2,M121024
+New Galloway,Town,Dumfries and Galloway,Scotland,55.0741,-4.1396,9,3,2.4,1873-04-16,24.9,H341
+Castle Douglas,Town,Dumfries and Galloway,Scotland,54.941,-3.9293,24,2,3.6,2006-12-26,24.7,M124563
+Whitehaven,Town,Cumberland,England,54.5507,-3.5875,23,8,5.0,1786-08-11,6.4,H29
+Dalbeattie,Town,Dumfries and Galloway,Scotland,54.9323,-3.8212,51,1,3.6,2006-12-26,20.8,M124563
+Dumfries,Town,Dumfries and Galloway,Scotland,55.0698,-3.6093,111,45,3.6,2006-12-26,2.5,M124563
+Cleator Moor,Town,Cumberland,England,54.5218,-3.5172,24,4,5.0,1786-08-11,10.6,H29
+Egremont,Town,Cumberland,England,54.481,-3.5287,19,3,5.0,1786-08-11,11.2,H29
+Maryport,Town,Cumberland,England,54.7144,-3.4995,33,5,5.0,1786-08-11,23.6,H29
+Cockermouth,Town,Cumberland,England,54.6637,-3.3645,34,4,3.4,1901-07-09,19.6,H175
+Workington,Town,Cumberland,England,54.6434,-3.5494,31,5,5.0,1786-08-11,15.2,H29
+Aspatria,Town,Cumberland,England,54.7634,-3.3334,37,8,4.1,1901-07-09,19.3,H99
+Silloth,Town,Cumberland,England,54.8686,-3.3893,29,2,4.1,1901-07-09,23.7,H99
+Annan,Town,Dumfries and Galloway,Scotland,54.9873,-3.2618,67,6,4.7,1979-12-26,23.7,M120517
+Lochmaben,Town,Dumfries and Galloway,Scotland,55.1285,-3.4409,135,10,3.6,2006-12-26,13.3,M124563
+Lockerbie,Town,Dumfries and Galloway,Scotland,55.1202,-3.3559,136,12,3.6,2006-12-26,18.3,M124563
+Ambleside,Town,Westmorland and Furness,England,54.4326,-2.9631,50,21,3.5,2010-12-21,12.8,M124905
+Keswick,Town,Cumberland,England,54.6015,-3.1386,56,10,4.1,1901-07-09,23.0,H99
+Wigton,Town,Cumberland,England,54.8248,-3.1612,45,10,4.1,1901-07-09,8.3,H99
+Longtown,Town,Cumberland,England,55.0087,-2.972,106,44,4.9,1650-04-11,12.7,H34
+Langholm,Town,Dumfries and Galloway,Scotland,55.1508,-2.9988,108,6,4.9,1650-04-11,23.6,H34
+Penrith,Town,Westmorland and Furness,England,54.666,-2.7546,46,2,4.9,1871-03-17,19.0,H36
+Carlisle,City,Cumberland,England,54.8926,-2.933,90,5,4.9,1650-04-11,13.8,H34
+Brampton,Town,Cumberland,England,54.9422,-2.7346,76,19,4.9,1650-04-11,5.1,H34
+Kirkby Stephen,Town,Westmorland and Furness,England,54.4744,-2.3491,36,4,4.4,1768-05-15,19.7,H67
+Appleby-in-Westmorland,Town,Westmorland and Furness,England,54.5778,-2.4913,33,5,4.9,1871-03-17,14.8,H36
+Alston,Town,Westmorland and Furness,England,54.8125,-2.4414,26,0,4.9,1871-03-17,11.6,H36
+Haltwhistle,Town,Northumberland,England,54.9709,-2.4571,30,1,4.9,1650-04-11,20.7,H34
+Stanhope,Town,County Durham,England,54.7491,-2.0118,21,3,3.4,1973-07-15,18.5,M120146
+Hexham,Town,Northumberland,England,54.9718,-2.1009,8,3,2.0,2016-10-15,3.7,M125665
+Corbridge,Town,Northumberland,England,54.9742,-2.0175,10,3,2.0,1822-09-18,23.0,H388
+Richmond,Town,North Yorkshire,England,54.4041,-1.7373,17,3,4.8,1780-12-09,18.0,H39
+Barnard Castle,Town,County Durham,England,54.5485,-1.9171,23,6,3.4,1973-07-15,17.7,M120146
+Willington,Town,County Durham,England,54.7113,-1.6938,21,1,3.1,2018-09-15,16.3,M125905
+Crook,Town,County Durham,England,54.7147,-1.7464,20,1,3.1,2018-09-15,17.7,M125905
+Tow Law,Town,County Durham,England,54.748,-1.8154,23,1,3.1,2018-09-15,23.0,M125905
+Wolsingham,Town,County Durham,England,54.7298,-1.8829,21,4,3.4,1973-07-15,22.8,M120146
+Annfield Plain,Town,County Durham,England,54.8634,-1.7451,20,1,2.5,1981-10-18,20.1,M120861
+Consett,Town,County Durham,England,54.8532,-1.8333,16,2,2.5,1981-10-18,21.3,M120861
+Stanley,Town,County Durham,England,54.8723,-1.6938,26,2,2.5,1981-10-18,20.4,M120861
+Ponteland,Town,Northumberland,England,55.0495,-1.7451,11,1,2.3,2003-06-16,12.8,M124281
+Prudhoe,Town,Northumberland,England,54.9612,-1.8532,11,3,2.3,2003-06-16,18.6,M124281
+Ryton,Town,Gateshead,England,54.9728,-1.7632,15,4,2.3,2003-06-16,12.7,M124281
+Blaydon,Town,Gateshead,England,54.9647,-1.714,20,4,2.3,2003-06-16,9.9,M124281
+Morpeth,Town,Northumberland,England,55.1675,-1.6907,9,0,2.3,2003-06-16,20.7,M124281
+Darlington,Town,Darlington,England,54.5233,-1.5536,17,3,3.1,2018-09-15,7.4,M125905
+Shildon,Town,County Durham,England,54.6342,-1.6437,20,4,3.1,2018-09-15,7.4,M125905
+Ferryhill,Town,County Durham,England,54.6891,-1.5569,29,3,3.1,2018-09-15,14.5,M125905
+Newton Aycliffe,Town,County Durham,England,54.6185,-1.5722,24,4,3.1,2018-09-15,7.1,M125905
+Bishop Auckland,Town,County Durham,England,54.6641,-1.6791,20,1,3.1,2018-09-15,11.0,M125905
+Sedgefield,Town,County Durham,England,54.6526,-1.4517,27,5,3.1,2018-09-15,15.3,M125905
+Spennymoor,Town,County Durham,England,54.698,-1.6042,29,1,3.1,2018-09-15,14.6,M125905
+Houghton-le-Spring,Town,Sunderland,England,54.8441,-1.4716,35,11,2.5,1981-10-18,21.0,M120861
+Durham,City,County Durham,England,54.7779,-1.5826,33,2,3.1,2018-09-15,23.6,M125905
+Chester-le-Street,Town,County Durham,England,54.859,-1.5742,36,5,2.5,1981-10-18,19.6,M120861
+Sunderland,City,Sunderland,England,54.9022,-1.3838,36,17,2.3,2003-06-16,15.7,M124281
+Hetton-le-Hole,Town,Sunderland,England,54.8207,-1.4522,37,9,2.5,1981-10-18,19.8,M120861
+Washington,Town,Sunderland,England,54.8989,-1.5354,36,7,2.5,1981-10-18,24.6,M120861
+South Shields,Town,South Tyneside,England,54.9982,-1.4317,30,4,2.3,2003-06-16,8.8,M124281
+Wallsend,Town,North Tyneside,England,54.9911,-1.5336,29,4,2.3,2003-06-16,2.3,M124281
+Longbenton,Town,North Tyneside,England,55.0214,-1.5653,26,4,2.3,2003-06-16,2.9,M124281
+Newcastle upon Tyne,City,Newcastle upon Tyne,England,54.978,-1.6102,27,3,2.3,2003-06-16,3.2,M124281
+Whickham,Town,Gateshead,England,54.9457,-1.6761,24,3,2.3,2003-06-16,8.8,M124281
+Jarrow,Town,South Tyneside,England,54.9813,-1.4909,28,5,2.3,2003-06-16,5.2,M124281
+Cramlington,Town,Northumberland,England,55.0871,-1.5878,11,2,2.3,2003-06-16,10.3,M124281
+Tynemouth,Town,North Tyneside,England,55.0178,-1.4255,27,2,2.3,2003-06-16,9.5,M124281
+Hebburn,Town,South Tyneside,England,54.9726,-1.5172,29,5,2.3,2003-06-16,4.1,M124281
+Gateshead,Town,Gateshead,England,54.9599,-1.605,28,3,2.3,2003-06-16,4.5,M124281
+Whitley Bay,Town,North Tyneside,England,55.0447,-1.4479,25,3,2.3,2003-06-16,9.5,M124281
+Ashington,Town,Northumberland,England,55.1831,-1.5691,8,0,2.3,2003-06-16,20.9,M124281
+Bedlington,Town,Northumberland,England,55.1313,-1.5994,7,1,2.3,2003-06-16,15.3,M124281
+Newbiggin-by-the-Sea,Town,Northumberland,England,55.1855,-1.51,7,1,2.3,2003-06-16,21.5,M124281
+Blyth,Town,Northumberland,England,55.1272,-1.5077,11,1,2.3,2003-06-16,15.2,M124281
+Thornaby-on-Tees,Town,Stockton-on-Tees,England,54.5401,-1.294,15,5,3.1,2018-09-15,22.5,M125905
+Yarm,Town,Stockton-on-Tees,England,54.509,-1.3543,15,4,3.1,2018-09-15,19.6,M125905
+Stockton-on-Tees,Town,Stockton-on-Tees,England,54.564,-1.3127,16,5,3.1,2018-09-15,21.1,M125905
+Middlesbrough,Town,Middlesbrough,England,54.5764,-1.2368,20,3,3.1,2020-01-23,5.4,M126058
+Billingham,Town,Stockton-on-Tees,England,54.6075,-1.2961,18,5,3.1,2018-09-15,22.6,M125905
+Hartlepool,Town,Hartlepool,England,54.6854,-1.2129,31,4,3.1,2020-01-23,12.1,M126058
+Seaham,Town,County Durham,England,54.8366,-1.334,36,19,2.3,2003-06-16,23.2,M124281
+Peterlee,Town,County Durham,England,54.7608,-1.3357,39,10,3.1,2020-01-23,18.6,M126058
+Whitburn,Town,South Tyneside,England,54.9505,-1.3645,33,13,2.3,2003-06-16,14.0,M124281
+Brotton,Town,Redcar and Cleveland,England,54.5689,-0.9368,11,3,3.1,2020-01-23,24.5,M126058
+Loftus,Town,Redcar and Cleveland,England,54.5536,-0.8851,9,5,2.9,2012-02-26,8.8,M124994
+Guisborough,Town,Redcar and Cleveland,England,54.5358,-1.051,15,1,3.1,2020-01-23,18.2,M126058
+Skelton,Town,Redcar and Cleveland,England,54.5609,-0.9837,14,2,3.1,2020-01-23,21.7,M126058
+Marske-by-the-Sea,Town,Redcar and Cleveland,England,54.5919,-1.0195,17,1,3.1,2020-01-23,19.0,M126058
+Saltburn-by-the-Sea,Town,Redcar and Cleveland,England,54.5825,-0.9735,16,3,3.1,2020-01-23,22.0,M126058
+Redcar,Town,Redcar and Cleveland,England,54.6178,-1.07,23,2,3.1,2020-01-23,16.0,M126058
+Whitby,Town,North Yorkshire,England,54.4851,-0.6171,10,0,2.9,2012-02-26,22.9,M124994
+Barrow-in-Furness,Town,Westmorland and Furness,England,54.1114,-3.2272,36,6,3.7,2009-04-28,16.1,M124772
+Millom,Town,Cumberland,England,54.2106,-3.2719,34,7,3.7,2009-04-28,19.3,M124772
+Formby,Town,Sefton,England,53.5571,-3.0601,19,1,4.5,1976-11-03,21.8,M120309
+Maghull,Town,Sefton,England,53.5157,-2.9448,37,2,4.5,1976-11-03,13.7,M120309
+Southport,Town,Sefton,England,53.6473,-3.0073,22,2,4.5,1976-11-03,23.1,M120309
+Lytham St Anne's,Town,Lancashire,England,53.7521,-3.0298,12,3,2.5,1970-10-04,7.9,M120080
+Poulton-le-Fylde,Town,Lancashire,England,53.846,-2.9947,15,1,2.5,1970-10-04,14.8,M120080
+Blackpool,Town,Blackpool,England,53.8209,-3.0515,19,2,3.4,2013-08-25,23.5,M125154
+Thornton,Town,Lancashire,England,53.8703,-3.0016,20,1,2.5,1970-10-04,16.6,M120080
+Cleveleys,Town,Lancashire,England,53.8837,-3.0399,25,0,3.4,2013-08-25,23.3,M125154
+Fleetwood,Town,Lancashire,England,53.9137,-3.0344,27,2,3.4,2013-08-25,23.9,M125154
+Dalton-in-Furness,Town,Westmorland and Furness,England,54.1558,-3.1848,37,6,3.7,2009-04-28,12.6,M124772
+Ulverston,Town,Westmorland and Furness,England,54.1954,-3.0926,40,5,3.7,2009-04-28,7.9,M124772
+Broughton in Furness,Town,Westmorland and Furness,England,54.2771,-3.2102,39,10,3.7,2009-04-28,19.6,M124772
+Standish,Town,Wigan,England,53.5865,-2.6641,71,17,4.5,1976-11-03,9.2,M120309
+Chorley,Town,Lancashire,England,53.6543,-2.6328,54,11,4.5,1976-11-03,16.9,M120309
+Ormskirk,Town,Lancashire,England,53.5688,-2.8849,32,3,4.5,1976-11-03,11.4,M120309
+Skelmersdale,Town,Lancashire,England,53.5492,-2.7747,54,9,4.5,1976-11-03,4.4,M120309
+Rainford,Town,St. Helens,England,53.4989,-2.7851,55,8,4.5,1976-11-03,3.7,M120309
+Ince-in-Makerfield,Town,Wigan,England,53.5384,-2.6129,80,21,4.5,1976-11-03,8.7,M120309
+Wigan,Town,Wigan,England,53.5455,-2.6297,76,21,4.5,1976-11-03,7.9,M120309
+Freckleton,Town,Lancashire,England,53.7546,-2.8652,17,1,2.5,1970-10-04,18.8,M120080
+Bamber Bridge,Town,Lancashire,England,53.7314,-2.662,43,1,4.5,1976-11-03,24.5,M120309
+Kirkham,Town,Lancashire,England,53.7825,-2.8713,18,1,2.5,1970-10-04,18.7,M120080
+Leyland,Town,Lancashire,England,53.6892,-2.6954,42,4,4.5,1976-11-03,19.5,M120309
+Preston,City,Lancashire,England,53.7606,-2.6985,30,1,3.8,1889-02-10,24.1,H126
+Fulwood,Town,Lancashire,England,53.7911,-2.7135,25,1,2.8,1984-10-13,19.4,M121214
+Garstang,Town,Lancashire,England,53.9027,-2.7738,14,2,4.4,1835-08-20,14.2,H70
+Morecambe,Town,Lancashire,England,54.0724,-2.863,26,4,4.4,1835-08-20,12.7,H70
+Carnforth,Town,Lancashire,England,54.1289,-2.7675,28,4,4.4,1835-08-20,13.1,H70
+Heysham,Town,Lancashire,England,54.0481,-2.8922,24,1,4.4,1835-08-20,13.6,H70
+Grange-over-Sands,Town,Westmorland and Furness,England,54.1932,-2.9111,39,7,4.4,1835-08-20,24.1,H70
+Lancaster,City,Lancashire,England,54.0501,-2.8032,26,3,4.4,1835-08-20,8.1,H70
+Bowness-on-Windermere,Town,Westmorland and Furness,England,54.3647,-2.9196,55,8,3.7,2009-04-28,23.7,M124772
+Kendal,Town,Westmorland and Furness,England,54.3304,-2.7474,53,5,3.1,1885-06-30,23.1,H233
+Windermere,Town,Westmorland and Furness,England,54.3797,-2.9064,52,10,3.5,2010-12-21,15.6,M124905
+Walkden,Town,Salford,England,53.5238,-2.3987,216,23,4.5,1976-11-03,22.5,M120309
+Horwich,Town,Bolton,England,53.5997,-2.5459,94,21,4.5,1976-11-03,15.8,M120309
+Little Lever,Town,Bolton,England,53.5612,-2.369,213,21,4.5,1976-11-03,25.0,M120309
+Ramsbottom,Town,Bury,England,53.6488,-2.3185,209,17,4.4,1777-09-14,22.1,H69
+Radcliffe,Town,Bury,England,53.5611,-2.3277,211,25,4.4,1777-09-14,12.5,H69
+Farnworth,Town,Bolton,England,53.5505,-2.3958,216,20,4.5,1976-11-03,23.0,M120309
+Atherton,Town,Wigan,England,53.5255,-2.4872,204,24,4.5,1976-11-03,16.7,M120309
+Worsley,Town,Salford,England,53.5048,-2.3866,215,27,4.5,1976-11-03,23.3,M120309
+Swinton,Town,Salford,England,53.5122,-2.3403,215,63,4.4,1777-09-14,7.4,H69
+Bolton,Town,Bolton,England,53.5777,-2.431,210,14,4.5,1976-11-03,21.5,M120309
+Adlington,Town,Lancashire,England,53.6173,-2.5974,73,16,4.5,1976-11-03,14.6,M120309
+Westhoughton,Town,Bolton,England,53.5489,-2.5227,170,18,4.5,1976-11-03,14.7,M120309
+Hindley,Town,Wigan,England,53.5338,-2.5811,98,21,4.5,1976-11-03,10.6,M120309
+Kearsley,Town,Bolton,England,53.5395,-2.3749,215,20,4.5,1976-11-03,24.2,M120309
+Leigh,Town,Wigan,England,53.4973,-2.5188,187,24,4.5,1976-11-03,14.7,M120309
+Tyldesley,Town,Wigan,England,53.514,-2.4672,208,27,4.5,1976-11-03,18.0,M120309
+Accrington,Town,Lancashire,England,53.7527,-2.3642,60,9,4.0,1753-06-08,18.5,H107
+Rishton,Town,Lancashire,England,53.7678,-2.418,53,10,4.0,1753-06-08,20.4,H107
+Padiham,Town,Lancashire,England,53.8013,-2.314,52,9,4.8,1944-12-30,20.4,H46
+Clayton-le-Moors,Town,Lancashire,England,53.7751,-2.383,51,9,4.0,1753-06-08,18.0,H107
+Blackburn,Town,Blackburn with Darwen,England,53.7501,-2.4815,52,4,3.8,1889-02-10,15.0,H126
+Darwen,Town,Blackburn with Darwen,England,53.6951,-2.4673,70,10,3.8,1889-02-10,8.9,H126
+Oswaldtwistle,Town,Lancashire,England,53.7418,-2.4,60,8,4.0,1753-06-08,21.1,H107
+Longridge,Town,Lancashire,England,53.8317,-2.6035,27,3,4.4,1835-08-20,21.7,H70
+Great Harwood,Town,Lancashire,England,53.786,-2.408,48,10,4.0,1753-06-08,18.9,H107
+Haslingden,Town,Lancashire,England,53.7049,-2.3258,101,14,4.0,1753-06-08,20.8,H107
+Church,Town,Lancashire,England,53.7571,-2.3855,55,8,4.0,1753-06-08,19.3,H107
+Clitheroe,Town,Lancashire,England,53.8749,-2.3874,36,7,4.8,1944-12-30,24.2,H46
+High Bentham,Town,North Yorkshire,England,54.118,-2.5101,34,6,4.4,1835-08-20,16.0,H70
+Kirkby Lonsdale,Town,Westmorland and Furness,England,54.202,-2.597,39,4,4.4,1835-08-20,21.1,H70
+Sedbergh,Town,Westmorland and Furness,England,54.3236,-2.5284,44,9,4.4,1768-05-15,21.4,H67
+Littleborough,Town,Rochdale,England,53.6439,-2.0964,193,16,4.8,1944-12-30,24.6,H46
+Rochdale,Town,Rochdale,England,53.617,-2.1567,194,13,4.4,1777-09-14,20.9,H69
+Shaw,Town,Oldham,England,53.5784,-2.0951,188,26,4.4,1777-09-14,19.7,H69
+Failsworth,Town,Oldham,England,53.5086,-2.163,199,128,4.4,1777-09-14,11.2,H69
+Bury,Town,Bury,England,53.5927,-2.2988,209,21,4.4,1777-09-14,15.9,H69
+Royton,Town,Oldham,England,53.5653,-2.1217,190,81,4.4,1777-09-14,17.4,H69
+Middleton,Town,Rochdale,England,53.5505,-2.1973,201,122,4.4,1777-09-14,13.1,H69
+Whitworth,Town,Lancashire,England,53.6598,-2.1745,200,15,4.8,1944-12-30,24.5,H46
+Oldham,Town,Oldham,England,53.5422,-2.116,187,126,4.4,1777-09-14,15.9,H69
+Lees,Town,Oldham,England,53.538,-2.0725,187,82,4.4,1777-09-14,18.0,H69
+Heywood,Town,Rochdale,England,53.5937,-2.2206,205,20,4.4,1777-09-14,16.8,H69
+Mossley,Town,Tameside,England,53.5182,-2.0463,186,70,4.4,1777-09-14,18.5,H69
+Whitefield,Town,Bury,England,53.5479,-2.2935,209,73,4.4,1777-09-14,10.9,H69
+Chadderton,Town,Oldham,England,53.5444,-2.1383,191,126,4.4,1777-09-14,15.0,H69
+Milnrow,Town,Rochdale,England,53.6111,-2.1129,191,11,4.4,1777-09-14,21.8,H69
+Nelson,Town,Lancashire,England,53.8372,-2.2175,49,13,4.8,1944-12-30,13.2,H46
+Rawtenstall,Town,Lancashire,England,53.7008,-2.2875,136,17,4.8,1944-12-30,25.0,H46
+Trawden,Town,Lancashire,England,53.8453,-2.1353,51,12,4.8,1944-12-30,7.8,H46
+Burnley,Town,Lancashire,England,53.7875,-2.2444,58,11,4.8,1944-12-30,16.8,H46
+Hebden Bridge,Town,Calderdale,England,53.7411,-2.0138,53,11,4.8,1944-12-30,13.2,H46
+Bacup,Town,Lancashire,England,53.7033,-2.201,170,14,4.8,1944-12-30,21.1,H46
+Brierfield,Town,Lancashire,England,53.8238,-2.2343,52,12,4.8,1944-12-30,14.7,H46
+Todmorden,Town,Calderdale,England,53.7137,-2.0978,95,20,4.8,1944-12-30,17.1,H46
+Barrowford,Town,Lancashire,England,53.8529,-2.2156,44,11,4.8,1944-12-30,12.9,H46
+Skipton,Town,North Yorkshire,England,53.9602,-2.0177,33,2,4.8,1944-12-30,11.2,H46
+Colne,Town,Lancashire,England,53.8574,-2.1642,49,11,4.8,1944-12-30,9.5,H46
+Barnoldswick,Town,Lancashire,England,53.9165,-2.1881,35,5,4.8,1944-12-30,12.7,H46
+Earby,Town,Lancashire,England,53.9165,-2.1398,39,7,4.8,1944-12-30,10.1,H46
+Settle,Town,North Yorkshire,England,54.0674,-2.2775,30,4,4.0,1753-06-08,24.5,H107
+Meltham,Town,Kirklees,England,53.5919,-1.8506,104,6,4.0,1972-03-07,12.8,M120116
+Holmfirth,Town,Kirklees,England,53.5702,-1.7876,59,6,4.0,1972-03-07,16.0,M120116
+Huddersfield,Town,Kirklees,England,53.6443,-1.7822,41,5,4.0,1972-03-07,8.7,M120116
+Bradford,City,Bradford,England,53.7908,-1.7546,31,3,4.8,1944-12-30,19.1,H46
+Liversedge,Town,Kirklees,England,53.7107,-1.6986,28,3,4.0,1972-03-07,10.7,M120116
+Shipley,Town,Bradford,England,53.8339,-1.7786,36,2,4.8,1944-12-30,16.1,H46
+Baildon,Town,Bradford,England,53.8534,-1.7663,33,3,4.8,1944-12-30,16.7,H46
+Halifax,Town,Calderdale,England,53.7228,-1.8602,49,9,4.8,1944-12-30,18.5,H46
+Elland,Town,Calderdale,England,53.6847,-1.8366,45,9,4.8,1944-12-30,22.9,H46
+Bingley,Town,Bradford,England,53.8466,-1.8365,36,1,4.8,1944-12-30,12.2,H46
+Brighouse,Town,Calderdale,England,53.7023,-1.7849,40,7,4.8,1944-12-30,23.4,H46
+Cleckheaton,Town,Kirklees,England,53.7234,-1.7136,31,4,4.0,1972-03-07,9.9,M120116
+Sowerby Bridge,Town,Calderdale,England,53.7053,-1.9374,56,12,4.8,1944-12-30,18.1,H46
+Silsden,Town,Bradford,England,53.9147,-1.938,36,6,4.8,1944-12-30,8.1,H46
+Ilkley,Town,Bradford,England,53.9245,-1.8231,35,5,4.8,1944-12-30,14.8,H46
+Keighley,Town,Bradford,England,53.8675,-1.9096,35,5,4.8,1944-12-30,7.3,H46
+Guiseley,Town,Leeds,England,53.8742,-1.7129,21,2,4.8,1944-12-30,20.3,H46
+Pateley Bridge,Town,North Yorkshire,England,54.0864,-1.7587,25,9,3.1,1900-11-14,16.6,H238
+Leyburn,Town,North Yorkshire,England,54.3092,-1.8277,32,7,4.8,1780-12-09,8.0,H39
+Middleham,Town,North Yorkshire,England,54.2852,-1.8058,29,7,4.8,1780-12-09,9.5,H39
+Penistone,Town,Barnsley,England,53.5257,-1.6308,57,3,3.3,1932-05-25,8.4,H192
+Barnsley,Town,Barnsley,England,53.5535,-1.4826,93,3,3.3,1932-05-25,15.5,H192
+Mirfield,Town,Kirklees,England,53.6743,-1.6961,33,3,4.0,1972-03-07,11.5,M120116
+Royston,Town,Barnsley,England,53.5984,-1.4548,90,4,3.3,1932-05-25,20.6,H192
+Horbury,Town,Wakefield,England,53.661,-1.5552,27,4,4.0,1972-03-07,20.8,M120116
+Worsbrough,Town,Barnsley,England,53.5314,-1.4681,100,3,3.3,1932-05-25,14.6,H192
+Ossett,Town,Wakefield,England,53.6802,-1.5803,21,2,4.0,1972-03-07,18.8,M120116
+Batley,Town,Kirklees,England,53.7144,-1.6337,25,2,4.0,1972-03-07,15.0,M120116
+Dewsbury,Town,Kirklees,England,53.6917,-1.6277,25,2,4.0,1972-03-07,15.5,M120116
+Rothwell,Town,Leeds,England,53.7484,-1.4765,26,4,3.3,1958-06-01,9.1,H194
+Heckmondwike,Town,Kirklees,England,53.7071,-1.6744,27,3,4.0,1972-03-07,12.3,M120116
+Leeds,City,Leeds,England,53.8007,-1.5503,20,3,4.0,1972-03-07,23.0,M120116
+Normanton,Town,Wakefield,England,53.6998,-1.4155,37,4,3.3,1958-06-01,15.0,H194
+Wakefield,City,Wakefield,England,53.6837,-1.4982,34,4,4.0,1972-03-07,24.1,M120116
+Pudsey,Town,Leeds,England,53.7966,-1.663,26,2,4.8,1944-12-30,24.5,H46
+Morley,Town,Leeds,England,53.7491,-1.6023,21,2,4.0,1972-03-07,17.7,M120116
+Otley,Town,Leeds,England,53.9057,-1.6944,21,2,4.8,1944-12-30,22.0,H46
+Harrogate,Town,North Yorkshire,England,53.9937,-1.5431,25,2,3.1,1900-11-14,21.3,H238
+Knaresborough,Town,North Yorkshire,England,54.0074,-1.4646,20,1,2.7,2011-01-03,21.7,M124908
+Yeadon,Town,Leeds,England,53.8661,-1.685,22,2,4.8,1944-12-30,22.0,H46
+Ripon,City,North Yorkshire,England,54.136,-1.5234,18,5,2.7,2011-01-03,9.2,M124908
+Boroughbridge,Town,North Yorkshire,England,54.0942,-1.3955,15,3,2.7,2011-01-03,18.7,M124908
+Bedale,Town,North Yorkshire,England,54.2881,-1.5915,22,1,4.8,1780-12-09,23.4,H39
+Northallerton,Town,North Yorkshire,England,54.3409,-1.4346,13,0,2.8,1970-06-04,24.0,M120074
+Masham,Town,North Yorkshire,England,54.2227,-1.6568,25,5,4.8,1780-12-09,20.9,H39
+South Kirkby,Town,Wakefield,England,53.5938,-1.3191,117,9,3.1,2003-08-19,23.9,M124302
+South Elmsall,Town,Wakefield,England,53.5944,-1.2883,117,9,3.1,2003-08-19,22.2,M124302
+Thurnscoe,Town,Barnsley,England,53.5437,-1.3171,128,21,3.3,1932-05-25,23.8,H192
+Adwick le Street,Town,Doncaster,England,53.5719,-1.1861,129,22,4.3,1905-04-23,23.1,H81
+Wombwell,Town,Barnsley,England,53.522,-1.3977,109,9,3.3,1932-05-25,18.0,H192
+Featherstone,Town,Wakefield,England,53.6746,-1.3592,59,5,3.3,1958-06-01,19.7,H194
+Doncaster,City,Doncaster,England,53.5227,-1.1323,137,41,4.3,1905-04-23,16.6,H81
+Bolton upon Dearne,Town,Barnsley,England,53.5187,-1.3145,135,43,3.3,1932-05-25,22.9,H192
+Bentley,Town,Doncaster,England,53.5462,-1.1465,137,31,4.3,1905-04-23,19.3,H81
+Goldthorpe,Town,Barnsley,England,53.534,-1.3047,132,32,3.3,1932-05-25,24.1,H192
+Hemsworth,Town,Wakefield,England,53.6137,-1.3535,106,5,3.3,1958-06-01,24.3,H194
+Wath upon Dearne,Town,Rotherham,England,53.5024,-1.3453,129,32,3.3,1932-05-25,20.4,H192
+Garforth,Town,Leeds,England,53.7921,-1.3883,25,3,3.3,1958-06-01,14.8,H194
+Pontefract,Town,Wakefield,England,53.6924,-1.3096,56,2,3.3,1958-06-01,21.6,H194
+Castleford,Town,Wakefield,England,53.7258,-1.3535,38,4,3.3,1958-06-01,17.6,H194
+Knottingley,Town,Wakefield,England,53.7097,-1.2443,54,8,2.9,1978-02-10,7.4,M120388
+Wetherby,Town,Leeds,England,53.9285,-1.3869,17,2,3.3,1958-06-01,22.9,H194
+Tadcaster,Town,North Yorkshire,England,53.8847,-1.264,25,4,2.9,1978-02-10,15.2,M120388
+Easingwold,Town,North Yorkshire,England,54.1201,-1.1944,11,1,2.4,2005-06-08,22.4,M124460
+Thirsk,Town,North Yorkshire,England,54.2325,-1.3429,7,1,2.7,2011-01-03,21.5,M124908
+Thorne,Town,Doncaster,England,53.611,-0.9609,73,11,4.3,1905-04-23,23.6,H81
+Crowle,Town,North Lincolnshire,England,53.6063,-0.8331,38,3,3.7,1902-04-13,4.5,H132
+Epworth,Town,North Lincolnshire,England,53.5256,-0.8214,50,2,4.3,1905-04-23,17.9,H81
+Goole,Town,East Riding of Yorkshire,England,53.7038,-0.8713,37,3,3.7,1885-06-18,19.1,H130
+Selby,Town,North Yorkshire,England,53.7839,-1.0698,40,8,3.7,1885-06-18,20.2,H130
+Howden,Town,East Riding of Yorkshire,England,53.7458,-0.8678,32,3,3.7,1885-06-18,14.5,H130
+York,City,York,England,53.962,-1.0837,21,3,3.7,1885-06-18,21.3,H130
+Haxby,Town,York,England,54.016,-1.072,17,3,3.7,1885-06-18,24.1,H130
+Malton,Town,North Yorkshire,England,54.1348,-0.7963,10,1,2.3,2003-06-06,18.3,M124274
+Norton-on-Derwent,Town,North Yorkshire,England,54.1328,-0.7821,11,1,2.6,2004-07-05,24.9,M124393
+Helmsley,Town,North Yorkshire,England,54.2466,-1.0612,7,0,2.8,2018-08-28,22.9,M125898
+Pickering,Town,North Yorkshire,England,54.2462,-0.7788,10,0,2.8,2018-08-28,20.8,M125898
+Kirkbymoorside,Town,North Yorkshire,England,54.2695,-0.9312,5,0,2.8,2018-08-28,17.4,M125898
+Scunthorpe,Town,North Lincolnshire,England,53.5919,-0.6468,21,1,3.7,1902-04-13,15.7,H132
+Winterton,Town,North Lincolnshire,England,53.655,-0.5981,17,1,3.7,1902-04-13,18.1,H132
+South Cave,Town,East Riding of Yorkshire,England,53.7693,-0.6005,11,1,3.7,1885-06-18,17.3,H130
+Pocklington,Town,East Riding of Yorkshire,England,53.9311,-0.7778,20,1,3.7,1885-06-18,7.0,H130
+Market Weighton,Town,East Riding of Yorkshire,England,53.865,-0.6683,13,2,3.7,1885-06-18,8.7,H130
+Pwllheli,Town,Gwynedd,Wales,52.89,-4.416,193,109,5.3,1852-11-09,16.4,H11
+Nefyn,Town,Gwynedd,Wales,52.9355,-4.5201,193,83,5.3,1852-11-09,17.5,H11
+Holyhead,Town,Sir Ynys Mon,Wales,53.3128,-4.6328,38,5,3.5,1757-08-12,13.0,H151
+Tywyn,Town,Gwynedd,Wales,52.5864,-4.0892,16,5,3.1,1951-04-22,2.9,H246
+Harlech,Town,Gwynedd,Wales,52.8593,-4.1078,184,1,5.3,1852-11-09,22.1,H11
+Criccieth,Town,Gwynedd,Wales,52.9191,-4.2373,202,28,5.3,1852-11-09,12.0,H11
+Porthmadog,Town,Gwynedd,Wales,52.9265,-4.1308,200,5,5.3,1852-11-09,15.4,H11
+Rhosgadfan,Town,Gwynedd,Wales,53.09,-4.233,242,46,5.3,1852-11-09,9.0,H11
+Bangor,City,Gwynedd,Wales,53.228,-4.1282,92,14,4.9,1903-06-19,24.3,H37
+Llangefni,Town,Sir Ynys Mon,Wales,53.2559,-4.3131,61,9,3.5,1874-11-15,22.2,H157
+Menai Bridge,Town,Sir Ynys Mon,Wales,53.2258,-4.163,99,15,5.3,1852-11-09,24.7,H11
+Caernarfon,Town,Gwynedd,Wales,53.1408,-4.2759,233,23,5.3,1852-11-09,13.5,H11
+Amlwch,Town,Sir Ynys Mon,Wales,53.4102,-4.3457,26,9,3.7,1782-10-05,19.7,H128
+Barmouth,Town,Gwynedd,Wales,52.722,-4.0559,17,5,3.1,1951-04-22,18.2,H246
+Machynlleth,Town,Powys,Wales,52.5906,-3.8533,19,2,3.1,1951-04-22,16.4,H246
+Dolgellau,Town,Gwynedd,Wales,52.743,-3.8856,19,4,3.1,1951-04-22,24.6,H246
+Blaenau Ffestiniog,Town,Gwynedd,Wales,52.9945,-3.9348,86,13,5.3,1852-11-09,24.7,H11
+Betws-y-coed,Town,Conwy,Wales,53.0924,-3.8011,51,8,3.8,1780-08-29,15.4,H119
+Conwy,Town,Conwy,Wales,53.2811,-3.8297,34,7,3.8,1780-08-29,7.9,H119
+Bethesda,Town,Gwynedd,Wales,53.1795,-4.0613,107,21,5.3,1852-11-09,23.9,H11
+Llanrwst,Town,Conwy,Wales,53.1389,-3.7971,50,11,3.8,1780-08-29,11.0,H119
+Llanfairfechan,Town,Conwy,Wales,53.2524,-3.9744,53,9,3.8,1780-08-29,6.7,H119
+Penmaenmawr,Town,Conwy,Wales,53.2682,-3.9218,48,9,3.8,1780-08-29,5.8,H119
+Beaumaris,Town,Sir Ynys Mon,Wales,53.2636,-4.093,62,3,3.8,1780-08-29,14.4,H119
+Llandudno,Town,Conwy,Wales,53.324,-3.8304,33,4,3.8,1780-08-29,12.2,H119
+Y Bala,Town,Gwynedd,Wales,52.9104,-3.5986,28,5,4.0,1613-03-18,23.3,H105
+Abergele,Town,Conwy,Wales,53.2844,-3.5829,17,0,3.8,1780-08-29,21.7,H119
+Colwyn Bay,Town,Conwy,Wales,53.2899,-3.7064,23,3,3.8,1780-08-29,14.5,H119
+Llanfair Caereinion,Town,Powys,Wales,52.648,-3.3258,20,0,2.9,1994-03-17,14.6,M123165
+Llanfyllin,Town,Powys,Wales,52.7661,-3.2728,17,2,2.9,2007-11-30,11.1,M124657
+Ruthin,Town,Sir Ddinbych,Wales,53.1144,-3.3105,25,6,4.0,1613-03-18,7.4,H105
+St Asaph,City,Sir Ddinbych,Wales,53.2579,-3.4457,13,0,4.0,1613-03-18,24.2,H105
+Rhuddlan,Town,Sir Ddinbych,Wales,53.2911,-3.4665,14,1,3.5,1615-05-06,16.3,H148
+Holywell,Town,Sir y Fflint,Wales,53.2734,-3.2217,19,3,3.5,1615-05-06,18.2,H148
+Denbigh,Town,Sir Ddinbych,Wales,53.1833,-3.4206,19,3,4.0,1613-03-18,15.8,H105
+Caerwys,Town,Sir y Fflint,Wales,53.2462,-3.3074,17,3,4.0,1613-03-18,21.9,H105
+Rhyl,Town,Sir Ddinbych,Wales,53.3207,-3.4924,13,0,3.5,1615-05-06,20.0,H148
+Prestatyn,Town,Sir Ddinbych,Wales,53.3347,-3.4043,10,1,3.5,1615-05-06,20.6,H148
+Welshpool,Town,Powys,Wales,52.6606,-3.1497,29,6,2.9,1994-03-17,24.0,M123165
+Oswestry,Town,Shropshire,England,52.8606,-3.0555,20,0,3.2,1996-03-07,22.7,M123420
+Ellesmere,Town,Shropshire,England,52.9073,-2.8938,31,2,3.8,2022-05-30,18.2,M126365
+Chirk,Town,Wrecsam,Wales,52.9334,-3.0571,24,0,4.0,1613-03-18,23.0,H105
+Wrexham,City,Wrecsam,Wales,53.0479,-2.9948,30,5,4.0,1613-03-18,23.1,H105
+Llangollen,Town,Sir Ddinbych,Wales,52.9696,-3.1704,24,2,4.0,1613-03-18,14.5,H105
+Connah's Quay,Town,Sir y Fflint,Wales,53.2184,-3.055,35,3,4.0,1750-04-02,16.1,H106
+Ellesmere Port,Town,Cheshire West and Chester,England,53.2778,-2.9034,40,8,4.0,1750-04-02,6.4,H106
+Shotton,Town,Sir y Fflint,Wales,53.204,-3.0386,36,4,4.0,1750-04-02,15.5,H106
+Neston,Town,Cheshire West and Chester,England,53.2898,-3.0644,28,4,4.0,1750-04-02,16.9,H106
+Mold,Town,Sir y Fflint,Wales,53.1677,-3.1423,27,6,4.0,1613-03-18,18.6,H105
+Flint,Town,Sir y Fflint,Wales,53.2483,-3.1365,24,2,4.0,1750-04-02,21.1,H106
+Buckley,Town,Sir y Fflint,Wales,53.1683,-3.081,33,6,4.0,1613-03-18,21.8,H105
+Wallasey,Town,Wirral,England,53.4234,-3.0649,23,3,4.5,1976-11-03,24.0,M120309
+Litherland,Town,Sefton,England,53.471,-3.0002,26,1,4.5,1976-11-03,18.1,M120309
+Hoylake,Town,Wirral,England,53.3947,-3.1748,14,2,2.2,2023-09-14,6.2,M126559
+Liverpool,City,Liverpool,England,53.4094,-2.9785,28,2,4.5,1976-11-03,19.9,M120309
+Bebington,Town,Wirral,England,53.3321,-2.9778,35,5,4.0,1750-04-02,13.9,H106
+West Kirby,Town,Wirral,England,53.373,-3.1842,14,2,2.2,2023-09-14,8.2,M126559
+Crosby,Town,Sefton,England,53.4763,-3.0228,24,1,4.5,1976-11-03,19.4,M120309
+Bootle,Town,Sefton,England,53.4545,-2.9914,26,1,4.5,1976-11-03,18.2,M120309
+Birkenhead,Town,Wirral,England,53.3939,-3.0145,27,3,4.5,1976-11-03,22.8,M120309
+Heswall,Town,Wirral,England,53.3274,-3.0964,22,2,4.0,1750-04-02,20.3,H106
+Shrewsbury,Town,Shropshire,England,52.7082,-2.7543,41,5,3.8,2022-05-30,16.8,M126365
+Wem,Town,Shropshire,England,52.8557,-2.7238,37,10,3.8,2022-05-30,5.5,M126365
+Whitchurch,Town,Shropshire,England,52.9695,-2.6842,42,3,3.8,2022-05-30,14.2,M126365
+Frodsham,Town,Cheshire West and Chester,England,53.2946,-2.7289,58,8,4.5,1976-11-03,24.6,M120309
+Chester,City,Cheshire West and Chester,England,53.1902,-2.8916,37,8,4.0,1750-04-02,8.2,H106
+Newton-le-Willows,Town,St. Helens,England,53.4541,-2.645,81,24,4.5,1976-11-03,9.2,M120309
+Ashton-in-Makerfield,Town,Wigan,England,53.4886,-2.6385,78,26,4.5,1976-11-03,7.3,M120309
+Runcorn,Town,Halton,England,53.3417,-2.7313,67,10,4.5,1976-11-03,19.4,M120309
+St Helens,Town,St. Helens,England,53.4553,-2.7382,62,12,4.5,1976-11-03,6.7,M120309
+Billinge,Town,St. Helens,England,53.4938,-2.711,65,14,4.5,1976-11-03,3.1,M120309
+Kirkby,Town,Knowsley,England,53.4822,-2.8919,46,5,4.5,1976-11-03,10.9,M120309
+Widnes,Town,Halton,England,53.3621,-2.7341,71,10,4.5,1976-11-03,17.1,M120309
+Haydock,Town,St. Helens,England,53.4665,-2.6757,74,19,4.5,1976-11-03,6.9,M120309
+Prescot,Town,Knowsley,England,53.4296,-2.8056,58,10,4.5,1976-11-03,10.6,M120309
+Broseley,Town,Shropshire,England,52.6132,-2.4827,32,3,4.7,2002-09-22,23.7,M124081
+Telford,Town,Telford and Wrekin,England,52.6754,-2.4487,42,10,3.8,2022-05-30,23.0,M126365
+Newport,Town,Telford and Wrekin,England,52.7688,-2.3785,116,12,4.6,1916-01-14,15.6,H59
+Market Drayton,Town,Shropshire,England,52.904,-2.4837,266,13,4.6,1916-01-14,20.7,H59
+Madeley,Town,Staffordshire,England,53.0017,-2.3398,329,157,4.6,1916-01-14,19.7,H59
+Crewe,Town,Cheshire East,England,53.095,-2.4418,315,7,3.6,1801-06-01,19.3,H138
+Alsager,Town,Cheshire East,England,53.0961,-2.3047,320,152,3.4,1975-07-15,12.8,M120217
+Nantwich,Town,Cheshire East,England,53.0688,-2.5205,288,6,3.6,1801-06-01,14.2,H138
+Winsford,Town,Cheshire West and Chester,England,53.1925,-2.5313,158,5,4.0,1750-04-02,20.3,H106
+Middlewich,Town,Cheshire East,England,53.1921,-2.4442,214,5,3.6,1801-06-01,22.2,H138
+Northwich,Town,Cheshire West and Chester,England,53.2607,-2.512,73,5,4.0,1750-04-02,20.6,H106
+Knutsford,Town,Cheshire East,England,53.3031,-2.3748,159,11,4.4,1777-09-14,17.1,H69
+Sandbach,Town,Cheshire East,England,53.1444,-2.3638,303,45,3.4,1975-07-15,19.5,M120217
+Partington,Town,Trafford,England,53.419,-2.4277,202,25,4.5,1976-11-03,23.3,M120309
+Stretford,Town,Trafford,England,53.4461,-2.3074,202,91,4.4,1777-09-14,0.7,H69
+Lymm,Town,Warrington,England,53.3818,-2.4774,176,22,4.5,1976-11-03,22.9,M120309
+Irlam,Town,Salford,England,53.452,-2.4118,207,24,4.5,1976-11-03,22.8,M120309
+Urmston,Town,Trafford,England,53.4576,-2.3578,205,30,4.4,1777-09-14,3.9,H69
+Eccles,Town,Salford,England,53.4829,-2.338,213,74,4.4,1777-09-14,4.4,H69
+Hale,Town,Trafford,England,53.38,-2.3402,189,16,4.4,1777-09-14,8.2,H69
+Sale,Town,Trafford,England,53.4252,-2.3228,199,24,4.4,1777-09-14,3.1,H69
+Golborne,Town,Wigan,England,53.4753,-2.5977,89,27,4.5,1976-11-03,10.4,M120309
+Warrington,Town,Warrington,England,53.3896,-2.5909,90,14,4.5,1976-11-03,17.1,M120309
+Altrincham,Town,Trafford,England,53.3881,-2.3515,191,15,4.4,1777-09-14,7.7,H69
+Penkridge,Town,Staffordshire,England,52.7247,-2.113,76,15,4.7,2002-09-22,21.6,M124081
+Bloxwich,Town,Walsall,England,52.6166,-2.0044,46,14,4.7,2002-09-22,14.0,M124081
+Cannock,Town,Staffordshire,England,52.69,-2.0332,56,16,4.7,2002-09-22,19.4,M124081
+Eccleshall,Town,Staffordshire,England,52.8596,-2.2531,311,44,4.6,1916-01-14,4.4,H59
+Stafford,Town,Staffordshire,England,52.8058,-2.1167,154,14,4.6,1916-01-14,7.0,H59
+Stone,Town,Staffordshire,England,52.9014,-2.1452,345,55,4.6,1916-01-14,6.5,H59
+Leek,Town,Staffordshire,England,53.1057,-2.0214,330,14,4.6,1903-03-24,22.4,H58
+Kidsgrove,Town,Staffordshire,England,53.0869,-2.2404,322,210,3.4,1975-07-15,10.0,M120217
+Newcastle-under-Lyme,Town,Staffordshire,England,53.0112,-2.228,329,250,4.6,1916-01-14,18.1,H59
+Biddulph,Town,Staffordshire,England,53.115,-2.1764,324,184,3.4,1975-07-15,12.9,M120217
+Stoke-on-Trent,City,City of Stoke-on-Trent,England,53.0222,-2.1734,333,233,4.6,1916-01-14,19.2,H59
+Macclesfield,Town,Cheshire East,England,53.2606,-2.1255,244,4,4.4,1777-09-14,24.1,H69
+Congleton,Town,Cheshire East,England,53.1628,-2.2114,294,53,3.4,1975-07-15,18.1,M120217
+Bollington,Town,Cheshire East,England,53.2966,-2.0965,207,4,4.4,1777-09-14,21.8,H69
+Stockport,Town,Stockport,England,53.408,-2.159,191,89,4.4,1777-09-14,10.5,H69
+Cheadle Hulme,Town,Stockport,England,53.3758,-2.1884,186,5,4.4,1777-09-14,11.1,H69
+Denton,Town,Tameside,England,53.4562,-2.1138,190,122,4.4,1777-09-14,12.4,H69
+Salford,City,Salford,England,53.4806,-2.295,206,117,4.4,1777-09-14,3.4,H69
+Cheadle,Town,Stockport,England,53.392,-2.2004,189,27,4.4,1777-09-14,9.2,H69
+Wilmslow,Town,Cheshire East,England,53.3261,-2.2315,183,7,4.4,1777-09-14,14.5,H69
+Manchester,City,Manchester,England,53.4789,-2.2453,206,132,4.4,1777-09-14,4.9,H69
+Marple,Town,Stockport,England,53.3971,-2.0634,198,6,4.4,1777-09-14,16.8,H69
+Gatley,Town,Stockport,England,53.3929,-2.235,190,16,4.4,1777-09-14,7.7,H69
+Poynton,Town,Cheshire East,England,53.3491,-2.1222,195,4,4.4,1777-09-14,16.3,H69
+New Mills,Town,Derbyshire,England,53.3658,-2.0018,191,6,4.4,1777-09-14,21.9,H69
+Hyde,Town,Tameside,England,53.4513,-2.0798,187,111,4.4,1777-09-14,14.6,H69
+Romiley,Town,Stockport,England,53.4138,-2.0911,191,61,4.4,1777-09-14,14.4,H69
+Bramhall,Town,Stockport,England,53.363,-2.1623,187,4,4.4,1777-09-14,13.3,H69
+Dukinfield,Town,Tameside,England,53.477,-2.0819,189,121,4.4,1777-09-14,14.8,H69
+Droylsden,Town,Tameside,England,53.4808,-2.1447,197,124,4.4,1777-09-14,10.9,H69
+Ashton-under-Lyne,Town,Tameside,England,53.4903,-2.0938,190,124,4.4,1777-09-14,14.4,H69
+Hazel Grove,Town,Stockport,England,53.3797,-2.1212,192,7,4.4,1777-09-14,14.2,H69
+Stalybridge,Town,Tameside,England,53.4839,-2.0565,185,104,4.4,1777-09-14,16.6,H69
+Burntwood,Town,Staffordshire,England,52.6779,-1.9073,42,11,4.7,2002-09-22,23.5,M124081
+Aldridge,Town,Walsall,England,52.6054,-1.9172,46,18,4.7,2002-09-22,18.3,M124081
+Lichfield,City,Staffordshire,England,52.6831,-1.8273,39,5,4.0,1937-07-09,17.2,H112
+Brownhills,Town,Walsall,England,52.6454,-1.9306,45,17,4.7,2002-09-22,19.9,M124081
+Rugeley,Town,Staffordshire,England,52.7614,-1.936,64,10,4.6,1916-01-14,19.8,H59
+Uttoxeter,Town,Staffordshire,England,52.8984,-1.8648,90,9,4.6,1903-03-24,20.2,H58
+Ashbourne,Town,Derbyshire,England,53.0177,-1.7317,55,9,5.0,1575-02-26,22.1,H28
+Cheadle,Town,Staffordshire,England,52.9852,-1.9854,326,14,4.6,1903-03-24,20.5,H58
+Buxton,Town,Derbyshire,England,53.2552,-1.9152,72,22,5.0,1575-02-26,21.9,H28
+Whaley Bridge,Town,Derbyshire,England,53.3299,-1.984,185,8,4.4,1777-09-14,24.9,H69
+Glossop,Town,Derbyshire,England,53.4433,-1.9489,187,8,4.4,1777-09-14,23.3,H69
+Chapel-en-le-Frith,Town,Derbyshire,England,53.3242,-1.912,117,19,5.0,1575-02-26,25.0,H28
+Swadlincote,Town,Derbyshire,England,52.7736,-1.5573,20,0,5.3,1957-02-11,16.2,H13
+Tamworth,Town,Staffordshire,England,52.6334,-1.6925,33,2,4.0,1937-07-09,22.0,H112
+Ashby-de-la-Zouch,Town,Leicestershire,England,52.747,-1.4719,20,1,5.3,1957-02-11,12.6,H13
+Fazeley,Town,Staffordshire,England,52.6147,-1.6995,32,4,4.0,1937-07-09,21.0,H112
+Derby,City,City of Derby,England,52.9247,-1.4781,56,3,5.3,1957-02-11,15.3,H13
+Burton upon Trent,Town,Staffordshire,England,52.8074,-1.6448,22,1,5.3,1957-02-11,21.3,H13
+Ripley,Town,Derbyshire,England,53.0491,-1.4067,150,9,5.0,1575-02-26,21.2,H28
+Wirksworth,Town,Derbyshire,England,53.0827,-1.5736,111,13,5.0,1575-02-26,13.2,H28
+Belper,Town,Derbyshire,England,53.0233,-1.4813,116,5,5.3,1957-02-11,24.8,H13
+Chesterfield,Town,Derbyshire,England,53.2363,-1.4292,218,12,5.0,1575-02-26,12.1,H28
+Bakewell,Town,Derbyshire,England,53.2129,-1.6757,88,17,5.0,1575-02-26,5.3,H28
+Clay Cross,Town,Derbyshire,England,53.1664,-1.4159,214,24,5.0,1575-02-26,12.9,H28
+Darley Dale,Town,Derbyshire,England,53.162,-1.5889,115,17,5.0,1575-02-26,4.3,H28
+Dronfield,Town,Derbyshire,England,53.3026,-1.4766,191,5,5.0,1575-02-26,14.1,H28
+Matlock,Town,Derbyshire,England,53.139,-1.5546,137,15,5.0,1575-02-26,7.4,H28
+Sheffield,City,Sheffield,England,53.3825,-1.4685,141,7,5.0,1575-02-26,22.1,H28
+Stocksbridge,Town,Sheffield,England,53.4828,-1.5948,76,3,3.3,1932-05-25,4.7,H192
+Shepshed,Town,Leicestershire,England,52.7715,-1.2902,35,8,5.3,1957-02-11,6.0,H13
+Loughborough,Town,Leicestershire,England,52.7721,-1.2062,42,12,5.3,1957-02-11,9.9,H13
+Ibstock,Town,Leicestershire,England,52.6876,-1.3976,25,3,5.3,1957-02-11,15.4,H13
+Leicester,City,City of Leicester,England,52.6336,-1.1335,43,9,5.3,1957-02-11,24.6,H13
+Market Bosworth,Town,Leicestershire,England,52.6247,-1.4014,19,1,5.3,1957-02-11,22.2,H13
+Coalville,Town,Leicestershire,England,52.7208,-1.3602,29,4,5.3,1957-02-11,11.2,H13
+Long Eaton,Town,Derbyshire,England,52.9,-1.2726,72,8,5.3,1957-02-11,9.7,H13
+Sandiacre,Town,Derbyshire,England,52.9232,-1.2892,78,5,5.3,1957-02-11,11.8,H13
+Beeston,Town,Nottinghamshire,England,52.9274,-1.2159,102,5,5.3,1957-02-11,14.2,H13
+Stapleford,Town,Nottinghamshire,England,52.9295,-1.2744,92,4,5.3,1957-02-11,12.7,H13
+West Bridgford,Town,Nottinghamshire,England,52.9367,-1.134,109,8,5.3,1957-02-11,18.5,H13
+Kirkby-in-Ashfield,Town,Nottinghamshire,England,53.0988,-1.2444,350,74,4.7,1795-11-18,5.8,H50
+Arnold,Town,Nottinghamshire,England,53.0024,-1.126,211,20,5.3,1957-02-11,24.5,H13
+Hucknall,Town,Nottinghamshire,England,53.0379,-1.2025,330,38,4.7,1795-11-18,10.3,H50
+Sutton in Ashfield,Town,Nottinghamshire,England,53.1296,-1.255,356,82,5.0,1575-02-26,24.4,H28
+Alfreton,Town,Derbyshire,England,53.0975,-1.3876,193,25,5.0,1575-02-26,18.2,H28
+Ilkeston,Town,Derbyshire,England,52.9697,-1.3093,126,4,5.3,1957-02-11,16.7,H13
+Kimberley,Town,Nottinghamshire,England,52.9975,-1.2572,154,20,5.3,1957-02-11,20.3,H13
+Heanor,Town,Derbyshire,England,53.0133,-1.3518,149,12,5.3,1957-02-11,21.5,H13
+Nottingham,City,City of Nottingham,England,52.9562,-1.1512,126,11,5.3,1957-02-11,19.3,H13
+Eastwood,Town,Nottinghamshire,England,53.0174,-1.3026,161,22,5.3,1957-02-11,22.0,H13
+Worksop,Town,Nottinghamshire,England,53.3072,-1.1228,407,50,4.3,1905-04-23,13.6,H81
+Market Warsop,Town,Nottinghamshire,England,53.2052,-1.1526,382,237,4.7,1795-11-18,17.5,H50
+Shirebrook,Town,Derbyshire,England,53.2041,-1.2145,385,100,4.7,1795-11-18,14.9,H50
+Mansfield,Town,Nottinghamshire,England,53.1446,-1.1964,360,96,4.7,1795-11-18,10.8,H50
+Bolsover,Town,Derbyshire,England,53.228,-1.2924,395,48,5.0,1575-02-26,20.8,H28
+Mansfield Woodhouse,Town,Nottinghamshire,England,53.165,-1.1939,367,111,4.7,1795-11-18,12.4,H50
+Staveley,Town,Derbyshire,England,53.2662,-1.3533,393,13,5.0,1575-02-26,18.0,H28
+Mexborough,Town,Doncaster,England,53.4942,-1.2942,135,56,4.3,1905-04-23,22.8,H81
+Maltby,Town,Rotherham,England,53.4231,-1.202,184,74,4.3,1905-04-23,14.3,H81
+Rotherham,Town,Rotherham,England,53.4307,-1.3547,139,42,4.3,1905-04-23,24.5,H81
+Dinnington,Town,Rotherham,England,53.3685,-1.2108,365,55,4.3,1905-04-23,15.1,H81
+Tickhill,Town,Doncaster,England,53.4331,-1.1092,261,62,4.3,1905-04-23,8.7,H81
+Conisbrough,Town,Doncaster,England,53.4819,-1.2293,137,64,4.3,1905-04-23,18.3,H81
+Rawmarsh,Town,Rotherham,England,53.4617,-1.3444,132,48,4.3,1905-04-23,24.5,H81
+Syston,Town,Leicestershire,England,52.6992,-1.0728,61,11,5.3,1957-02-11,21.9,H13
+Melton Mowbray,Town,Leicestershire,England,52.7664,-0.8881,51,9,4.1,1750-09-30,23.4,H91
+Bingham,Town,Nottinghamshire,England,52.9513,-0.9529,79,4,4.2,1816-03-17,21.7,H86
+Cotgrave,Town,Nottinghamshire,England,52.912,-1.0426,77,5,5.3,1957-02-11,21.9,H13
+Newark-on-Trent,Town,Nottinghamshire,England,53.0758,-0.8077,222,3,4.2,1755-08-01,15.9,H85
+Southwell,Town,Nottinghamshire,England,53.078,-0.9553,324,21,4.2,1816-03-17,15.1,H86
+Retford,Town,Nottinghamshire,England,53.3226,-0.9425,332,14,4.3,1905-04-23,9.2,H81
+Bawtry,Town,Doncaster,England,53.4301,-1.021,287,15,4.3,1905-04-23,3.9,H81
+Oakham,Town,Rutland,England,52.6698,-0.7301,45,16,4.1,1750-09-30,13.7,H91
+Grantham,Town,Lincolnshire,England,52.9121,-0.6422,17,0,4.2,1755-08-01,18.2,H85
+North Hykeham,Town,Lincolnshire,England,53.1879,-0.5968,25,1,4.2,1755-08-01,13.2,H85
+Lincoln,City,Lincolnshire,England,53.2348,-0.5384,30,4,5.2,2008-02-27,23.0,M124671
+Gainsborough,Town,Lincolnshire,England,53.4005,-0.774,56,2,4.3,1905-04-23,14.4,H81
+Kirton in Lindsey,Town,North Lincolnshire,England,53.4755,-0.5899,28,4,5.2,2008-02-27,19.1,M124671
+St Davids,City,Sir Benfro,Wales,51.8809,-5.2646,13,2,4.0,1892-08-18,24.5,H111
+Pembroke,Town,Sir Benfro,Wales,51.675,-4.9137,14,4,5.1,1892-08-18,9.2,H24
+Haverfordwest,Town,Sir Benfro,Wales,51.8036,-4.9697,18,4,5.1,1892-08-18,12.5,H24
+Milford Haven,Town,Sir Benfro,Wales,51.7131,-5.036,16,5,5.1,1892-08-18,1.5,H24
+Neyland,Town,Sir Benfro,Wales,51.7094,-4.9487,17,5,5.1,1892-08-18,6.4,H24
+Pembroke Dock,Town,Sir Benfro,Wales,51.6936,-4.9398,16,5,5.1,1892-08-18,7.0,H24
+Fishguard,Town,Sir Benfro,Wales,51.9939,-4.9762,12,0,1.7,2014-04-28,21.2,M125334
+Goodwick,Town,Sir Benfro,Wales,52.0047,-4.996,11,0,1.7,2014-04-28,23.0,M125334
+Tenby,Town,Sir Benfro,Wales,51.6728,-4.7025,13,2,5.1,1892-08-18,23.5,H24
+Narberth,Town,Sir Benfro,Wales,51.7997,-4.7441,28,3,5.1,1892-08-18,23.3,H24
+Whitland,Town,Sir Gaerfyrddin,Wales,51.8193,-4.613,20,7,5.0,1893-11-02,14.0,H32
+Newport,Town,Sir Benfro,Wales,52.0163,-4.8327,14,0,1.7,2014-04-28,19.4,M125334
+Cardigan,Town,Sir Ceredigion,Wales,52.0836,-4.6608,6,0,1.5,1997-12-19,19.6,M123625
+Laugharne,Town,Sir Gaerfyrddin,Wales,51.7703,-4.4623,29,7,5.0,1893-11-02,5.7,H32
+St Clears,Town,Sir Gaerfyrddin,Wales,51.8201,-4.4937,24,10,5.0,1893-11-02,5.9,H32
+Newcastle Emlyn,Town,Sir Gaerfyrddin,Wales,52.0371,-4.4694,16,0,4.7,1690-08-27,23.8,H48
+New Quay,Town,Sir Ceredigion,Wales,52.215,-4.3599,9,2,2.2,1989-02-23,13.1,M122175
+Llanelli,Town,Sir Gaerfyrddin,Wales,51.6821,-4.1637,29,7,5.0,1893-11-02,22.2,H32
+Pontarddulais,Town,Abertawe,Wales,51.7137,-4.0389,43,10,5.2,1906-06-27,19.0,H20
+Burry Port,Town,Sir Gaerfyrddin,Wales,51.6845,-4.2466,28,5,5.0,1893-11-02,18.0,H32
+Kidwelly,Town,Sir Gaerfyrddin,Wales,51.7363,-4.3071,31,2,5.0,1893-11-02,10.8,H32
+Carmarthen,Town,Sir Gaerfyrddin,Wales,51.8565,-4.3057,32,9,5.0,1893-11-02,8.9,H32
+Lampeter,Town,Sir Ceredigion,Wales,52.1129,-4.0795,15,2,2.3,2024-04-22,19.5,M128548
+Llandysul,Town,Sir Ceredigion,Wales,52.0417,-4.3091,19,2,4.7,1690-08-27,24.0,H48
+Llanybydder,Town,Sir Gaerfyrddin,Wales,52.0749,-4.1577,11,2,2.2,1989-02-23,14.3,M122175
+Aberaeron,Town,Sir Ceredigion,Wales,52.2423,-4.2592,13,4,2.3,2024-04-22,23.3,M128548
+Aberystwyth,Town,Sir Ceredigion,Wales,52.415,-4.0837,18,0,3.1,1951-04-22,16.1,H246
+Ammanford,Town,Sir Gaerfyrddin,Wales,51.7928,-3.9881,45,9,5.2,1906-06-27,22.8,H20
+Ystradgynlais,Town,Powys,Wales,51.7775,-3.7584,62,15,5.2,1727-07-19,23.1,H15
+Pontardawe,Town,Castell-nedd Port Talbot,Wales,51.7214,-3.8517,57,16,5.2,1727-07-19,18.0,H15
+Llandovery,Town,Sir Gaerfyrddin,Wales,51.9949,-3.7963,32,2,3.4,1999-10-25,16.3,M123822
+Llandeilo,Town,Sir Gaerfyrddin,Wales,51.8826,-3.993,40,10,5.1,1775-09-08,21.2,H22
+Tregaron,Town,Sir Ceredigion,Wales,52.2196,-3.933,18,2,2.3,2024-04-22,4.4,M128548
+Glyn-neath,Town,Castell-nedd Port Talbot,Wales,51.7463,-3.6217,81,11,5.2,1727-07-19,21.8,H15
+Llanwrtyd Wells,Town,Powys,Wales,52.1065,-3.6396,37,5,3.4,1999-10-25,16.3,M123822
+Rhayader,Town,Powys,Wales,52.3004,-3.5104,33,1,3.1,1984-04-15,22.5,M121106
+Llanidloes,Town,Powys,Wales,52.448,-3.5381,29,1,3.1,1984-04-15,20.2,M121106
+Ebbw Vale,Town,Blaenau Gwent,Wales,51.7847,-3.2082,141,27,4.1,1974-02-25,17.2,M120151
+Tredegar,Town,Blaenau Gwent,Wales,51.7732,-3.2466,141,43,4.1,1974-02-25,17.2,M120151
+Nantyglo,Town,Blaenau Gwent,Wales,51.7825,-3.1682,144,18,4.1,1974-02-25,16.2,M120151
+Brynmawr,Town,Blaenau Gwent,Wales,51.7991,-3.1738,145,13,4.1,1974-02-25,18.1,M120151
+Aberdare,Town,Rhondda Cynon Taf,Wales,51.7136,-3.4478,117,9,4.9,1868-10-30,15.5,H35
+Merthyr Tydfil,Town,Merthyr Tudful,Wales,51.7459,-3.3784,141,27,4.9,1868-10-30,20.2,H35
+Rhymney,Town,Caerffili,Wales,51.7622,-3.2868,144,40,4.1,1974-02-25,17.8,M120151
+Talgarth,Town,Powys,Wales,51.9956,-3.2329,70,7,3.8,1853-03-27,16.0,H122
+Brecon,Town,Powys,Wales,51.9476,-3.3917,65,6,3.7,2023-02-24,15.8,M126478
+Builth Wells,Town,Powys,Wales,52.1491,-3.4021,48,8,3.4,1999-10-25,23.0,M123822
+Llandrindod Wells,Town,Powys,Wales,52.2412,-3.3778,42,8,3.2,1882-05-31,17.2,H209
+Newtown,Town,Powys,Wales,52.5151,-3.315,28,6,5.1,1990-04-02,21.1,M122420
+Blaina,Town,Blaenau Gwent,Wales,51.7661,-3.1601,150,38,4.1,1974-02-25,14.3,M120151
+Abersychan,Town,Torfaen,Wales,51.7358,-3.0672,146,36,4.1,1974-02-25,11.3,M120151
+Blaenavon,Town,Torfaen,Wales,51.7758,-3.0838,142,21,4.1,1974-02-25,15.3,M120151
+Crickhowell,Town,Powys,Wales,51.8589,-3.137,144,15,4.1,1974-02-25,24.4,M120151
+Abertillery,Town,Blaenau Gwent,Wales,51.7304,-3.1339,152,66,4.1,1974-02-25,10.1,M120151
+Usk,Town,Sir Fynwy,Wales,51.701,-2.9021,119,13,4.1,1974-02-25,16.5,M120151
+Abergavenny,Town,Sir Fynwy,Wales,51.8219,-3.0184,148,19,5.2,1863-10-06,24.9,H17
+Pontypool,Town,Torfaen,Wales,51.7014,-3.0415,141,40,4.1,1974-02-25,8.7,M120151
+Kington,Town,County of Herefordshire,England,52.2038,-3.029,66,9,3.8,1853-03-27,22.8,H122
+Hay-on-Wye,Town,Powys,Wales,52.0743,-3.1261,60,8,5.2,1863-10-06,23.8,H17
+Presteigne,Town,Powys,Wales,52.2734,-3.0064,59,8,5.1,1990-04-02,18.2,M122420
+Knighton,Town,Powys,Wales,52.3443,-3.0507,50,8,5.1,1990-04-02,10.3,M122420
+Bishop's Castle,Town,Shropshire,England,52.493,-2.9978,35,2,5.1,1990-04-02,6.8,M122420
+Montgomery,Town,Powys,Wales,52.5604,-3.1476,37,1,5.1,1990-04-02,15.9,M122420
+Coleford,Town,Gloucestershire,England,51.7932,-2.6175,43,4,2.9,1929-07-02,11.7,H300
+Monmouth,Town,Sir Fynwy,Wales,51.8131,-2.7114,61,4,5.2,1863-10-06,21.7,H17
+Hereford,City,County of Herefordshire,England,52.056,-2.7176,75,13,5.3,1896-12-17,12.2,H12
+Ross-on-Wye,Town,County of Herefordshire,England,51.9139,-2.5837,55,5,5.3,1896-12-17,12.0,H12
+Leominster,Town,County of Herefordshire,England,52.2272,-2.7388,77,13,4.8,1926-08-15,10.7,H45
+Ludlow,Town,Shropshire,England,52.3676,-2.719,45,17,5.1,1990-04-02,22.7,M122420
+Tenbury Wells,Town,Worcestershire,England,52.3112,-2.5937,58,14,4.8,1926-08-15,4.5,H45
+Church Stretton,Town,Shropshire,England,52.5379,-2.808,36,6,5.1,1990-04-02,19.0,M122420
+Craven Arms,Town,Shropshire,England,52.4389,-2.8332,52,6,5.1,1990-04-02,13.6,M122420
+Mitcheldean,Town,Gloucestershire,England,51.8646,-2.4894,38,8,5.3,1896-12-17,17.8,H12
+Cinderford,Town,Gloucestershire,England,51.8244,-2.4992,35,7,5.3,1896-12-17,22.0,H12
+Lydney,Town,Gloucestershire,England,51.7263,-2.5312,30,3,2.9,1929-07-02,10.9,H300
+Newent,Town,Gloucestershire,England,51.9306,-2.4059,39,6,5.3,1896-12-17,14.0,H12
+Ledbury,Town,County of Herefordshire,England,52.0358,-2.4223,51,8,5.3,1896-12-17,8.9,H12
+Great Malvern,Town,Worcestershire,England,52.1114,-2.3295,37,8,5.3,1896-12-17,18.2,H12
+Bromyard,Town,County of Herefordshire,England,52.1893,-2.5075,59,20,5.3,1896-12-17,19.1,H12
+Cleobury Mortimer,Town,Shropshire,England,52.3785,-2.4841,43,7,4.8,1926-08-15,14.2,H45
+Bewdley,Town,Worcestershire,England,52.3758,-2.315,28,1,4.8,1926-08-15,24.6,H45
+Bridgnorth,Town,Shropshire,England,52.5358,-2.4198,29,3,4.7,2002-09-22,17.7,M124081
+Much Wenlock,Town,Shropshire,England,52.5951,-2.5589,37,3,3.2,1980-11-09,19.6,M120685
+Painswick,Town,Gloucestershire,England,51.786,-2.195,18,2,2.9,1929-07-02,17.8,H300
+Gloucester,City,Gloucestershire,England,51.8646,-2.2469,19,5,4.1,1768-12-21,20.4,H92
+Stroud,Town,Gloucestershire,England,51.7455,-2.2182,18,2,2.9,1929-07-02,17.5,H300
+Minchinhampton,Town,Gloucestershire,England,51.7054,-2.1861,14,1,2.9,1929-07-02,21.6,H300
+Stonehouse,Town,Gloucestershire,England,51.7459,-2.2824,19,3,2.9,1929-07-02,13.6,H300
+Tewkesbury,Town,Gloucestershire,England,51.9924,-2.1576,14,2,4.1,1768-12-21,5.3,H92
+Cheltenham,Town,Gloucestershire,England,51.9007,-2.0767,9,1,4.1,1768-12-21,16.5,H92
+Pershore,Town,Worcestershire,England,52.1116,-2.0757,10,1,4.1,1768-12-21,9.8,H92
+Worcester,City,Worcestershire,England,52.1929,-2.2211,25,2,4.1,1768-12-21,17.5,H92
+Droitwich Spa,Town,Worcestershire,England,52.2681,-2.1457,15,1,2.4,2017-06-10,21.7,M125729
+Stourport-on-Severn,Town,Worcestershire,England,52.3405,-2.2782,31,0,4.7,2002-09-22,22.9,M124081
+Kidderminster,Town,Worcestershire,England,52.3882,-2.2492,22,1,4.7,2002-09-22,17.2,M124081
+Bromsgrove,Town,Worcestershire,England,52.3352,-2.0593,17,1,4.7,2002-09-22,23.0,M124081
+Wolverhampton,City,City of Wolverhampton,England,52.5862,-2.1299,54,8,4.7,2002-09-22,6.2,M124081
+Sedgley,Town,Dudley,England,52.5413,-2.1221,45,7,4.7,2002-09-22,2.7,M124081
+Tipton,Town,Sandwell,England,52.5412,-2.0398,47,12,4.7,2002-09-22,8.1,M124081
+Dudley,Town,Dudley,England,52.51,-2.0832,41,6,4.7,2002-09-22,5.7,M124081
+Stourbridge,Town,Dudley,England,52.4551,-2.1433,28,5,4.7,2002-09-22,8.7,M124081
+Coseley,Town,Dudley,England,52.5421,-2.0874,43,7,4.7,2002-09-22,5.0,M124081
+Brierley Hill,Town,Dudley,England,52.4725,-2.1045,33,6,4.7,2002-09-22,7.7,M124081
+Bilston,Town,City of Wolverhampton,England,52.5643,-2.0793,46,9,4.7,2002-09-22,6.4,M124081
+Oldbury,Town,Sandwell,England,52.5051,-2.0159,43,12,4.7,2002-09-22,10.2,M124081
+Darlaston,Town,Walsall,England,52.5689,-2.0333,49,13,4.7,2002-09-22,9.4,M124081
+Willenhall,Town,Walsall,England,52.5831,-2.0543,46,12,4.7,2002-09-22,9.0,M124081
+Rowley Regis,Town,Sandwell,England,52.4842,-2.0451,38,10,4.7,2002-09-22,9.4,M124081
+Wednesbury,Town,Sandwell,England,52.5521,-2.0187,48,14,4.7,2002-09-22,9.7,M124081
+Blackheath,Town,Sandwell,England,52.4756,-2.0415,35,7,4.7,2002-09-22,10.2,M124081
+Kingswinford,Town,Dudley,England,52.4977,-2.1658,27,5,4.7,2002-09-22,4.0,M124081
+Halesowen,Town,Dudley,England,52.4534,-2.0609,36,9,4.7,2002-09-22,11.1,M124081
+Fairford,Town,Gloucestershire,England,51.7075,-1.7813,7,1,2.6,1997-05-19,11.6,M123539
+Cirencester,Town,Gloucestershire,England,51.717,-1.9684,7,0,2.6,1997-05-19,23.2,M123539
+Northleach,Town,Gloucestershire,England,51.8303,-1.8372,9,1,2.6,1997-05-19,15.2,M123539
+Winchcombe,Town,Gloucestershire,England,51.9536,-1.9639,7,0,4.1,1768-12-21,16.5,H92
+Stow-on-the-Wold,Town,Gloucestershire,England,51.9299,-1.7224,9,3,3.1,1986-12-26,24.3,M121687
+Chipping Campden,Town,Gloucestershire,England,52.0503,-1.7818,7,0,2.8,1994-05-12,12.1,M123178
+Alcester,Town,Warwickshire,England,52.2137,-1.871,12,1,4.2,2000-09-23,19.3,M123908
+Evesham,Town,Worcestershire,England,52.0926,-1.9474,4,0,4.1,1768-12-21,15.7,H92
+Redditch,Town,Worcestershire,England,52.3069,-1.9415,16,1,4.2,2000-09-23,22.7,M123908
+Solihull,Town,Solihull,England,52.4128,-1.7775,30,4,4.2,2000-09-23,18.4,M123908
+Henley-in-Arden,Town,Warwickshire,England,52.292,-1.7801,18,3,4.2,2000-09-23,11.6,M123908
+Birmingham,City,Birmingham,England,52.4793,-1.9029,38,10,4.7,2002-09-22,18.4,M124081
+Walsall,Town,Walsall,England,52.5862,-1.9803,47,13,4.7,2002-09-22,13.5,M124081
+Royal Sutton Coldfield,Town,Birmingham,England,52.5631,-1.8231,44,13,4.7,2002-09-22,23.0,M124081
+West Bromwich,Town,Sandwell,England,52.5202,-1.9969,46,15,4.7,2002-09-22,11.1,M124081
+Smethwick,Town,Sandwell,England,52.4907,-1.9678,41,11,4.7,2002-09-22,13.8,M124081
+Carterton,Town,Oxfordshire,England,51.7592,-1.5944,12,4,3.4,1764-11-06,15.8,H163
+Burford,Town,Oxfordshire,England,51.8077,-1.6367,10,5,3.4,1764-11-06,20.8,H163
+Witney,Town,Oxfordshire,England,51.7864,-1.4848,12,2,3.4,1764-11-06,11.2,H163
+Charlbury,Town,Oxfordshire,England,51.8727,-1.4824,11,3,3.4,1764-11-06,19.4,H163
+Moreton-in-Marsh,Town,Gloucestershire,England,51.99,-1.7032,9,2,3.1,1986-12-26,24.4,M121687
+Chipping Norton,Town,Oxfordshire,England,51.9413,-1.5458,9,3,3.1,1986-12-26,12.5,M121687
+Shipston-on-Stour,Town,Warwickshire,England,52.0626,-1.6244,11,0,4.2,2000-09-23,24.4,M123908
+Stratford-upon-Avon,Town,Warwickshire,England,52.1927,-1.7064,10,3,4.2,2000-09-23,11.9,M123908
+Warwick,Town,Warwickshire,England,52.2835,-1.5892,14,3,4.2,2000-09-23,1.5,M123908
+Whitnash,Town,Warwickshire,England,52.2688,-1.5285,10,5,4.2,2000-09-23,5.8,M123908
+Royal Leamington Spa,Town,Warwickshire,England,52.292,-1.5358,14,3,4.2,2000-09-23,5.2,M123908
+Kenilworth,Town,Warwickshire,England,52.3426,-1.5791,15,2,4.2,2000-09-23,7.1,M123908
+Coventry,City,Coventry,England,52.4077,-1.5069,12,0,4.2,2000-09-23,15.7,M123908
+Nuneaton,Town,Warwickshire,England,52.5221,-1.4677,13,1,4.0,1940-07-14,19.1,H113
+Atherstone,Town,Warwickshire,England,52.5772,-1.5464,18,1,4.0,1940-07-14,15.6,H113
+Bedworth,Town,Warwickshire,England,52.4785,-1.4719,11,1,4.2,2000-09-23,23.8,M123908
+Coleshill,Town,Warwickshire,England,52.4973,-1.7055,31,5,4.2,2000-09-23,24.8,M123908
+Oxford,City,Oxfordshire,England,51.752,-1.2576,9,2,3.4,1764-11-06,9.7,H163
+Woodstock,Town,Oxfordshire,England,51.8478,-1.3543,10,2,3.4,1764-11-06,15.4,H163
+Kidlington,Town,Oxfordshire,England,51.8217,-1.2885,9,1,3.4,1764-11-06,13.9,H163
+Bicester,Town,Oxfordshire,England,51.8967,-1.1519,9,0,3.1,1986-12-26,15.1,M121687
+Brackley,Town,West Northamptonshire,England,52.0326,-1.1437,10,1,3.1,1986-12-26,20.4,M121687
+Banbury,Town,Oxfordshire,England,52.0621,-1.3336,5,0,3.1,1986-12-26,16.7,M121687
+Rugby,Town,Warwickshire,England,52.3722,-1.2627,4,0,2.0,2020-07-10,23.4,M126114
+Daventry,Town,West Northamptonshire,England,52.2584,-1.1604,3,0,2.2,2020-01-31,22.5,M126062
+Southam,Town,Warwickshire,England,52.2529,-1.3879,5,1,4.2,2000-09-23,15.6,M123908
+Hinckley,Town,Leicestershire,England,52.541,-1.3738,14,0,4.0,1940-07-14,16.7,H113
+Lutterworth,Town,Leicestershire,England,52.4546,-1.2003,12,0,2.1,2004-04-17,20.4,M124375
+Earl Shilton,Town,Leicestershire,England,52.5757,-1.3158,20,1,4.0,1940-07-14,14.2,H113
+Thame,Town,Oxfordshire,England,51.7482,-0.9795,7,2,2.2,1994-01-08,20.3,M123148
+Buckingham,Town,Buckinghamshire,England,52.0011,-0.9864,20,4,3.5,2020-09-08,19.1,M126130
+Winslow,Town,Buckinghamshire,England,51.9412,-0.8815,23,4,3.5,2020-09-08,10.1,M126130
+Towcester,Town,West Northamptonshire,England,52.1319,-0.9885,10,3,2.3,1985-11-18,15.6,M121422
+Northampton,Town,West Northamptonshire,England,52.2379,-0.8951,8,1,2.2,2020-01-31,5.6,M126062
+Market Harborough,Town,Leicestershire,England,52.4795,-0.9227,28,2,4.1,1750-09-30,11.3,H91
+Chesham,Town,Buckinghamshire,England,51.704,-0.6141,8,0,3.0,2020-09-22,24.3,M126140
+Princes Risborough,Town,Buckinghamshire,England,51.7243,-0.8323,15,1,3.5,2020-09-08,23.4,M126130
+Tring,Town,Hertfordshire,England,51.7936,-0.6623,15,0,3.5,2020-09-08,15.6,M126130
+Berkhamsted,Town,Hertfordshire,England,51.7637,-0.5746,12,0,3.5,2020-09-08,21.2,M126130
+Wendover,Town,Buckinghamshire,England,51.7623,-0.7431,16,0,3.5,2020-09-08,18.2,M126130
+Aylesbury,Town,Buckinghamshire,England,51.8171,-0.8107,18,0,3.5,2020-09-08,13.1,M126130
+Bletchley,Town,Milton Keynes,England,51.9932,-0.7383,20,12,3.5,2020-09-08,7.5,M126130
+Milton Keynes,City,Milton Keynes,England,52.043,-0.7541,20,2,3.5,2020-09-08,13.1,M126130
+Woburn Sands,Town,Milton Keynes,England,52.0159,-0.6498,20,3,3.5,2020-09-08,11.7,M126130
+Leighton Buzzard,Town,Central Bedfordshire,England,51.9164,-0.6615,17,11,3.5,2020-09-08,5.3,M126130
+Woburn,Town,Central Bedfordshire,England,51.9886,-0.6191,20,7,3.5,2020-09-08,10.7,M126130
+Olney,Town,Milton Keynes,England,52.1581,-0.7022,8,0,2.2,2020-01-31,15.2,M126062
+Newport Pagnell,Town,Milton Keynes,England,52.0868,-0.7222,20,2,3.5,2020-09-08,17.9,M126130
+Irthlingborough,Town,North Northamptonshire,England,52.3266,-0.6117,6,0,4.1,1792-02-25,22.7,H94
+Rushden,Town,North Northamptonshire,England,52.2908,-0.5979,4,0,2.3,2022-05-06,20.8,M126346
+Kettering,Town,North Northamptonshire,England,52.3999,-0.7283,14,1,4.1,1750-09-30,18.9,H91
+Thrapston,Town,North Northamptonshire,England,52.397,-0.538,10,2,4.1,1792-02-25,16.1,H94
+Raunds,Town,North Northamptonshire,England,52.3458,-0.5352,7,0,4.1,1792-02-25,21.5,H94
+Higham Ferrers,Town,North Northamptonshire,England,52.3055,-0.5936,4,0,2.3,2022-05-06,19.2,M126346
+Wellingborough,Town,North Northamptonshire,England,52.3022,-0.6921,5,0,2.3,2022-05-06,20.8,M126346
+Burton Latimer,Town,North Northamptonshire,England,52.3627,-0.6789,11,1,4.1,1750-09-30,23.9,H91
+Uppingham,Town,Rutland,England,52.5881,-0.7228,38,9,4.1,1750-09-30,7.3,H91
+Corby,Town,North Northamptonshire,England,52.4877,-0.7013,27,7,4.1,1750-09-30,11.4,H91
+Desborough,Town,North Northamptonshire,England,52.4419,-0.8213,22,1,4.1,1750-09-30,13.1,H91
+Holsworthy,Town,Devon,England,50.8103,-4.3534,10,3,4.2,1883-06-25,23.5,H87
+Bude,Town,Cornwall,England,50.8311,-4.5454,10,2,3.6,2001-05-31,16.3,M123967
+Stratton,Town,Cornwall,England,50.8305,-4.5134,11,2,4.2,1883-06-25,24.8,H87
+Great Torrington,Town,Devon,England,50.9522,-4.1433,5,0,2.9,1789-05-04,19.0,H279
+Barnstaple,Town,Devon,England,51.0811,-4.0584,8,2,3.3,1920-09-02,12.1,H189
+Northam,Town,Devon,England,51.0405,-4.2134,6,0,3.6,2001-05-31,23.4,M123967
+Bideford,Town,Devon,England,51.0168,-4.2048,7,0,3.6,2001-05-31,23.3,M123967
+Ilfracombe,Town,Devon,England,51.2063,-4.1258,10,1,4.0,2014-02-20,17.8,M125264
+Gorseinon,Town,Abertawe,Wales,51.6694,-4.0416,37,6,5.2,1727-07-19,22.4,H15
+Loughor,Town,Abertawe,Wales,51.6645,-4.0669,36,7,5.2,1727-07-19,23.7,H15
+North Tawton,Town,Devon,England,50.7999,-3.8976,4,2,2.5,1858-09-28,10.0,H334
+South Molton,Town,Devon,England,51.0179,-3.8338,11,2,3.2,1769-04-02,9.3,H196
+Lynton,Town,Devon,England,51.229,-3.8346,12,4,3.3,1920-09-02,17.0,H189
+Swansea,City,Abertawe,Wales,51.6201,-3.9414,44,2,5.2,1727-07-19,13.7,H15
+Port Talbot,Town,Castell-nedd Port Talbot,Wales,51.5958,-3.7837,44,6,5.2,1727-07-19,3.3,H15
+Neath,Town,Castell-nedd Port Talbot,Wales,51.6642,-3.8034,52,10,5.2,1727-07-19,10.9,H15
+Crediton,Town,Devon,England,50.7906,-3.6583,4,0,2.5,1858-09-28,19.3,H334
+Tiverton,Town,Devon,England,50.9024,-3.4886,4,0,2.6,1992-09-23,15.8,M122967
+Dulverton,Town,Somerset,England,51.0401,-3.5501,9,1,3.2,1769-04-02,22.7,H196
+Minehead,Town,Somerset,England,51.2058,-3.4779,14,0,2.7,1994-01-01,18.3,M123145
+Cowbridge,Town,Bro Morgannwg,Wales,51.4617,-3.447,44,9,5.2,1727-07-19,24.8,H15
+Llantwit Major,Town,Bro Morgannwg,Wales,51.4084,-3.4853,32,10,2.7,1994-01-01,7.6,M123145
+Bridgend,Town,Pen-y-bont ar Ogwr,Wales,51.5078,-3.5781,41,5,5.2,1727-07-19,14.4,H15
+Porthcawl,Town,Pen-y-bont ar Ogwr,Wales,51.4791,-3.7032,35,0,5.2,1727-07-19,10.9,H15
+Maesteg,Town,Pen-y-bont ar Ogwr,Wales,51.6086,-3.6604,63,13,5.2,1727-07-19,8.1,H15
+Pencoed,Town,Pen-y-bont ar Ogwr,Wales,51.5238,-3.5002,61,16,5.2,1727-07-19,18.7,H15
+Rhondda,Town,Rhondda Cynon Taf,Wales,51.6476,-3.4878,118,16,5.2,1727-07-19,20.7,H15
+Treherbert,Town,Rhondda Cynon Taf,Wales,51.674,-3.5348,116,14,5.2,1727-07-19,19.4,H15
+Ferndale,Town,Rhondda Cynon Taf,Wales,51.6618,-3.4484,132,14,5.2,1727-07-19,23.9,H15
+Treorchy,Town,Rhondda Cynon Taf,Wales,51.6645,-3.5141,124,15,5.2,1727-07-19,20.0,H15
+Pontycymer,Town,Pen-y-bont ar Ogwr,Wales,51.6116,-3.5842,89,14,5.2,1727-07-19,13.0,H15
+Cullompton,Town,Devon,England,50.8552,-3.3928,4,0,3.5,1747-07-01,23.0,H150
+Honiton,Town,Devon,England,50.7996,-3.1891,7,1,3.5,1747-07-01,18.7,H150
+Wiveliscombe,Town,Somerset,England,51.0424,-3.3127,17,1,3.5,1747-07-01,16.9,H150
+Wellington,Town,Somerset,England,50.9786,-3.2275,19,1,3.5,1747-07-01,8.5,H150
+Watchet,Town,Somerset,England,51.182,-3.3306,17,3,2.6,1988-10-23,13.5,M122079
+Cardiff,City,Caerdydd,Wales,51.48,-3.1769,96,4,4.1,1974-02-25,18.2,M120151
+Penarth,Town,Bro Morgannwg,Wales,51.4366,-3.174,53,1,4.1,1974-02-25,22.9,M120151
+Barry,Town,Bro Morgannwg,Wales,51.4035,-3.2727,37,4,3.0,1974-07-09,22.4,M120154
+Tonypandy,Town,Rhondda Cynon Taf,Wales,51.6188,-3.4417,123,13,5.2,1727-07-19,22.7,H15
+Mountain Ash,Town,Rhondda Cynon Taf,Wales,51.6841,-3.3784,139,33,4.9,1868-10-30,20.8,H35
+Ystrad Mynach,Town,Caerffili,Wales,51.6412,-3.2363,142,65,4.1,1974-02-25,8.1,M120151
+Llantrisant,Town,Rhondda Cynon Taf,Wales,51.5423,-3.3743,117,10,4.1,1974-02-25,20.7,M120151
+Bargod,Town,Caerffili,Wales,51.6912,-3.2296,143,65,4.1,1974-02-25,9.5,M120151
+Pontypridd,Town,Rhondda Cynon Taf,Wales,51.6022,-3.3419,134,13,4.1,1974-02-25,15.9,M120151
+Pontllanfraith,Town,Caerffili,Wales,51.6564,-3.1843,140,72,4.1,1974-02-25,4.8,M120151
+Porth,Town,Rhondda Cynon Taf,Wales,51.6078,-3.4097,125,13,5.2,1727-07-19,24.6,H15
+Blackwood,Town,Caerffili,Wales,51.6677,-3.1958,143,74,4.1,1974-02-25,6.1,M120151
+Treharris,Town,Merthyr Tudful,Wales,51.664,-3.3042,150,57,4.1,1974-02-25,13.0,M120151
+Abercynon,Town,Rhondda Cynon Taf,Wales,51.6461,-3.3285,146,50,4.1,1974-02-25,14.4,M120151
+Talbot Green,Town,Rhondda Cynon Taf,Wales,51.5374,-3.3838,113,15,4.1,1974-02-25,21.5,M120151
+Caerphilly,Town,Caerffili,Wales,51.5743,-3.2176,129,17,4.1,1974-02-25,10.0,M120151
+Chard,Town,Somerset,England,50.8727,-2.9659,19,2,3.5,1747-07-01,14.0,H150
+Ilminster,Town,Somerset,England,50.9283,-2.914,25,4,3.5,1747-07-01,14.2,H150
+Bridgwater,Town,Somerset,England,51.1278,-3.0064,31,10,3.5,1747-07-01,20.0,H150
+Taunton,Town,Somerset,England,51.0134,-3.1082,29,3,3.5,1747-07-01,5.9,H150
+North Petherton,Town,Somerset,England,51.0911,-3.0171,31,12,3.5,1747-07-01,16.0,H150
+Highbridge,Town,Somerset,England,51.2217,-2.9751,37,4,3.2,1852-04-03,21.1,H207
+Burnham-on-Sea,Town,Somerset,England,51.2385,-2.995,34,4,3.2,1852-04-03,21.7,H207
+Weston-super-Mare,Town,North Somerset,England,51.3461,-2.9763,26,2,3.5,1839-09-01,23.5,H152
+Newbridge,Town,Caerffili,Wales,51.6642,-3.1471,141,74,4.1,1974-02-25,3.3,M120151
+Abercarn,Town,Caerffili,Wales,51.6473,-3.1347,136,63,4.1,1974-02-25,1.3,M120151
+Cwmbrân,Town,Torfaen,Wales,51.6542,-3.02,136,35,4.1,1974-02-25,7.1,M120151
+Risca,Town,Caerffili,Wales,51.6136,-3.104,133,45,4.1,1974-02-25,3.1,M120151
+Newport,City,Casnewydd,Wales,51.5879,-2.9967,120,22,4.1,1974-02-25,10.3,M120151
+Caerleon,Town,Casnewydd,Wales,51.6101,-2.9556,124,24,4.1,1974-02-25,11.9,M120151
+Yeovil,Town,Somerset,England,50.9408,-2.6335,13,1,3.0,1868-01-04,19.9,H266
+Beaminster,Town,Dorset,England,50.8091,-2.739,4,0,2.3,2010-02-10,14.1,M124836
+South Petherton,Town,Somerset,England,50.9487,-2.8098,25,2,3.5,1747-07-01,21.1,H150
+Crewkerne,Town,Somerset,England,50.8849,-2.7957,15,0,3.5,1747-07-01,23.6,H150
+Somerton,Town,Somerset,England,51.0538,-2.7329,24,6,3.2,2019-12-05,18.9,M126038
+Glastonbury,Town,Somerset,England,51.1474,-2.7178,31,1,3.2,1852-04-03,17.0,H207
+Street,Town,Somerset,England,51.1268,-2.7398,32,3,3.2,1852-04-03,19.5,H207
+Langport,Town,Somerset,England,51.0377,-2.828,28,11,3.5,1747-07-01,21.6,H150
+Wells,City,Somerset,England,51.2086,-2.6472,26,2,3.2,1852-04-03,10.8,H207
+Axbridge,Town,Somerset,England,51.2872,-2.8174,29,4,3.2,1852-04-03,8.3,H207
+Bristol,City,City of Bristol,England,51.4531,-2.601,24,6,3.5,1839-09-01,16.8,H152
+Nailsea,Town,North Somerset,England,51.4333,-2.7583,27,5,3.5,1839-09-01,11.3,H152
+Clevedon,Town,North Somerset,England,51.4366,-2.8518,36,6,3.5,1839-09-01,10.8,H152
+Portishead,Town,North Somerset,England,51.4853,-2.7683,34,5,3.5,1839-09-01,5.8,H152
+Caldicot,Town,Sir Fynwy,Wales,51.5918,-2.7506,50,8,3.9,1974-02-25,21.4,M120150
+Chepstow,Town,Sir Fynwy,Wales,51.6409,-2.6767,36,4,3.5,1839-09-01,15.4,H152
+Sturminster Newton,Town,Dorset,England,50.9268,-2.3052,2,0,3.4,1761-06-09,21.4,H162
+Stalbridge,Town,Dorset,England,50.9594,-2.3783,4,0,3.4,1761-06-09,20.5,H162
+Sherborne,Town,Dorset,England,50.9482,-2.516,7,0,2.0,1987-12-03,22.4,M121887
+Castle Cary,Town,Somerset,England,51.0897,-2.5138,12,1,3.4,1761-06-09,21.4,H162
+Wincanton,Town,Somerset,England,51.0561,-2.4113,8,0,3.4,1761-06-09,15.3,H162
+Bruton,Town,Somerset,England,51.1125,-2.4536,8,2,3.4,1761-06-09,17.1,H162
+Frome,Town,Somerset,England,51.231,-2.3218,12,2,3.4,1761-06-09,15.6,H162
+Radstock,Town,Bath and North East Somerset,England,51.292,-2.4481,15,6,3.2,1852-04-03,17.6,H207
+Midsomer Norton,Town,Bath and North East Somerset,England,51.2856,-2.4829,18,3,3.2,1852-04-03,15.2,H207
+Shepton Mallet,Town,Somerset,England,51.1898,-2.5473,19,2,3.2,1852-04-03,16.2,H207
+Bath,City,Bath and North East Somerset,England,51.3828,-2.3593,11,3,1.8,1993-07-28,22.7,M123090
+Keynsham,Town,Bath and North East Somerset,England,51.4162,-2.4987,19,5,3.2,1852-04-03,19.1,H207
+Filton,Town,South Gloucestershire,England,51.5107,-2.573,27,0,3.5,1839-09-01,16.6,H152
+Thornbury,Town,South Gloucestershire,England,51.6094,-2.526,27,1,3.5,1839-09-01,21.6,H152
+Chipping Sodbury,Town,South Gloucestershire,England,51.5382,-2.3935,16,1,2.7,2010-07-30,14.8,M124871
+Dursley,Town,Gloucestershire,England,51.6814,-2.3538,22,4,2.9,1929-07-02,15.8,H300
+Wotton-under-Edge,Town,Gloucestershire,England,51.6377,-2.3516,13,4,2.9,1929-07-02,20.3,H300
+Bradley Stoke,Town,South Gloucestershire,England,51.5345,-2.547,24,0,3.5,1839-09-01,18.3,H152
+Yate,Town,South Gloucestershire,England,51.5406,-2.4193,16,1,2.7,2010-07-30,14.4,M124871
+Blandford Forum,Town,Dorset,England,50.857,-2.1652,1,0,3.4,1749-05-17,13.9,H161
+Mere,Town,Wiltshire,England,51.0903,-2.2685,7,1,3.4,1761-06-09,4.6,H162
+Shaftesbury,Town,Dorset,England,51.0063,-2.1952,2,0,3.4,1761-06-09,11.6,H162
+Gillingham,Town,Dorset,England,51.0376,-2.2753,5,1,3.4,1761-06-09,9.3,H162
+Warminster,Town,Wiltshire,England,51.2049,-2.1812,7,0,3.4,1761-06-09,10.7,H162
+Trowbridge,Town,Wiltshire,England,51.32,-2.2081,12,1,3.4,1761-06-09,23.4,H162
+Westbury,Town,Wiltshire,England,51.2608,-2.1836,8,1,3.4,1761-06-09,16.9,H162
+Corsham,Town,Wiltshire,England,51.4339,-2.1845,9,0,2.6,2001-03-18,17.9,M123952
+Bradford on Avon,Town,Wiltshire,England,51.3456,-2.2519,13,1,2.6,2001-03-18,24.7,M123952
+Melksham,Town,Wiltshire,England,51.3728,-2.1382,7,0,2.6,2001-03-18,16.2,M123952
+Chippenham,Town,Wiltshire,England,51.4582,-2.1139,6,1,2.6,2001-03-18,13.2,M123952
+Calne,Town,Wiltshire,England,51.4379,-2.0051,4,2,2.6,2001-03-18,5.4,M123952
+Malmesbury,Town,Wiltshire,England,51.5856,-2.1014,8,1,2.7,2010-07-30,24.1,M124871
+Nailsworth,Town,Gloucestershire,England,51.6939,-2.2202,14,2,2.9,1929-07-02,20.5,H300
+Tetbury,Town,Gloucestershire,England,51.637,-2.1594,9,1,2.7,2010-07-30,18.5,M124871
+Ferndown,Town,Dorset,England,50.8013,-1.8902,1,1,3.4,1749-05-17,8.8,H161
+Verwood,Town,Dorset,England,50.8819,-1.8792,1,0,3.4,1749-05-17,14.6,H161
+Fordingbridge,Town,Hampshire,England,50.9275,-1.7898,1,0,3.4,1749-05-17,22.6,H161
+Ringwood,Town,Hampshire,England,50.846,-1.7911,1,0,3.4,1749-05-17,17.1,H161
+Salisbury,City,Wiltshire,England,51.0704,-1.7964,1,0,1.5,2010-06-25,22.5,M124860
+Wilton,Town,Wiltshire,England,51.08,-1.8638,2,0,3.4,1761-06-09,24.5,H162
+Amesbury,Town,Wiltshire,England,51.1719,-1.7805,1,0,1.5,2010-06-25,16.5,M124860
+Marlborough,Town,Wiltshire,England,51.4215,-1.7295,4,0,2.6,2001-03-18,13.8,M123952
+Devizes,Town,Wiltshire,England,51.3519,-1.9953,4,0,2.6,2001-03-18,10.4,M123952
+Swindon,Town,Swindon,England,51.5615,-1.7855,5,0,2.6,1997-05-19,24.8,M123539
+Royal Wootton Bassett,Town,Wiltshire,England,51.5415,-1.9051,3,0,2.6,2001-03-18,11.9,M123952
+Cricklade,Town,Wiltshire,England,51.6412,-1.8563,6,0,2.6,1997-05-19,20.3,M123539
+Totton,Town,Hampshire,England,50.9189,-1.4888,4,0,2.9,2015-01-27,22.0,M125434
+Romsey,Town,Hampshire,England,50.9891,-1.4998,4,0,2.9,2015-01-27,16.8,M125434
+Andover,Town,Hampshire,England,51.2075,-1.4792,5,0,2.9,2015-01-27,18.3,M125434
+Ludgershall,Town,Wiltshire,England,51.257,-1.6224,1,0,1.8,2022-11-05,21.4,M126436
+Tidworth,Town,Wiltshire,England,51.2414,-1.6645,2,0,1.8,2022-11-05,24.5,M126436
+Hungerford,Town,West Berkshire,England,51.4146,-1.5156,4,1,2.6,2006-01-12,24.0,M124511
+Highworth,Town,Swindon,England,51.6306,-1.712,6,0,3.4,1764-11-06,24.6,H163
+Wantage,Town,Oxfordshire,England,51.5883,-1.4257,5,2,3.4,1764-11-06,13.9,H163
+Faringdon,Town,Oxfordshire,England,51.6581,-1.5836,8,0,3.4,1764-11-06,15.2,H163
+Lechlade-on-Thames,Town,Gloucestershire,England,51.6941,-1.6922,9,3,3.4,1764-11-06,21.6,H163
+Hedge End,Town,Hampshire,England,50.9136,-1.3038,4,1,2.9,2015-01-27,18.7,M125434
+Fareham,Town,Hampshire,England,50.8524,-1.1759,3,0,4.7,1963-10-25,17.2,H53
+Wickham,Town,Hampshire,England,50.9001,-1.187,7,0,4.7,1963-10-25,21.0,H53
+Bishop's Waltham,Town,Hampshire,England,50.9551,-1.213,6,1,2.9,1982-07-19,19.5,M120948
+Southampton,City,City of Southampton,England,50.9049,-1.4043,4,1,2.9,2015-01-27,20.8,M125434
+Eastleigh,Town,Hampshire,England,50.9694,-1.3533,4,1,2.9,2015-01-27,12.9,M125434
+New Alresford,Town,Hampshire,England,51.0906,-1.1614,6,2,2.9,1982-07-19,8.8,M120948
+Winchester,City,Hampshire,England,51.0618,-1.311,5,3,2.9,1982-07-19,19.5,M120948
+Whitchurch,Town,Hampshire,England,51.2299,-1.3391,5,0,2.9,2015-01-27,16.6,M125434
+Thatcham,Town,West Berkshire,England,51.4033,-1.2576,9,0,2.6,2006-01-12,11.3,M124511
+Tadley,Town,Hampshire,England,51.3566,-1.1484,7,1,2.6,2006-01-12,7.6,M124511
+Newbury,Town,West Berkshire,England,51.4003,-1.3231,6,0,2.6,2006-01-12,12.8,M124511
+Abingdon-on-Thames,Town,Oxfordshire,England,51.6701,-1.281,9,2,3.4,1764-11-06,8.2,H163
+Didcot,Town,Oxfordshire,England,51.6064,-1.2426,9,1,3.4,1764-11-06,14.9,H163
+Emsworth,Town,Hampshire,England,50.8481,-0.9371,11,6,4.7,1963-10-25,9.0,H53
+Havant,Town,Hampshire,England,50.8567,-0.9861,11,2,4.7,1963-10-25,9.7,H53
+Portsmouth,City,City of Portsmouth,England,50.7968,-1.0912,11,1,4.7,1963-10-25,9.0,H53
+Horndean,Town,Hampshire,England,50.9083,-1.0083,13,1,4.7,1963-10-25,15.6,H53
+Bordon,Town,Hampshire,England,51.1137,-0.8624,6,0,2.9,1982-07-19,12.4,M120948
+Petersfield,Town,Hampshire,England,51.004,-0.9377,8,1,3.3,1834-08-27,22.1,H185
+Alton,Town,Hampshire,England,51.1486,-0.9758,8,1,2.9,1982-07-19,7.8,M120948
+Basingstoke,Town,Hampshire,England,51.2677,-1.0883,6,0,2.9,1982-07-19,20.1,M120948
+Woodley,Town,Wokingham,England,51.4537,-0.9061,10,3,2.5,1985-12-02,19.9,M121431
+Reading,Town,Reading,England,51.4538,-0.9738,8,4,2.6,2006-01-12,23.8,M124511
+Henley-on-Thames,Town,Oxfordshire,England,51.5376,-0.9046,9,3,2.2,1994-01-08,11.7,M123148
+Wallingford,Town,Oxfordshire,England,51.601,-1.1246,12,1,3.4,1764-11-06,21.4,H163
+Watlington,Town,Oxfordshire,England,51.6454,-1.0058,11,2,2.2,1994-01-08,9.0,M123148
+Chichester,City,West Sussex,England,50.8365,-0.779,12,7,4.7,1963-10-25,15.4,H53
+Midhurst,Town,West Sussex,England,50.9855,-0.74,13,1,3.3,1834-08-27,19.2,H185
+Petworth,Town,West Sussex,England,50.9856,-0.6085,10,1,3.3,1834-08-27,23.7,H185
+Haslemere,Town,Surrey,England,51.0877,-0.7096,8,0,2.9,1982-07-19,22.9,M120948
+Godalming,Town,Surrey,England,51.1855,-0.6142,8,0,3.0,2018-07-05,24.5,M125878
+Farnborough,Town,Hampshire,England,51.2904,-0.7548,3,2,2.5,1985-12-02,1.9,M121431
+Guildford,Town,Surrey,England,51.2394,-0.5759,16,0,3.1,2019-02-27,24.5,M125959
+Farnham,Town,Surrey,England,51.215,-0.799,3,1,2.9,1982-07-19,21.6,M120948
+Aldershot,Town,Hampshire,England,51.2499,-0.7617,2,2,2.5,1985-12-02,6.4,M121431
+Blackwater,Town,Hampshire,England,51.3311,-0.7799,6,2,2.5,1985-12-02,3.7,M121431
+Frimley,Town,Surrey,England,51.3149,-0.7396,5,2,2.5,1985-12-02,1.0,M121431
+Fleet,Town,Hampshire,England,51.2803,-0.8433,4,2,2.5,1985-12-02,7.5,M121431
+Wokingham,Town,Wokingham,England,51.4103,-0.8329,10,0,2.5,1985-12-02,13.1,M121431
+Crowthorne,Town,Bracknell Forest,England,51.3689,-0.7931,7,1,2.5,1985-12-02,7.8,M121431
+Slough,Town,Slough,England,51.5089,-0.593,3,1,2.5,1985-12-02,24.9,M121431
+Yateley,Town,Hampshire,England,51.3402,-0.8186,6,2,2.5,1985-12-02,6.4,M121431
+Eton,Town,Windsor and Maidenhead,England,51.4896,-0.6094,5,1,2.5,1985-12-02,22.5,M121431
+Bracknell,Town,Bracknell Forest,England,51.4168,-0.7516,9,0,2.5,1985-12-02,12.3,M121431
+Windsor,Town,Windsor and Maidenhead,England,51.4798,-0.6105,5,1,2.5,1985-12-02,21.5,M121431
+Camberley,Town,Surrey,England,51.3394,-0.7438,6,2,2.5,1985-12-02,3.7,M121431
+Sandhurst,Town,Bracknell Forest,England,51.3466,-0.8033,6,2,2.5,1985-12-02,6.1,M121431
+Marlow,Town,Buckinghamshire,England,51.5719,-0.777,9,1,2.2,1994-01-08,19.8,M123148
+Amersham,Town,Buckinghamshire,England,51.6769,-0.6076,5,1,2.2,2016-03-06,23.5,M125595
+Maidenhead,Town,Windsor and Maidenhead,England,51.5228,-0.7202,9,2,2.5,1985-12-02,24.2,M121431
+High Wycombe,Town,Buckinghamshire,England,51.6288,-0.7495,9,1,2.2,1994-01-08,22.6,M123148
+Beaconsfield,Town,Buckinghamshire,England,51.6103,-0.6455,4,1,2.2,2016-03-06,24.2,M125595
+Hugh Town,Town,Isles of Scilly,England,49.9146,-6.316,7,0,2.3,2023-11-29,24.0,M126693
+St Just,Town,Cornwall,England,50.1244,-5.6798,10,0,4.4,1757-07-15,15.7,H66
+Newlyn,Town,Cornwall,England,50.1067,-5.5503,17,2,4.4,1757-07-15,7.0,H66
+Hayle,Town,Cornwall,England,50.1842,-5.4214,46,3,4.4,1757-07-15,6.6,H66
+Penzance,Town,Cornwall,England,50.1184,-5.5393,17,2,4.4,1757-07-15,5.8,H66
+Marazion,Town,Cornwall,England,50.1235,-5.4732,44,2,4.4,1757-07-15,1.2,H66
+St Ives,Town,Cornwall,England,50.2114,-5.4808,39,1,4.4,1757-07-15,9.2,H66
+Penryn,Town,Cornwall,England,50.1682,-5.1031,49,31,4.1,1966-07-23,12.1,H104
+Helston,Town,Cornwall,England,50.1009,-5.2745,51,29,4.4,1757-07-15,13.7,H66
+Camborne,Town,Cornwall,England,50.2138,-5.3004,43,6,4.4,1757-07-15,14.7,H66
+Redruth,Town,Cornwall,England,50.2342,-5.2251,48,6,4.4,1757-07-15,20.4,H66
+Falmouth,Town,Cornwall,England,50.1535,-5.074,49,30,4.1,1966-07-23,12.6,H104
+Truro,City,Cornwall,England,50.2633,-5.051,49,4,4.1,1966-07-23,22.8,H104
+Wadebridge,Town,Cornwall,England,50.5163,-4.8362,17,2,4.0,1859-10-21,17.0,H108
+St Columb Major,Town,Cornwall,England,50.4348,-4.9405,18,6,4.0,1859-10-21,17.3,H108
+Padstow,Town,Cornwall,England,50.5418,-4.9407,12,5,4.0,1859-10-21,9.0,H108
+Newquay,Town,Cornwall,England,50.4136,-5.0822,22,3,4.0,1859-10-21,17.5,H108
+St Austell,Town,Cornwall,England,50.3385,-4.7912,19,2,2.9,1858-04-01,24.9,H291
+Fowey,Town,Cornwall,England,50.3352,-4.6351,14,3,2.9,1858-04-01,15.0,H291
+Lostwithiel,Town,Cornwall,England,50.4075,-4.6706,17,2,2.9,1858-04-01,15.0,H291
+St Blazey,Town,Cornwall,England,50.3614,-4.7164,17,4,2.9,1858-04-01,19.0,H291
+Bodmin,Town,Cornwall,England,50.4713,-4.7176,19,1,4.2,1883-06-25,23.9,H87
+Camelford,Town,Cornwall,England,50.6229,-4.6788,12,4,4.2,1883-06-25,15.6,H87
+Looe,Town,Cornwall,England,50.3536,-4.4539,13,2,3.4,1852-08-12,20.0,H171
+Callington,Town,Cornwall,England,50.5031,-4.3158,23,3,4.2,1883-06-25,15.7,H87
+Liskeard,Town,Cornwall,England,50.4553,-4.465,22,2,4.2,1883-06-25,17.2,H87
+Launceston,Town,Cornwall,England,50.6358,-4.3612,22,5,4.2,1883-06-25,7.6,H87
+Plymouth,City,City of Plymouth,England,50.37,-4.1421,15,3,3.4,1852-08-12,16.1,H171
+Torpoint,Town,Cornwall,England,50.3765,-4.1972,15,3,3.4,1852-08-12,13.6,H171
+Sherford,Town,Devon,England,50.3678,-4.0395,14,0,3.4,1852-08-12,21.3,H171
+Saltash,Town,Cornwall,England,50.4087,-4.2118,16,5,3.4,1852-08-12,9.9,H171
+Tavistock,Town,Devon,England,50.5501,-4.1448,17,4,4.2,1883-06-25,23.3,H87
+Okehampton,Town,Devon,England,50.739,-4.0033,9,1,3.6,1783-08-10,24.8,H137
+Salcombe,Town,Devon,England,50.2377,-3.7673,6,0,3.1,1886-01-04,12.0,H234
+Kingsbridge,Town,Devon,England,50.2838,-3.777,7,0,3.3,1923-12-25,21.5,H190
+Ivybridge,Town,Devon,England,50.3904,-3.919,14,1,3.3,1923-12-25,9.8,H190
+Ashburton,Town,Devon,England,50.5156,-3.7556,9,3,3.3,1923-12-25,9.0,H190
+Buckfastleigh,Town,Devon,England,50.4812,-3.7781,9,2,3.3,1923-12-25,5.9,H190
+Chagford,Town,Devon,England,50.6728,-3.8403,9,1,3.3,1923-12-25,22.6,H190
+Moretonhampstead,Town,Devon,England,50.661,-3.7648,7,0,3.3,1923-12-25,22.3,H190
+Brixham,Town,Torbay,England,50.3941,-3.5159,7,0,3.1,1886-01-04,13.2,H234
+Dartmouth,Town,Devon,England,50.3516,-3.5799,7,1,3.3,1923-12-25,23.9,H190
+Dawlish,Town,Devon,England,50.5819,-3.4696,7,1,2.7,2011-06-23,18.8,M124940
+Totnes,Town,Devon,England,50.4314,-3.687,8,2,3.3,1923-12-25,13.0,H190
+Chudleigh,Town,Devon,England,50.605,-3.6005,6,1,3.3,1923-12-25,23.7,H190
+Paignton,Town,Torbay,England,50.436,-3.5678,7,0,3.3,1923-12-25,21.1,H190
+Bovey Tracey,Town,Devon,England,50.5939,-3.6746,7,3,3.3,1923-12-25,19.0,H190
+Torquay,Town,Torbay,England,50.4688,-3.5314,8,0,3.3,1923-12-25,23.3,H190
+Teignmouth,Town,Devon,England,50.5459,-3.4956,6,1,2.7,2011-06-23,17.1,M124940
+Newton Abbot,Town,Devon,England,50.5307,-3.6095,7,3,3.3,1923-12-25,19.0,H190
+Kingsteignton,Town,Devon,England,50.5464,-3.596,7,1,3.3,1923-12-25,20.6,H190
+Exeter,City,Devon,England,50.7226,-3.5326,6,0,2.7,2011-06-23,22.1,M124940
+Topsham,Town,Devon,England,50.6836,-3.4656,6,0,2.7,2011-06-23,22.7,M124940
+Budleigh Salterton,Town,Devon,England,50.6295,-3.327,6,2,2.1,1986-12-24,10.8,M121685
+Sidmouth,Town,Devon,England,50.6823,-3.2384,6,3,2.3,2010-02-10,23.9,M124836
+Ottery St Mary,Town,Devon,England,50.7511,-3.2791,4,2,2.1,1986-12-24,3.5,M121685
+Exmouth,Town,Devon,England,50.6187,-3.4124,6,1,2.7,2011-06-23,23.4,M124940
+Lyme Regis,Town,Dorset,England,50.7251,-2.9365,4,1,2.3,2010-02-10,3.8,M124836
+Colyton,Town,Devon,England,50.7411,-3.0706,7,0,3.5,1747-07-01,24.5,H150
+Axminster,Town,Devon,England,50.7821,-2.9994,7,2,3.5,1747-07-01,21.3,H150
+Seaton,Town,Devon,England,50.7056,-3.0719,7,0,2.3,2010-02-10,12.1,M124836
+Bridport,Town,Dorset,England,50.7336,-2.7584,5,0,3.3,1726-10-26,22.0,H181
+Fortuneswell,Town,Dorset,England,50.5588,-2.4415,4,2,3.3,1726-10-26,11.4,H181
+Weymouth,Town,Dorset,England,50.607,-2.4555,4,3,3.3,1726-10-26,6.0,H181
+Chickerell,Town,Dorset,England,50.6244,-2.5029,4,3,3.3,1726-10-26,4.6,H181
+Dorchester,Town,Dorset,England,50.7153,-2.4381,4,1,3.3,1726-10-26,6.6,H181
+Wareham,Town,Dorset,England,50.686,-2.1099,5,0,3.4,1749-05-17,12.6,H161
+Swanage,Town,Dorset,England,50.6081,-1.9563,6,1,3.4,1749-05-17,19.5,H161
+Wimborne Minster,Town,Dorset,England,50.7994,-1.9877,2,1,3.4,1749-05-17,2.7,H161
+Poole,Town,"Bournemouth, Christchurch and Poole",England,50.7189,-1.9798,4,1,3.4,1749-05-17,7.1,H161
+Christchurch,Town,"Bournemouth, Christchurch and Poole",England,50.7384,-1.7818,4,0,3.4,1749-05-17,16.7,H161
+Bournemouth,Town,"Bournemouth, Christchurch and Poole",England,50.721,-1.8767,4,0,3.4,1749-05-17,11.5,H161
+Lymington,Town,Hampshire,England,50.7583,-1.542,1,0,1.6,2009-06-30,24.4,M124783
+New Milton,Town,Hampshire,England,50.7531,-1.6551,0,0,,,,
+Yarmouth,Town,Isle of Wight,England,50.7062,-1.4972,1,0,1.6,2009-06-30,18.0,M124783
+Ventnor,Town,Isle of Wight,England,50.595,-1.2059,2,1,2.2,1984-07-16,22.9,M121142
+Ryde,Town,Isle of Wight,England,50.73,-1.1632,4,0,4.7,1963-10-25,14.3,H53
+East Cowes,Town,Isle of Wight,England,50.7577,-1.2883,3,0,4.7,1963-10-25,22.5,H53
+Newport,Town,Isle of Wight,England,50.7002,-1.2937,2,0,4.7,1963-10-25,24.1,H53
+Cowes,Town,Isle of Wight,England,50.7624,-1.2979,3,0,4.7,1963-10-25,23.1,H53
+Shanklin,Town,Isle of Wight,England,50.6276,-1.1796,2,0,4.7,1963-10-25,21.7,H53
+Brading,Town,Isle of Wight,England,50.6801,-1.1438,4,0,4.7,1963-10-25,15.8,H53
+Sandown,Town,Isle of Wight,England,50.6561,-1.1502,3,0,4.7,1963-10-25,18.0,H53
+Gosport,Town,Hampshire,England,50.7945,-1.1227,11,0,4.7,1963-10-25,11.1,H53
+Selsey,Town,West Sussex,England,50.7326,-0.7921,11,8,4.7,1963-10-25,13.2,H53
+Bognor Regis,Town,West Sussex,England,50.7844,-0.6707,12,2,4.7,1963-10-25,21.2,H53
+Immingham,Town,North East Lincolnshire,England,53.6156,-0.2113,13,4,4.2,1703-12-28,6.7,H83
+Brigg,Town,North Lincolnshire,England,53.5519,-0.4865,27,3,5.2,2008-02-27,19.8,M124671
+Kingston upon Hull,City,City of Kingston upon Hull,England,53.7446,-0.3326,14,2,4.2,1703-12-28,20.2,H83
+Beverley,Town,East Riding of Yorkshire,England,53.8434,-0.4335,9,1,3.7,1885-06-18,24.3,H130
+Cottingham,Town,East Riding of Yorkshire,England,53.7808,-0.414,8,2,3.0,2009-04-11,14.3,M124769
+Barton-upon-Humber,Town,North Lincolnshire,England,53.6847,-0.4388,16,2,4.2,1703-12-28,22.9,H83
+Hessle,Town,East Riding of Yorkshire,England,53.7231,-0.4355,12,2,4.2,1703-12-28,24.4,H83
+Hedon,Town,East Riding of Yorkshire,England,53.7395,-0.1988,10,1,4.2,1703-12-28,14.5,H83
+Driffield,Town,East Riding of Yorkshire,England,54.0057,-0.4401,7,3,2.6,2004-07-05,13.2,M124393
+Bridlington,Town,East Riding of Yorkshire,England,54.0844,-0.1932,14,0,2.3,2004-01-17,24.6,M124344
+Filey,Town,North Yorkshire,England,54.2101,-0.2913,15,4,2.3,2004-01-17,18.6,M124344
+Scarborough,Town,North Yorkshire,England,54.2816,-0.4022,14,1,2.3,2004-01-17,23.8,M124344
+Grimsby,Town,North East Lincolnshire,England,53.5651,-0.0838,12,3,5.2,2008-02-27,24.7,M124671
+Cleethorpes,Town,North East Lincolnshire,England,53.561,-0.0299,10,2,4.2,1703-12-28,8.4,H83
+Withernsea,Town,East Riding of Yorkshire,England,53.7314,0.0314,3,0,4.2,1703-12-28,15.5,H83
+Hornsea,Town,East Riding of Yorkshire,England,53.9122,-0.1671,2,0,3.0,2009-04-11,24.5,M124769
+Stamford,Town,Lincolnshire,England,52.6521,-0.4811,24,1,4.1,1792-02-25,16.9,H94
+Market Deeping,Town,Lincolnshire,England,52.6754,-0.3176,5,0,3.3,1992-02-17,21.3,M122871
+Bourne,Town,Lincolnshire,England,52.7682,-0.3772,8,0,3.8,2015-01-28,23.4,M125435
+Heckington,Town,Lincolnshire,England,52.9804,-0.2995,11,1,4.2,1755-08-01,20.7,H85
+Sleaford,Town,Lincolnshire,England,52.9995,-0.4104,10,0,4.2,1755-08-01,13.3,H85
+Wragby,Town,Lincolnshire,England,53.2874,-0.3011,28,11,5.2,2008-02-27,12.7,M124671
+Woodhall Spa,Town,Lincolnshire,England,53.1519,-0.2159,26,5,2.8,2008-04-05,24.8,M124680
+Market Rasen,Town,Lincolnshire,England,53.3875,-0.3371,35,9,5.2,2008-02-27,1.4,M124671
+Crowland,Town,Lincolnshire,England,52.6758,-0.1684,4,0,3.3,1992-02-17,19.6,M122871
+Spalding,Town,Lincolnshire,England,52.7871,-0.1517,1,0,1.8,2021-03-30,11.6,M126200
+Boston,Town,Lincolnshire,England,52.9763,-0.0272,10,0,2.7,1999-01-21,13.8,M123760
+Horncastle,Town,Lincolnshire,England,53.2086,-0.1161,28,5,2.8,2008-04-05,22.5,M124680
+Louth,Town,Lincolnshire,England,53.3671,-0.0039,18,2,5.2,2008-02-27,22.1,M124671
+Wisbech,Town,Cambridgeshire,England,52.6644,0.1618,3,0,4.0,1948-05-28,16.6,H114
+Long Sutton,Town,Lincolnshire,England,52.7857,0.1216,0,0,,,,
+Wainfleet All Saints,Town,Lincolnshire,England,53.1077,0.2363,10,0,2.7,1999-01-21,11.4,M123760
+Spilsby,Town,Lincolnshire,England,53.1737,0.0979,18,2,2.7,1999-01-21,10.0,M123760
+Skegness,Town,Lincolnshire,England,53.1445,0.3362,7,2,2.7,1999-01-21,19.0,M123760
+Mablethorpe,Town,Lincolnshire,England,53.3412,0.2595,8,1,4.7,1750-08-23,23.8,H49
+Downham Market,Town,Norfolk,England,52.6029,0.3778,3,2,4.0,1948-05-28,1.1,H114
+King's Lynn,Town,Norfolk,England,52.7519,0.3954,3,0,4.0,1948-05-28,15.8,H114
+Hunstanton,Town,Norfolk,England,52.9389,0.4889,2,0,1.9,2004-03-01,22.2,M124361
+Dereham,Town,Norfolk,England,52.682,0.9405,6,0,3.7,1994-02-15,14.4,M123158
+Watton,Town,Norfolk,England,52.5714,0.8257,5,4,3.7,1994-02-15,6.0,M123158
+Swaffham,Town,Norfolk,England,52.6487,0.6885,7,0,4.0,1948-05-28,20.7,H114
+Fakenham,Town,Norfolk,England,52.8301,0.8471,2,0,2.0,1988-06-06,13.9,M122002
+Wells-next-the-Sea,Town,Norfolk,England,52.9543,0.8518,4,1,2.0,1988-06-06,4.9,M122002
+Hingham,Town,Norfolk,England,52.5802,0.9817,5,2,3.7,1994-02-15,5.7,M123158
+Wymondham,Town,Norfolk,England,52.5702,1.1129,6,1,3.7,1994-02-15,13.9,M123158
+Reepham,Town,Norfolk,England,52.7626,1.1099,2,0,2.0,1988-06-06,24.0,M122002
+Aylsham,Town,Norfolk,England,52.795,1.2511,1,0,1.3,2016-07-29,21.0,M125644
+Holt,Town,Norfolk,England,52.906,1.0898,1,0,2.0,1988-06-06,12.0,M122002
+Sheringham,Town,Norfolk,England,52.9435,1.211,2,0,3.4,1923-09-21,20.0,H178
+Norwich,City,Norfolk,England,52.6289,1.2933,4,0,3.3,1757-01-10,11.0,H182
+North Walsham,Town,Norfolk,England,52.8212,1.3881,1,0,1.3,2016-07-29,18.6,M125644
+Stalham,Town,Norfolk,England,52.7718,1.5152,3,0,2.7,1995-01-01,21.3,M123279
+Cromer,Town,Norfolk,England,52.9312,1.2989,1,0,3.4,1923-09-21,16.7,H178
+Great Yarmouth,Town,Norfolk,England,52.6082,1.7271,4,0,3.3,1757-01-10,23.8,H182
+Gorleston-on-Sea,Town,Norfolk,England,52.5714,1.7332,3,0,3.3,1757-01-10,23.4,H182
+Caister-on-Sea,Town,Norfolk,England,52.6476,1.7278,3,0,2.7,1995-01-01,13.9,M123279
+Harpenden,Town,Hertfordshire,England,51.8167,-0.3571,2,0,3.0,2020-09-22,24.9,M126140
+Hemel Hempstead,Town,Hertfordshire,England,51.7526,-0.4723,5,0,3.0,2020-09-22,23.4,M126140
+St Albans,City,Hertfordshire,England,51.7523,-0.3391,0,0,,,,
+Dunstable,Town,Central Bedfordshire,England,51.8876,-0.5231,12,1,3.5,2020-09-08,15.3,M126130
+Luton,Town,Luton,England,51.8795,-0.4174,11,0,3.5,2020-09-08,22.6,M126130
+Hitchin,Town,Hertfordshire,England,51.9495,-0.2801,0,0,,,,
+Shefford,Town,Central Bedfordshire,England,52.0387,-0.334,0,0,,,,
+Ampthill,Town,Central Bedfordshire,England,52.0317,-0.4931,13,0,3.5,2020-09-08,20.5,M126130
+Flitwick,Town,Central Bedfordshire,England,52.0031,-0.4952,13,0,3.5,2020-09-08,18.7,M126130
+Houghton Regis,Town,Central Bedfordshire,England,51.906,-0.5196,13,1,3.5,2020-09-08,15.1,M126130
+Biggleswade,Town,Central Bedfordshire,England,52.0869,-0.2632,0,0,,,,
+Sandy,Town,Central Bedfordshire,England,52.1292,-0.2884,1,0,2.2,1993-05-04,23.4,M123051
+Kempston,Town,Bedford,England,52.116,-0.5006,5,0,1.8,2010-09-27,21.0,M124889
+Wixams,Town,Bedford,England,52.092,-0.4608,7,0,3.0,2020-09-22,24.4,M126140
+Bedford,Town,Bedford,England,52.1368,-0.4685,2,0,1.8,2010-09-27,23.9,M124889
+St Neots,Town,Cambridgeshire,England,52.2279,-0.2694,2,0,2.2,1993-05-04,15.4,M123051
+Oundle,Town,North Northamptonshire,England,52.4809,-0.4688,13,2,4.1,1792-02-25,12.2,H94
+Peterborough,City,City of Peterborough,England,52.5725,-0.2425,4,2,3.3,1992-02-17,8.7,M122871
+Hoddesdon,Town,Hertfordshire,England,51.7584,-0.0124,0,0,,,,
+Potters Bar,Town,Hertfordshire,England,51.6951,-0.1936,2,0,3.1,1750-03-08,23.7,H221
+Ware,Town,Hertfordshire,England,51.8138,-0.0344,0,0,,,,
+Hatfield,Town,Hertfordshire,England,51.7651,-0.2201,0,0,,,,
+Welwyn Garden City,Town,Hertfordshire,England,51.8038,-0.2065,0,0,,,,
+Waltham Cross,Town,Hertfordshire,England,51.6858,-0.0331,2,0,3.1,1750-03-08,22.3,H221
+Hertford,Town,Hertfordshire,England,51.797,-0.0768,0,0,,,,
+Waltham Abbey,Town,Essex,England,51.6864,0.0168,2,0,3.1,1750-03-08,23.3,H221
+Cheshunt,Town,Hertfordshire,England,51.7026,-0.0428,2,0,3.1,1750-03-08,24.0,H221
+Buntingford,Town,Hertfordshire,England,51.9454,-0.0176,1,0,2.3,2022-08-08,22.3,M126400
+Letchworth,Town,Hertfordshire,England,51.9771,-0.23,0,0,,,,
+Baldock,Town,Hertfordshire,England,51.9896,-0.1887,0,0,,,,
+Stotfold,Town,Central Bedfordshire,England,52.0162,-0.2322,0,0,,,,
+Stevenage,Town,Hertfordshire,England,51.9023,-0.2008,0,0,,,,
+Potton,Town,Central Bedfordshire,England,52.1278,-0.2137,1,0,2.2,1993-05-04,20.6,M123051
+Royston,Town,Hertfordshire,England,52.0483,-0.02,1,0,2.3,2022-08-08,15.3,M126400
+Huntingdon,Town,Cambridgeshire,England,52.3306,-0.1843,5,1,3.3,1992-02-17,18.9,M122871
+St Ives,Town,Cambridgeshire,England,52.3239,-0.0742,5,1,3.3,1992-02-17,21.2,M122871
+Godmanchester,Town,Cambridgeshire,England,52.3193,-0.175,4,1,3.3,1992-02-17,20.1,M122871
+Chatteris,Town,Cambridgeshire,England,52.4573,0.0477,6,0,3.3,1992-02-17,17.0,M122871
+Ramsey,Town,Cambridgeshire,England,52.4483,-0.1063,6,3,3.3,1992-02-17,8.2,M122871
+Whittlesey,Town,Cambridgeshire,England,52.5565,-0.1273,4,2,3.3,1992-02-17,7.7,M122871
+Sawbridgeworth,Town,Hertfordshire,England,51.8123,0.1511,0,0,,,,
+Epping,Town,Essex,England,51.6983,0.1106,1,0,2.6,1750-02-08,24.4,H326
+Harlow,Town,Essex,England,51.7688,0.0957,0,0,,,,
+Chipping Ongar,Town,Essex,England,51.7041,0.2455,1,0,2.6,2023-02-09,23.3,M126465
+Stansted Mountfitchet,Town,Essex,England,51.9036,0.1935,1,0,2.3,2022-08-08,22.0,M126400
+Saffron Walden,Town,Essex,England,52.0233,0.2427,1,1,2.3,2022-08-08,9.5,M126400
+Bishop's Stortford,Town,Hertfordshire,England,51.8706,0.1606,0,0,,,,
+Cambridge,City,Cambridgeshire,England,52.2049,0.1197,3,0,2.3,2022-08-08,12.4,M126400
+Soham,Town,Cambridgeshire,England,52.3317,0.3387,2,1,1.3,2021-01-31,7.2,M126185
+March,Town,Cambridgeshire,England,52.5475,0.0873,5,0,4.0,1948-05-28,21.7,H114
+Ely,City,Cambridgeshire,England,52.3996,0.2625,3,1,4.0,1948-05-28,25.0,H114
+Chelmsford,City,Essex,England,51.7371,0.4736,2,0,2.6,2023-02-09,10.4,M126465
+Thaxted,Town,Essex,England,51.9537,0.3438,1,0,2.3,2022-08-08,19.6,M126400
+Braintree,Town,Essex,England,51.8782,0.5531,2,0,4.6,1884-04-22,24.8,H57
+Great Dunmow,Town,Essex,England,51.8712,0.3638,0,0,,,,
+Clare,Town,Suffolk,England,52.0785,0.5811,0,0,,,,
+Haverhill,Town,Suffolk,England,52.0833,0.438,1,0,2.3,2022-08-08,17.4,M126400
+Newmarket,Town,Suffolk,England,52.2436,0.4053,3,0,2.3,2022-08-08,21.8,M126400
+Mildenhall,Town,Suffolk,England,52.3444,0.5109,3,1,1.5,2006-01-13,20.6,M124512
+Brandon,Town,Suffolk,England,52.4478,0.6247,8,0,4.0,1948-05-28,24.1,H114
+Witham,Town,Essex,England,51.7998,0.6401,3,0,4.6,1884-04-22,18.1,H57
+Maldon,Town,Essex,England,51.7315,0.6784,3,2,4.6,1884-04-22,18.2,H57
+Halstead,Town,Essex,England,51.9437,0.6326,1,0,4.6,1884-04-22,23.0,H57
+Coggeshall,Town,Essex,England,51.8713,0.6862,3,0,4.6,1884-04-22,15.8,H57
+Colchester,City,Essex,England,51.8897,0.8993,2,1,4.6,1884-04-22,7.8,H57
+Acton,Town,Suffolk,England,52.0707,0.761,0,0,,,,
+Sudbury,Town,Suffolk,England,52.0392,0.7319,0,0,,,,
+Bury St Edmunds,Town,Suffolk,England,52.2463,0.7138,4,0,3.1,1869-01-09,20.9,H230
+Thetford,Town,Norfolk,England,52.4135,0.7505,8,0,3.7,1994-02-15,19.0,M123158
+West Mersea,Town,Essex,England,51.7761,0.9113,3,1,4.6,1884-04-22,5.0,H57
+Brightlingsea,Town,Essex,England,51.8111,1.0245,2,1,4.6,1884-04-22,8.6,H57
+Clacton-on-Sea,Town,Essex,England,51.7899,1.1535,2,1,4.6,1884-04-22,17.8,H57
+Manningtree,Town,Essex,England,51.9454,1.0638,3,0,4.6,1884-04-22,17.9,H57
+Wivenhoe,Town,Essex,England,51.8567,0.9594,2,1,4.6,1884-04-22,5.8,H57
+Hadleigh,Town,Suffolk,England,52.0431,0.9544,0,0,,,,
+Needham Market,Town,Suffolk,England,52.1557,1.05,4,0,3.1,1869-01-09,21.1,H230
+Stowmarket,Town,Suffolk,England,52.1889,0.9976,4,0,3.1,1869-01-09,16.9,H230
+Ipswich,Town,Suffolk,England,52.0571,1.1528,1,0,1.4,1984-12-29,13.3,M121242
+Diss,Town,Norfolk,England,52.3768,1.1087,7,3,3.7,1994-02-15,23.9,M123158
+Eye,Town,Suffolk,England,52.321,1.1464,4,1,3.1,1869-01-09,11.5,H230
+Attleborough,Town,Norfolk,England,52.5164,1.0146,8,2,3.7,1994-02-15,8.2,M123158
+Frinton-on-Sea,Town,Essex,England,51.8324,1.2453,2,1,4.6,1884-04-22,23.8,H57
+Felixstowe,Town,Suffolk,England,51.9637,1.3517,4,0,2.2,2008-08-08,22.7,M124716
+Walton-on-the-Naze,Town,Essex,England,51.8494,1.2721,2,1,1.4,1984-12-29,23.4,M121242
+Harwich,Town,Essex,England,51.9464,1.2873,2,0,1.4,1984-12-29,12.7,M121242
+Wickham Market,Town,Suffolk,England,52.1516,1.3633,1,0,1.4,1984-12-29,10.8,M121242
+Woodbridge,Town,Suffolk,England,52.0932,1.3187,1,1,1.4,1984-12-29,4.6,M121242
+Kesgrave,Town,Suffolk,England,52.0658,1.237,1,1,1.4,1984-12-29,7.6,M121242
+Saxmundham,Town,Suffolk,England,52.2137,1.4917,2,0,1.4,1984-12-29,20.3,M121242
+Framlingham,Town,Suffolk,England,52.2211,1.3419,2,0,3.0,1956-05-04,19.3,H275
+Halesworth,Town,Suffolk,England,52.3431,1.5025,2,0,3.3,1757-01-10,24.3,H182
+Bungay,Town,Suffolk,England,52.4561,1.4372,4,0,3.3,1757-01-10,10.9,H182
+Loddon,Town,Norfolk,England,52.5354,1.4812,4,2,3.3,1757-01-10,6.4,H182
+Harleston,Town,Norfolk,England,52.4024,1.2996,5,0,3.3,1757-01-10,17.5,H182
+Aldeburgh,Town,Suffolk,England,52.152,1.6013,5,0,2.2,2008-08-08,23.4,M124716
+Leiston,Town,Suffolk,England,52.2079,1.5766,2,0,1.4,1984-12-29,23.2,M121242
+Southwold,Town,Suffolk,England,52.3262,1.679,1,1,1.0,2022-01-18,9.1,M126297
+Beccles,Town,Suffolk,England,52.4582,1.5628,3,0,3.3,1757-01-10,15.6,H182
+Lowestoft,Town,Suffolk,England,52.4774,1.7504,1,0,2.7,1995-01-01,17.7,M123279
+Littlehampton,Town,West Sussex,England,50.8092,-0.5406,10,0,3.4,1811-11-30,23.5,H166
+Steyning,Town,West Sussex,England,50.8889,-0.3298,5,0,3.1,1864-08-21,19.3,H229
+Worthing,Town,West Sussex,England,50.8143,-0.3712,3,0,3.1,1864-08-21,22.5,H229
+Arundel,Town,West Sussex,England,50.8543,-0.5539,13,0,3.3,1834-08-27,19.1,H185
+Horsham,Town,West Sussex,England,51.0621,-0.3281,20,1,3.1,2019-02-27,12.7,M125959
+Dorking,Town,Surrey,England,51.2328,-0.3299,18,8,3.1,2019-02-27,9.6,M125959
+Leatherhead,Town,Surrey,England,51.2962,-0.3311,16,0,3.1,2019-02-27,15.9,M125959
+Woking,Town,Surrey,England,51.3184,-0.5581,3,0,2.5,1985-12-02,13.0,M121431
+Egham,Town,Surrey,England,51.4314,-0.5495,4,0,2.5,1985-12-02,19.4,M121431
+Sunbury-on-Thames,Town,Surrey,England,51.4187,-0.4184,2,0,3.1,1750-03-08,23.5,H221
+Ashford,Town,Surrey,England,51.4329,-0.4621,3,0,2.5,1985-12-02,24.2,M121431
+Chertsey,Town,Surrey,England,51.3922,-0.5037,3,0,2.5,1985-12-02,19.3,M121431
+Esher,Town,Surrey,England,51.3694,-0.3657,15,0,3.1,1750-03-08,22.8,H221
+Addlestone,Town,Surrey,England,51.3707,-0.4929,3,0,2.5,1985-12-02,18.9,M121431
+Staines-upon-Thames,Town,Surrey,England,51.4338,-0.5118,4,0,2.5,1985-12-02,21.5,M121431
+Walton-on-Thames,Town,Surrey,England,51.385,-0.4184,3,0,2.5,1985-12-02,24.3,M121431
+Weybridge,Town,Surrey,England,51.3724,-0.4592,3,0,2.5,1985-12-02,21.2,M121431
+Bushey,Town,Hertfordshire,England,51.6446,-0.3647,2,0,1.9,2008-12-27,23.4,M124749
+Watford,Town,Hertfordshire,England,51.6551,-0.3958,2,0,1.9,2008-12-27,21.6,M124749
+Rickmansworth,Town,Hertfordshire,England,51.6388,-0.4692,2,0,1.9,2008-12-27,16.2,M124749
+Radlett,Town,Hertfordshire,England,51.6844,-0.3177,0,0,,,,
+Chorleywood,Town,Hertfordshire,England,51.6551,-0.5212,2,0,1.9,2008-12-27,13.3,M124749
+Borehamwood,Town,Hertfordshire,England,51.6592,-0.2698,2,0,3.1,1750-03-08,22.2,H221
+Gerrards Cross,Town,Buckinghamshire,England,51.5874,-0.5543,2,1,1.9,2008-12-27,10.2,M124749
+Brighton and Hove,City,The City of Brighton and Hove,England,50.8236,-0.1436,2,1,3.1,1864-08-21,7.1,H229
+Southwick,Town,West Sussex,England,50.8344,-0.2379,2,0,3.1,1864-08-21,12.8,H229
+Shoreham-by-Sea,Town,West Sussex,England,50.8331,-0.2731,2,0,3.1,1864-08-21,15.3,H229
+Burgess Hill,Town,West Sussex,England,50.9566,-0.1337,17,1,3.1,1864-08-21,11.9,H229
+East Grinstead,Town,West Sussex,England,51.1241,-0.0083,18,1,3.1,2019-02-27,17.2,M125959
+Haywards Heath,Town,West Sussex,England,50.9959,-0.1006,19,1,3.1,1864-08-21,15.4,H229
+Cuckfield,Town,West Sussex,England,51.0077,-0.1416,19,1,3.1,1864-08-21,17.4,H229
+Crawley,Town,West Sussex,England,51.1145,-0.1882,20,16,3.1,2019-02-27,6.8,M125959
+Redhill,Town,Surrey,England,51.2405,-0.1712,17,4,3.1,2019-02-27,10.0,M125959
+Horley,Town,Surrey,England,51.1717,-0.1636,18,16,3.1,2019-02-27,5.8,M125959
+Warlingham,Town,Surrey,England,51.31,-0.0563,18,0,3.1,1750-03-08,20.3,H221
+Caterham,Town,Surrey,England,51.2819,-0.0788,18,0,3.1,1750-03-08,23.2,H221
+Banstead,Town,Surrey,England,51.3219,-0.2046,18,0,3.1,1750-03-08,20.1,H221
+Reigate,Town,Surrey,England,51.2377,-0.2058,17,13,3.1,2019-02-27,8.7,M125959
+Oxted,Town,Surrey,England,51.258,-0.0038,17,0,3.1,2019-02-27,19.9,M125959
+Ewell,Town,Surrey,England,51.3495,-0.2493,18,0,3.1,1750-03-08,18.8,H221
+City of Westminster,City,Greater London,England,51.501,-0.1261,2,2,3.1,1750-03-08,2.2,H221
+Epsom,Town,Surrey,England,51.3332,-0.267,18,0,3.1,1750-03-08,21.0,H221
+City of London,City,Greater London,England,51.5144,-0.0923,2,2,3.1,1750-03-08,2.8,H221
+London,City,Greater London,England,51.5074,-0.1277,2,2,3.1,1750-03-08,2.7,H221
+Newhaven,Town,East Sussex,England,50.7935,0.0471,2,0,3.1,1864-08-21,10.6,H229
+Hailsham,Town,East Sussex,England,50.8647,0.2579,1,0,3.1,1864-08-21,22.4,H229
+Lewes,Town,East Sussex,England,50.8731,0.0104,2,1,3.1,1864-08-21,5.2,H229
+Polegate,Town,East Sussex,England,50.8218,0.2442,1,0,3.1,1864-08-21,21.8,H229
+Peacehaven,Town,East Sussex,England,50.7957,0.0022,2,1,3.1,1864-08-21,8.4,H229
+Heathfield,Town,East Sussex,England,50.9714,0.2508,2,0,1.6,2018-04-08,21.1,M125843
+Royal Tunbridge Wells,Town,Kent,England,51.1333,0.2635,2,0,1.6,2016-01-07,23.8,M125575
+Uckfield,Town,East Sussex,England,50.9695,0.0959,3,0,3.1,1864-08-21,16.4,H229
+Crowborough,Town,East Sussex,England,51.0606,0.1617,2,0,1.6,2018-04-08,16.3,M125843
+Edenbridge,Town,Kent,England,51.1965,0.065,18,1,3.1,2019-02-27,22.0,M125959
+Southborough,Town,Kent,England,51.1605,0.2572,3,0,1.8,2020-12-19,23.4,M126172
+Sevenoaks,Town,Kent,England,51.2705,0.192,3,0,1.8,2020-12-19,21.1,M126172
+Westerham,Town,Kent,England,51.267,0.0718,9,0,3.1,2019-02-27,25.0,M125959
+Tonbridge,Town,Kent,England,51.1925,0.2722,3,0,1.8,2020-12-19,20.2,M126172
+Swanley,Town,Kent,England,51.3976,0.1727,3,0,3.1,1750-03-08,21.6,H221
+Swanscombe,Town,Kent,England,51.4531,0.2844,2,0,1.8,2020-12-19,20.9,M126172
+Dartford,Town,Kent,England,51.4561,0.2467,3,0,3.1,1750-03-08,24.4,H221
+Loughton,Town,Essex,England,51.6561,0.0669,2,0,3.1,1750-03-08,21.8,H221
+Brentwood,Town,Essex,England,51.6214,0.3057,1,0,2.6,2023-02-09,19.5,M126465
+Chigwell,Town,Essex,England,51.6196,0.0756,2,0,3.1,1750-03-08,18.9,H221
+Battle,Town,East Sussex,England,50.9185,0.4823,0,0,,,,
+Bexhill-on-Sea,Town,East Sussex,England,50.8416,0.4715,0,0,,,,
+Wadhurst,Town,East Sussex,England,51.0663,0.328,1,0,1.3,1996-08-15,20.8,M123465
+West Malling,Town,Kent,England,51.2947,0.4088,2,2,1.8,2020-12-19,5.9,M126172
+Maidstone,Town,Kent,England,51.273,0.5206,2,2,1.8,2020-12-19,5.1,M126172
+Paddock Wood,Town,Kent,England,51.1815,0.3892,3,0,1.8,2020-12-19,16.2,M126172
+Tilbury,Town,Thurrock,England,51.4616,0.3636,2,0,1.8,2020-12-19,18.5,M126172
+Northfleet,Town,Kent,England,51.4392,0.3462,2,0,1.8,2020-12-19,17.0,M126172
+Rochester,Town,Medway,England,51.3898,0.5036,2,1,1.8,2020-12-19,8.5,M126172
+Gravesend,Town,Kent,England,51.4425,0.3694,2,0,1.8,2020-12-19,16.5,M126172
+Gillingham,Town,Medway,England,51.3692,0.5786,2,1,1.8,2020-12-19,8.9,M126172
+Grays,Town,Thurrock,England,51.4793,0.3261,1,0,1.8,2020-12-19,21.5,M126172
+Snodland,Town,Kent,England,51.3301,0.4425,2,2,1.8,2020-12-19,3.6,M126172
+Chatham,Town,Medway,England,51.3849,0.5255,2,1,1.8,2020-12-19,8.3,M126172
+Canvey Island,Town,Essex,England,51.523,0.5924,3,0,2.6,2023-02-09,16.3,M126465
+Stanford-le-Hope,Town,Thurrock,England,51.5254,0.449,3,0,2.6,2023-02-09,18.3,M126465
+Basildon,Town,Essex,England,51.5707,0.4524,2,0,2.6,2023-02-09,13.9,M126465
+Billericay,Town,Essex,England,51.6246,0.4166,2,0,2.6,2023-02-09,12.2,M126465
+Wickford,Town,Essex,England,51.6132,0.5208,2,1,2.6,2023-02-09,7.3,M126465
+Hastings,Town,East Sussex,England,50.8563,0.5812,0,0,,,,
+Tenterden,Town,Kent,England,51.0673,0.6842,0,0,,,,
+Rye,Town,East Sussex,England,50.9511,0.7336,0,0,,,,
+Sheerness,Town,Kent,England,51.4399,0.7623,3,0,1.9,2015-04-23,24.5,M125469
+Queenborough,Town,Kent,England,51.4153,0.751,2,0,1.8,2020-12-19,21.6,M126172
+Sittingbourne,Town,Kent,England,51.34,0.7358,2,0,1.8,2020-12-19,17.6,M126172
+Minster,Town,Kent,England,51.4218,0.811,0,0,,,,
+Southminster,Town,Essex,England,51.6623,0.83,3,0,4.6,1884-04-22,18.2,H57
+South Woodham Ferrers,Town,Essex,England,51.645,0.6217,2,2,2.6,2023-02-09,4.1,M126465
+Rochford,Town,Essex,England,51.5823,0.7072,2,1,2.6,2023-02-09,13.2,M126465
+Burnham-on-Crouch,Town,Essex,England,51.6253,0.8177,3,0,4.6,1884-04-22,22.4,H57
+Southend-on-Sea,City,Southend-on-Sea,England,51.5401,0.7114,2,0,2.6,2023-02-09,17.1,M126465
+Rayleigh,Town,Essex,England,51.5867,0.6062,2,2,2.6,2023-02-09,9.4,M126465
+Hythe,Town,Kent,England,51.0714,1.0829,8,7,4.3,2007-04-28,6.9,M124597
+Lydd,Town,Kent,England,50.9508,0.9064,6,0,4.3,2007-04-28,24.9,M124597
+New Romney,Town,Kent,England,50.9858,0.9402,7,0,4.3,2007-04-28,20.6,M124597
+Ashford,Town,Kent,England,51.1484,0.8711,8,0,4.3,2007-04-28,21.5,M124597
+Fordwich,Town,Kent,England,51.2953,1.1261,11,2,4.3,2007-04-28,21.7,M124597
+Canterbury,City,Kent,England,51.2797,1.0789,10,1,4.3,2007-04-28,20.8,M124597
+Kennington,Town,Kent,England,51.1685,0.8928,8,0,4.3,2007-04-28,20.7,M124597
+Faversham,Town,Kent,England,51.3153,0.8918,2,0,3.0,1933-04-23,16.9,H271
+Whitstable,Town,Kent,England,51.3585,1.0247,3,0,3.0,1933-04-23,10.6,H271
+Herne Bay,Town,Kent,England,51.3713,1.1263,4,1,4.2,2015-05-22,23.4,M125477
+Folkestone,Town,Kent,England,51.0817,1.1803,8,7,4.3,2007-04-28,2.4,M124597
+Deal,Town,Kent,England,51.2227,1.4,19,1,5.8,1580-04-06,22.9,H3
+Sandwich,Town,Kent,England,51.2749,1.3397,13,2,4.3,2007-04-28,22.6,M124597
+Dover,Town,Kent,England,51.1281,1.3084,18,1,5.8,1580-04-06,21.8,H3
+Broadstairs,Town,Kent,England,51.3595,1.4374,7,2,4.2,2015-05-22,4.8,M125477
+Ramsgate,Town,Kent,England,51.3347,1.418,7,1,4.2,2015-05-22,3.0,M125477
+Margate,Town,Kent,England,51.3874,1.3808,7,3,4.2,2015-05-22,9.2,M125477
+Seaford,Town,East Sussex,England,50.7703,0.1011,2,0,3.1,1864-08-21,15.1,H229
+Eastbourne,Town,East Sussex,England,50.7664,0.2781,1,0,2.9,2024-01-18,23.2,M127601

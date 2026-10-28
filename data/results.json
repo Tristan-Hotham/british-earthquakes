@@ -1,0 +1,4442 @@
+{
+ "counts": {
+  "historical": 471,
+  "historical_br": 436,
+  "historical_nomag": 5,
+  "modern_raw": 7834,
+  "modern_dupes": 1273,
+  "modern": 6561,
+  "modern_br": 5077,
+  "total": 7032,
+  "total_br": 5513,
+  "onshore": 4860,
+  "coast": 653,
+  "offshore": 1476,
+  "ireland": 32,
+  "first_date": "1382-05-21",
+  "first_year": 1382,
+  "last_date": "2024-09-02",
+  "last_year": 2024,
+  "modern_min_mag": 1.0,
+  "years_1980": 44.67,
+  "by_country": {
+   "England": 2426,
+   "Scotland": 2342,
+   "Wales": 745
+  },
+  "last_date_text": "2 September 2024",
+  "offshore_nns": 942
+ },
+ "biggest_all": [
+  {
+   "id": "H1",
+   "date": "1931-06-07",
+   "year": 1931,
+   "mag": 6.1,
+   "mag_type": "ML",
+   "intensity": "6-7",
+   "depth": 23.0,
+   "locality": "North Sea",
+   "zone": "Offshore",
+   "near_town": "Withernsea",
+   "near_town_km": 104.0,
+   "near_place": "Out Newton",
+   "lat": 54.08,
+   "lon": 1.5,
+   "cat": "historical"
+  },
+  {
+   "id": "H2",
+   "date": "1382-05-21",
+   "year": 1382,
+   "mag": 5.8,
+   "mag_type": "MGMC",
+   "intensity": "7-8",
+   "depth": 25.0,
+   "locality": "Dover Straits",
+   "zone": "Offshore",
+   "near_town": "Broadstairs",
+   "near_town_km": 39.1,
+   "near_place": "Broadstairs",
+   "lat": 51.34,
+   "lon": 2.0,
+   "cat": "historical"
+  },
+  {
+   "id": "H3",
+   "date": "1580-04-06",
+   "year": 1580,
+   "mag": 5.8,
+   "mag_type": "MGMC",
+   "intensity": "8",
+   "depth": 22.0,
+   "locality": "Dover Straits",
+   "zone": "Britain coast (within 20 km)",
+   "near_town": "Dover",
+   "near_town_km": 21.8,
+   "near_place": "St Margaret's at Cliffe",
+   "lat": 51.06,
+   "lon": 1.6,
+   "cat": "historical"
+  },
+  {
+   "id": "H4",
+   "date": "1692-09-08",
+   "year": 1692,
+   "mag": 5.8,
+   "mag_type": "MGMC",
+   "intensity": "7-8",
+   "depth": null,
+   "locality": "Brabant",
+   "zone": "Continent",
+   "near_town": "Deal",
+   "near_town_km": 252.3,
+   "near_place": "Kingsdown",
+   "lat": 50.8,
+   "lon": 4.93,
+   "cat": "historical"
+  },
+  {
+   "id": "H5",
+   "date": "1938-06-11",
+   "year": 1938,
+   "mag": 5.8,
+   "mag_type": "ML",
+   "intensity": "7-8",
+   "depth": null,
+   "locality": "Belgium",
+   "zone": "Continent",
+   "near_town": "Deal",
+   "near_town_km": 160.7,
+   "near_place": "Kingsdown",
+   "lat": 50.78,
+   "lon": 3.58,
+   "cat": "historical"
+  },
+  {
+   "id": "H6",
+   "date": "1927-01-24",
+   "year": 1927,
+   "mag": 5.7,
+   "mag_type": "ML",
+   "intensity": "5",
+   "depth": 25.0,
+   "locality": "North Sea",
+   "zone": "Offshore",
+   "near_town": "Lerwick",
+   "near_town_km": 221.4,
+   "near_place": "Bruray",
+   "lat": 59.68,
+   "lon": 2.7,
+   "cat": "historical"
+  },
+  {
+   "id": "M122154",
+   "date": "1989-01-23",
+   "year": 1989,
+   "mag": 5.6,
+   "mag_type": "ML",
+   "intensity": "4",
+   "depth": 191.2,
+   "locality": "",
+   "zone": "Offshore",
+   "near_town": "Lerwick",
+   "near_town_km": 336.6,
+   "near_place": "Skaw",
+   "lat": 61.876,
+   "lon": 3.974,
+   "cat": "modern"
+  },
+  {
+   "id": "H7",
+   "date": "1926-07-30",
+   "year": 1926,
+   "mag": 5.5,
+   "mag_type": "ML",
+   "intensity": "6-7",
+   "depth": 18.0,
+   "locality": "Channel Islands",
+   "zone": "Offshore",
+   "near_town": "Ventnor",
+   "near_town_km": 161.1,
+   "near_place": "The Orchard",
+   "lat": 49.17,
+   "lon": -1.62,
+   "cat": "historical"
+  },
+  {
+   "id": "H8",
+   "date": "1927-02-17",
+   "year": 1927,
+   "mag": 5.4,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 22.0,
+   "locality": "Channel Islands",
+   "zone": "Offshore",
+   "near_town": "Ventnor",
+   "near_town_km": 161.1,
+   "near_place": "The Orchard",
+   "lat": 49.17,
+   "lon": -1.62,
+   "cat": "historical"
+  },
+  {
+   "id": "H9",
+   "date": "1959-01-02",
+   "year": 1959,
+   "mag": 5.4,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": null,
+   "locality": "Brittany",
+   "zone": "Continent",
+   "near_town": "Salcombe",
+   "near_town_km": 247.9,
+   "near_place": "Housel Bay",
+   "lat": 48.01,
+   "lon": -3.93,
+   "cat": "historical"
+  },
+  {
+   "id": "H10",
+   "date": "1449-04-23",
+   "year": 1449,
+   "mag": 5.3,
+   "mag_type": "MGMC",
+   "intensity": "5-6",
+   "depth": null,
+   "locality": "Flanders",
+   "zone": "Offshore",
+   "near_town": "Broadstairs",
+   "near_town_km": 55.3,
+   "near_place": "Kingsgate",
+   "lat": 51.57,
+   "lon": 2.16,
+   "cat": "historical"
+  },
+  {
+   "id": "H11",
+   "date": "1852-11-09",
+   "year": 1852,
+   "mag": 5.3,
+   "mag_type": "MGMC",
+   "intensity": "6",
+   "depth": 24.0,
+   "locality": "Caernarvon",
+   "zone": "Britain onshore",
+   "near_town": "Rhosgadfan",
+   "near_town_km": 9.0,
+   "near_place": "Nasareth",
+   "lat": 53.02,
+   "lon": -4.3,
+   "cat": "historical"
+  }
+ ],
+ "biggest_br": [
+  {
+   "id": "H3",
+   "date": "1580-04-06",
+   "year": 1580,
+   "mag": 5.8,
+   "mag_type": "MGMC",
+   "intensity": "8",
+   "depth": 22.0,
+   "locality": "Dover Straits",
+   "zone": "Britain coast (within 20 km)",
+   "near_town": "Dover",
+   "near_town_km": 21.8,
+   "near_place": "St Margaret's at Cliffe",
+   "lat": 51.06,
+   "lon": 1.6,
+   "cat": "historical"
+  },
+  {
+   "id": "H11",
+   "date": "1852-11-09",
+   "year": 1852,
+   "mag": 5.3,
+   "mag_type": "MGMC",
+   "intensity": "6",
+   "depth": 24.0,
+   "locality": "Caernarvon",
+   "zone": "Britain onshore",
+   "near_town": "Rhosgadfan",
+   "near_town_km": 9.0,
+   "near_place": "Nasareth",
+   "lat": 53.02,
+   "lon": -4.3,
+   "cat": "historical"
+  },
+  {
+   "id": "H12",
+   "date": "1896-12-17",
+   "year": 1896,
+   "mag": 5.3,
+   "mag_type": "MGMC",
+   "intensity": "7",
+   "depth": 20.0,
+   "locality": "Hereford",
+   "zone": "Britain onshore",
+   "near_town": "Ledbury",
+   "near_town_km": 8.9,
+   "near_place": "Woolhope Cockshoot",
+   "lat": 52.02,
+   "lon": -2.55,
+   "cat": "historical"
+  },
+  {
+   "id": "H13",
+   "date": "1957-02-11",
+   "year": 1957,
+   "mag": 5.3,
+   "mag_type": "ML",
+   "intensity": "6-7",
+   "depth": 13.0,
+   "locality": "Derby",
+   "zone": "Britain onshore",
+   "near_town": "Shepshed",
+   "near_town_km": 6.0,
+   "near_place": "Diseworth",
+   "lat": 52.82,
+   "lon": -1.33,
+   "cat": "historical"
+  },
+  {
+   "id": "H14",
+   "date": "1690-10-07",
+   "year": 1690,
+   "mag": 5.2,
+   "mag_type": "MGMC",
+   "intensity": "5-6",
+   "depth": null,
+   "locality": "Caernarvon",
+   "zone": "Britain onshore",
+   "near_town": "Criccieth",
+   "near_town_km": 9.3,
+   "near_place": "Llanfihangel-y-pennant",
+   "lat": 53.0,
+   "lon": -4.2,
+   "cat": "historical"
+  },
+  {
+   "id": "H15",
+   "date": "1727-07-19",
+   "year": 1727,
+   "mag": 5.2,
+   "mag_type": "MGMC",
+   "intensity": "7",
+   "depth": 25.0,
+   "locality": "Swansea",
+   "zone": "Britain onshore",
+   "near_town": "Port Talbot",
+   "near_town_km": 3.3,
+   "near_place": "Margam",
+   "lat": 51.57,
+   "lon": -3.76,
+   "cat": "historical"
+  },
+  {
+   "id": "H17",
+   "date": "1863-10-06",
+   "year": 1863,
+   "mag": 5.2,
+   "mag_type": "MGMC",
+   "intensity": "6",
+   "depth": 25.0,
+   "locality": "Hereford",
+   "zone": "Britain onshore",
+   "near_town": "Hereford",
+   "near_town_km": 8.4,
+   "near_place": "Winnal",
+   "lat": 52.0,
+   "lon": -2.8,
+   "cat": "historical"
+  },
+  {
+   "id": "H18",
+   "date": "1880-11-28",
+   "year": 1880,
+   "mag": 5.2,
+   "mag_type": "MGMC",
+   "intensity": "5",
+   "depth": 25.0,
+   "locality": "Argyll",
+   "zone": "Britain onshore",
+   "near_town": "Inveraray",
+   "near_town_km": 14.7,
+   "near_place": "Eredine",
+   "lat": 56.19,
+   "lon": -5.3,
+   "cat": "historical"
+  },
+  {
+   "id": "H20",
+   "date": "1906-06-27",
+   "year": 1906,
+   "mag": 5.2,
+   "mag_type": "ML",
+   "intensity": "7",
+   "depth": 13.0,
+   "locality": "Swansea",
+   "zone": "Britain onshore",
+   "near_town": "Port Talbot",
+   "near_town_km": 3.3,
+   "near_place": "Baglan",
+   "lat": 51.62,
+   "lon": -3.81,
+   "cat": "historical"
+  },
+  {
+   "id": "M121149",
+   "date": "1984-07-19",
+   "year": 1984,
+   "mag": 5.2,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 2.9,
+   "locality": "",
+   "zone": "Britain coast (within 20 km)",
+   "near_town": "Nefyn",
+   "near_town_km": 7.3,
+   "near_place": "Trefor",
+   "lat": 53.0,
+   "lon": -4.5,
+   "cat": "modern"
+  },
+  {
+   "id": "M124671",
+   "date": "2008-02-27",
+   "year": 2008,
+   "mag": 5.2,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 17.8,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Market Rasen",
+   "near_town_km": 1.4,
+   "near_place": "Market Rasen",
+   "lat": 53.4,
+   "lon": -0.332,
+   "cat": "modern"
+  },
+  {
+   "id": "H22",
+   "date": "1775-09-08",
+   "year": 1775,
+   "mag": 5.1,
+   "mag_type": "MGMC",
+   "intensity": "6-7",
+   "depth": 19.0,
+   "locality": "Swansea",
+   "zone": "Britain onshore",
+   "near_town": "Pontardawe",
+   "near_town_km": 3.0,
+   "near_place": "Cilybebyll",
+   "lat": 51.73,
+   "lon": -3.81,
+   "cat": "historical"
+  },
+  {
+   "id": "H23",
+   "date": "1816-08-13",
+   "year": 1816,
+   "mag": 5.1,
+   "mag_type": "MGMC",
+   "intensity": "7",
+   "depth": 18.0,
+   "locality": "Inverness",
+   "zone": "Britain onshore",
+   "near_town": "Inverness",
+   "near_town_km": 8.4,
+   "near_place": "Kirkton",
+   "lat": 57.43,
+   "lon": -4.33,
+   "cat": "historical"
+  },
+  {
+   "id": "H24",
+   "date": "1892-08-18",
+   "year": 1892,
+   "mag": 5.1,
+   "mag_type": "MGMC",
+   "intensity": "6",
+   "depth": 26.0,
+   "locality": "Pembroke",
+   "zone": "Britain coast (within 20 km)",
+   "near_town": "Milford Haven",
+   "near_town_km": 1.5,
+   "near_place": "Hakin",
+   "lat": 51.7,
+   "lon": -5.04,
+   "cat": "historical"
+  },
+  {
+   "id": "M122420",
+   "date": "1990-04-02",
+   "year": 1990,
+   "mag": 5.1,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 14.1,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Bishop's Castle",
+   "near_town_km": 6.8,
+   "near_place": "Bicton",
+   "lat": 52.436,
+   "lon": -3.033,
+   "cat": "modern"
+  }
+ ],
+ "biggest_onshore": [
+  {
+   "id": "H11",
+   "date": "1852-11-09",
+   "year": 1852,
+   "mag": 5.3,
+   "mag_type": "MGMC",
+   "intensity": "6",
+   "depth": 24.0,
+   "locality": "Caernarvon",
+   "zone": "Britain onshore",
+   "near_town": "Rhosgadfan",
+   "near_town_km": 9.0,
+   "near_place": "Nasareth",
+   "lat": 53.02,
+   "lon": -4.3,
+   "cat": "historical"
+  },
+  {
+   "id": "H12",
+   "date": "1896-12-17",
+   "year": 1896,
+   "mag": 5.3,
+   "mag_type": "MGMC",
+   "intensity": "7",
+   "depth": 20.0,
+   "locality": "Hereford",
+   "zone": "Britain onshore",
+   "near_town": "Ledbury",
+   "near_town_km": 8.9,
+   "near_place": "Woolhope Cockshoot",
+   "lat": 52.02,
+   "lon": -2.55,
+   "cat": "historical"
+  },
+  {
+   "id": "H13",
+   "date": "1957-02-11",
+   "year": 1957,
+   "mag": 5.3,
+   "mag_type": "ML",
+   "intensity": "6-7",
+   "depth": 13.0,
+   "locality": "Derby",
+   "zone": "Britain onshore",
+   "near_town": "Shepshed",
+   "near_town_km": 6.0,
+   "near_place": "Diseworth",
+   "lat": 52.82,
+   "lon": -1.33,
+   "cat": "historical"
+  },
+  {
+   "id": "H14",
+   "date": "1690-10-07",
+   "year": 1690,
+   "mag": 5.2,
+   "mag_type": "MGMC",
+   "intensity": "5-6",
+   "depth": null,
+   "locality": "Caernarvon",
+   "zone": "Britain onshore",
+   "near_town": "Criccieth",
+   "near_town_km": 9.3,
+   "near_place": "Llanfihangel-y-pennant",
+   "lat": 53.0,
+   "lon": -4.2,
+   "cat": "historical"
+  },
+  {
+   "id": "H15",
+   "date": "1727-07-19",
+   "year": 1727,
+   "mag": 5.2,
+   "mag_type": "MGMC",
+   "intensity": "7",
+   "depth": 25.0,
+   "locality": "Swansea",
+   "zone": "Britain onshore",
+   "near_town": "Port Talbot",
+   "near_town_km": 3.3,
+   "near_place": "Margam",
+   "lat": 51.57,
+   "lon": -3.76,
+   "cat": "historical"
+  },
+  {
+   "id": "H17",
+   "date": "1863-10-06",
+   "year": 1863,
+   "mag": 5.2,
+   "mag_type": "MGMC",
+   "intensity": "6",
+   "depth": 25.0,
+   "locality": "Hereford",
+   "zone": "Britain onshore",
+   "near_town": "Hereford",
+   "near_town_km": 8.4,
+   "near_place": "Winnal",
+   "lat": 52.0,
+   "lon": -2.8,
+   "cat": "historical"
+  },
+  {
+   "id": "H18",
+   "date": "1880-11-28",
+   "year": 1880,
+   "mag": 5.2,
+   "mag_type": "MGMC",
+   "intensity": "5",
+   "depth": 25.0,
+   "locality": "Argyll",
+   "zone": "Britain onshore",
+   "near_town": "Inveraray",
+   "near_town_km": 14.7,
+   "near_place": "Eredine",
+   "lat": 56.19,
+   "lon": -5.3,
+   "cat": "historical"
+  },
+  {
+   "id": "H20",
+   "date": "1906-06-27",
+   "year": 1906,
+   "mag": 5.2,
+   "mag_type": "ML",
+   "intensity": "7",
+   "depth": 13.0,
+   "locality": "Swansea",
+   "zone": "Britain onshore",
+   "near_town": "Port Talbot",
+   "near_town_km": 3.3,
+   "near_place": "Baglan",
+   "lat": 51.62,
+   "lon": -3.81,
+   "cat": "historical"
+  },
+  {
+   "id": "M124671",
+   "date": "2008-02-27",
+   "year": 2008,
+   "mag": 5.2,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 17.8,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Market Rasen",
+   "near_town_km": 1.4,
+   "near_place": "Market Rasen",
+   "lat": 53.4,
+   "lon": -0.332,
+   "cat": "modern"
+  },
+  {
+   "id": "H22",
+   "date": "1775-09-08",
+   "year": 1775,
+   "mag": 5.1,
+   "mag_type": "MGMC",
+   "intensity": "6-7",
+   "depth": 19.0,
+   "locality": "Swansea",
+   "zone": "Britain onshore",
+   "near_town": "Pontardawe",
+   "near_town_km": 3.0,
+   "near_place": "Cilybebyll",
+   "lat": 51.73,
+   "lon": -3.81,
+   "cat": "historical"
+  }
+ ],
+ "biggest_modern_br": [
+  {
+   "id": "M121149",
+   "date": "1984-07-19",
+   "year": 1984,
+   "mag": 5.2,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 2.9,
+   "locality": "",
+   "zone": "Britain coast (within 20 km)",
+   "near_town": "Nefyn",
+   "near_town_km": 7.3,
+   "near_place": "Trefor",
+   "lat": 53.0,
+   "lon": -4.5,
+   "cat": "modern"
+  },
+  {
+   "id": "M124671",
+   "date": "2008-02-27",
+   "year": 2008,
+   "mag": 5.2,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 17.8,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Market Rasen",
+   "near_town_km": 1.4,
+   "near_place": "Market Rasen",
+   "lat": 53.4,
+   "lon": -0.332,
+   "cat": "modern"
+  },
+  {
+   "id": "M122420",
+   "date": "1990-04-02",
+   "year": 1990,
+   "mag": 5.1,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 14.1,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Bishop's Castle",
+   "near_town_km": 6.8,
+   "near_place": "Bicton",
+   "lat": 52.436,
+   "lon": -3.033,
+   "cat": "modern"
+  },
+  {
+   "id": "M120517",
+   "date": "1979-12-26",
+   "year": 1979,
+   "mag": 4.7,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": null,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Longtown",
+   "near_town_km": 5.1,
+   "near_place": "Kirklinton",
+   "lat": 55.016,
+   "lon": -2.894,
+   "cat": "modern"
+  },
+  {
+   "id": "M124081",
+   "date": "2002-09-22",
+   "year": 2002,
+   "mag": 4.7,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 14.0,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Sedgley",
+   "near_town_km": 2.7,
+   "near_place": "Gospel End",
+   "lat": 52.533,
+   "lon": -2.159,
+   "cat": "modern"
+  },
+  {
+   "id": "M125814",
+   "date": "2018-02-17",
+   "year": 2018,
+   "mag": 4.6,
+   "mag_type": "ML",
+   "intensity": "5",
+   "depth": 7.5,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Pontardawe",
+   "near_town_km": 5.2,
+   "near_place": "Pen-Rhiw-fawr",
+   "lat": 51.767,
+   "lon": -3.833,
+   "cat": "modern"
+  },
+  {
+   "id": "M120309",
+   "date": "1976-11-03",
+   "year": 1976,
+   "mag": 4.5,
+   "mag_type": "ML",
+   "intensity": "",
+   "depth": null,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Billinge",
+   "near_town_km": 3.1,
+   "near_place": "Brownlow",
+   "lat": 53.516,
+   "lon": -2.738,
+   "cat": "modern"
+  },
+  {
+   "id": "M120162",
+   "date": "1974-08-10",
+   "year": 1974,
+   "mag": 4.4,
+   "mag_type": "ML",
+   "intensity": "",
+   "depth": 27.9,
+   "locality": "",
+   "zone": "Britain coast (within 20 km)",
+   "near_town": "Fort William",
+   "near_town_km": 72.8,
+   "near_place": "Kishorn",
+   "lat": 57.408,
+   "lon": -5.629,
+   "cat": "modern"
+  },
+  {
+   "id": "M121188",
+   "date": "1984-08-18",
+   "year": 1984,
+   "mag": 4.3,
+   "mag_type": "ML",
+   "intensity": "",
+   "depth": 22.7,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Pwllheli",
+   "near_town_km": 7.8,
+   "near_place": "Pencaenewydd",
+   "lat": 52.958,
+   "lon": -4.385,
+   "cat": "modern"
+  },
+  {
+   "id": "M124597",
+   "date": "2007-04-28",
+   "year": 2007,
+   "mag": 4.3,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 5.3,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Folkestone",
+   "near_town_km": 2.4,
+   "near_place": "Gibraltar",
+   "lat": 51.102,
+   "lon": 1.169,
+   "cat": "modern"
+  }
+ ],
+ "n_br_ge5": 19,
+ "n_br_ge4": 105,
+ "detection": {
+  "modern": [
+   {
+    "decade": 1970,
+    "n": 432,
+    "lt2": 298,
+    "m2_3": 89,
+    "m3_4": 37,
+    "ge4": 8,
+    "share_lt2": 0.69,
+    "median": 1.5
+   },
+   {
+    "decade": 1980,
+    "n": 1159,
+    "lt2": 952,
+    "m2_3": 187,
+    "m3_4": 16,
+    "ge4": 4,
+    "share_lt2": 0.821,
+    "median": 1.4
+   },
+   {
+    "decade": 1990,
+    "n": 1150,
+    "lt2": 1001,
+    "m2_3": 138,
+    "m3_4": 9,
+    "ge4": 2,
+    "share_lt2": 0.87,
+    "median": 1.4
+   },
+   {
+    "decade": 2000,
+    "n": 794,
+    "lt2": 588,
+    "m2_3": 177,
+    "m3_4": 25,
+    "ge4": 4,
+    "share_lt2": 0.741,
+    "median": 1.6
+   },
+   {
+    "decade": 2010,
+    "n": 1022,
+    "lt2": 862,
+    "m2_3": 141,
+    "m3_4": 15,
+    "ge4": 4,
+    "share_lt2": 0.843,
+    "median": 1.4
+   },
+   {
+    "decade": 2020,
+    "n": 520,
+    "lt2": 440,
+    "m2_3": 71,
+    "m3_4": 9,
+    "ge4": 0,
+    "share_lt2": 0.846,
+    "median": 1.3
+   }
+  ],
+  "historical": [
+   {
+    "period": "1350 to 1399",
+    "start": 1350,
+    "n": 0,
+    "ge4": 0,
+    "ge5": 0,
+    "lt4": 0
+   },
+   {
+    "period": "1400 to 1449",
+    "start": 1400,
+    "n": 0,
+    "ge4": 0,
+    "ge5": 0,
+    "lt4": 0
+   },
+   {
+    "period": "1450 to 1499",
+    "start": 1450,
+    "n": 0,
+    "ge4": 0,
+    "ge5": 0,
+    "lt4": 0
+   },
+   {
+    "period": "1500 to 1549",
+    "start": 1500,
+    "n": 1,
+    "ge4": 1,
+    "ge5": 0,
+    "lt4": 0
+   },
+   {
+    "period": "1550 to 1599",
+    "start": 1550,
+    "n": 8,
+    "ge4": 4,
+    "ge5": 2,
+    "lt4": 1
+   },
+   {
+    "period": "1600 to 1649",
+    "start": 1600,
+    "n": 3,
+    "ge4": 2,
+    "ge5": 0,
+    "lt4": 1
+   },
+   {
+    "period": "1650 to 1699",
+    "start": 1650,
+    "n": 7,
+    "ge4": 4,
+    "ge5": 1,
+    "lt4": 1
+   },
+   {
+    "period": "1700 to 1749",
+    "start": 1700,
+    "n": 10,
+    "ge4": 3,
+    "ge5": 1,
+    "lt4": 7
+   },
+   {
+    "period": "1750 to 1799",
+    "start": 1750,
+    "n": 39,
+    "ge4": 13,
+    "ge5": 2,
+    "lt4": 26
+   },
+   {
+    "period": "1800 to 1849",
+    "start": 1800,
+    "n": 91,
+    "ge4": 10,
+    "ge5": 1,
+    "lt4": 81
+   },
+   {
+    "period": "1850 to 1899",
+    "start": 1850,
+    "n": 122,
+    "ge4": 19,
+    "ge5": 6,
+    "lt4": 103
+   },
+   {
+    "period": "1900 to 1949",
+    "start": 1900,
+    "n": 134,
+    "ge4": 23,
+    "ge5": 2,
+    "lt4": 111
+   },
+   {
+    "period": "1950 to 1999",
+    "start": 1950,
+    "n": 21,
+    "ge4": 4,
+    "ge5": 1,
+    "lt4": 17
+   }
+  ],
+  "share_lt2_1970s": 0.69,
+  "share_lt2_1990s": 0.87,
+  "share_lt2_2010s": 0.843,
+  "n_1970s": 432,
+  "n_1980s": 1159,
+  "n_2010s": 1022,
+  "lt2_ratio_80s_70s": 3.19,
+  "ge3_by_decade": [
+   45,
+   20,
+   11,
+   29,
+   19,
+   9
+  ],
+  "lt2_1970s": 298,
+  "lt2_1980s": 952,
+  "hist_before1700": 19,
+  "hist_1800s": 213
+ },
+ "gr": {
+  "mc": 2.0,
+  "start": "1980-01-01",
+  "end": "2024-09-02",
+  "years": 44.67,
+  "n": 802,
+  "b": 0.92,
+  "b_ci": [
+   0.86,
+   0.99
+  ],
+  "b_se": 0.032,
+  "a": 3.095,
+  "rate_ge2": 17.95,
+  "rate_ge3": 2.16,
+  "rate_ge4": 0.259,
+  "ret4": 3.9,
+  "ret4_ci": [
+   2.9,
+   5.2
+  ],
+  "ret5": 32.0,
+  "ret5_ci": [
+   22.0,
+   50.0
+  ],
+  "ret6": 267.0,
+  "obs3": 88,
+  "obs4": 14,
+  "obs5": 3,
+  "obs3_rate": 1.97,
+  "obs4_ret": 3.2,
+  "obs5_ret": 14.9,
+  "hist4_1750_1969": 69,
+  "hist5_1750_1969": 12,
+  "hist4_ret": 3.2,
+  "hist5_ret": 18.3,
+  "all4_since1750": 91,
+  "all5_since1750": 15,
+  "years_since1750": 274.7,
+  "all4_ret": 3.0,
+  "all5_ret": 18.3,
+  "stability": [
+   {
+    "mc": 1.0,
+    "n": 4645,
+    "b": 0.729
+   },
+   {
+    "mc": 1.2,
+    "n": 3576,
+    "b": 0.798
+   },
+   {
+    "mc": 1.4,
+    "n": 2654,
+    "b": 0.87
+   },
+   {
+    "mc": 1.6,
+    "n": 1836,
+    "b": 0.905
+   },
+   {
+    "mc": 1.8,
+    "n": 1220,
+    "b": 0.918
+   },
+   {
+    "mc": 2.0,
+    "n": 802,
+    "b": 0.92
+   },
+   {
+    "mc": 2.2,
+    "n": 525,
+    "b": 0.925
+   },
+   {
+    "mc": 2.4,
+    "n": 333,
+    "b": 0.897
+   },
+   {
+    "mc": 2.6,
+    "n": 229,
+    "b": 0.933
+   },
+   {
+    "mc": 2.8,
+    "n": 149,
+    "b": 0.934
+   },
+   {
+    "mc": 3.0,
+    "n": 88,
+    "b": 0.834
+   }
+  ]
+ },
+ "magfreq": [
+  {
+   "mag": 1.0,
+   "n_ge": 4645,
+   "per_year": 103.983,
+   "n_eq": 565,
+   "fit_per_year": 149.4078
+  },
+  {
+   "mag": 1.1,
+   "n_ge": 4080,
+   "per_year": 91.3349,
+   "n_eq": 504,
+   "fit_per_year": 120.8791
+  },
+  {
+   "mag": 1.2,
+   "n_ge": 3576,
+   "per_year": 80.0523,
+   "n_eq": 477,
+   "fit_per_year": 97.7977
+  },
+  {
+   "mag": 1.3,
+   "n_ge": 3099,
+   "per_year": 69.3742,
+   "n_eq": 445,
+   "fit_per_year": 79.1237
+  },
+  {
+   "mag": 1.4,
+   "n_ge": 2654,
+   "per_year": 59.4124,
+   "n_eq": 451,
+   "fit_per_year": 64.0154
+  },
+  {
+   "mag": 1.5,
+   "n_ge": 2203,
+   "per_year": 49.3164,
+   "n_eq": 367,
+   "fit_per_year": 51.7919
+  },
+  {
+   "mag": 1.6,
+   "n_ge": 1836,
+   "per_year": 41.1007,
+   "n_eq": 330,
+   "fit_per_year": 41.9025
+  },
+  {
+   "mag": 1.7,
+   "n_ge": 1506,
+   "per_year": 33.7133,
+   "n_eq": 286,
+   "fit_per_year": 33.9014
+  },
+  {
+   "mag": 1.8,
+   "n_ge": 1220,
+   "per_year": 27.3109,
+   "n_eq": 242,
+   "fit_per_year": 27.4281
+  },
+  {
+   "mag": 1.9,
+   "n_ge": 978,
+   "per_year": 21.8935,
+   "n_eq": 176,
+   "fit_per_year": 22.1908
+  },
+  {
+   "mag": 2.0,
+   "n_ge": 802,
+   "per_year": 17.9536,
+   "n_eq": 146,
+   "fit_per_year": 17.9536
+  },
+  {
+   "mag": 2.1,
+   "n_ge": 656,
+   "per_year": 14.6852,
+   "n_eq": 131,
+   "fit_per_year": 14.5254
+  },
+  {
+   "mag": 2.2,
+   "n_ge": 525,
+   "per_year": 11.7527,
+   "n_eq": 100,
+   "fit_per_year": 11.7519
+  },
+  {
+   "mag": 2.3,
+   "n_ge": 425,
+   "per_year": 9.5141,
+   "n_eq": 92,
+   "fit_per_year": 9.5079
+  },
+  {
+   "mag": 2.4,
+   "n_ge": 333,
+   "per_year": 7.4545,
+   "n_eq": 68,
+   "fit_per_year": 7.6924
+  },
+  {
+   "mag": 2.5,
+   "n_ge": 265,
+   "per_year": 5.9323,
+   "n_eq": 36,
+   "fit_per_year": 6.2236
+  },
+  {
+   "mag": 2.6,
+   "n_ge": 229,
+   "per_year": 5.1264,
+   "n_eq": 45,
+   "fit_per_year": 5.0352
+  },
+  {
+   "mag": 2.7,
+   "n_ge": 184,
+   "per_year": 4.119,
+   "n_eq": 35,
+   "fit_per_year": 4.0738
+  },
+  {
+   "mag": 2.8,
+   "n_ge": 149,
+   "per_year": 3.3355,
+   "n_eq": 33,
+   "fit_per_year": 3.2959
+  },
+  {
+   "mag": 2.9,
+   "n_ge": 116,
+   "per_year": 2.5968,
+   "n_eq": 28,
+   "fit_per_year": 2.6666
+  },
+  {
+   "mag": 3.0,
+   "n_ge": 88,
+   "per_year": 1.97,
+   "n_eq": 17,
+   "fit_per_year": 2.1574
+  },
+  {
+   "mag": 3.1,
+   "n_ge": 71,
+   "per_year": 1.5894,
+   "n_eq": 12,
+   "fit_per_year": 1.7454
+  },
+  {
+   "mag": 3.2,
+   "n_ge": 59,
+   "per_year": 1.3208,
+   "n_eq": 9,
+   "fit_per_year": 1.4122
+  },
+  {
+   "mag": 3.3,
+   "n_ge": 50,
+   "per_year": 1.1193,
+   "n_eq": 9,
+   "fit_per_year": 1.1425
+  },
+  {
+   "mag": 3.4,
+   "n_ge": 41,
+   "per_year": 0.9178,
+   "n_eq": 7,
+   "fit_per_year": 0.9244
+  },
+  {
+   "mag": 3.5,
+   "n_ge": 34,
+   "per_year": 0.7611,
+   "n_eq": 6,
+   "fit_per_year": 0.7479
+  },
+  {
+   "mag": 3.6,
+   "n_ge": 28,
+   "per_year": 0.6268,
+   "n_eq": 5,
+   "fit_per_year": 0.6051
+  },
+  {
+   "mag": 3.7,
+   "n_ge": 23,
+   "per_year": 0.5149,
+   "n_eq": 4,
+   "fit_per_year": 0.4895
+  },
+  {
+   "mag": 3.8,
+   "n_ge": 19,
+   "per_year": 0.4253,
+   "n_eq": 3,
+   "fit_per_year": 0.3961
+  },
+  {
+   "mag": 3.9,
+   "n_ge": 16,
+   "per_year": 0.3582,
+   "n_eq": 2,
+   "fit_per_year": 0.3204
+  },
+  {
+   "mag": 4.0,
+   "n_ge": 14,
+   "per_year": 0.3134,
+   "n_eq": 4,
+   "fit_per_year": 0.2592
+  },
+  {
+   "mag": 4.1,
+   "n_ge": 10,
+   "per_year": 0.2239,
+   "n_eq": 1,
+   "fit_per_year": 0.2097
+  },
+  {
+   "mag": 4.2,
+   "n_ge": 9,
+   "per_year": 0.2015,
+   "n_eq": 2,
+   "fit_per_year": 0.1697
+  },
+  {
+   "mag": 4.3,
+   "n_ge": 7,
+   "per_year": 0.1567,
+   "n_eq": 2,
+   "fit_per_year": 0.1373
+  },
+  {
+   "mag": 4.4,
+   "n_ge": 5,
+   "per_year": 0.1119,
+   "n_eq": 0,
+   "fit_per_year": 0.1111
+  },
+  {
+   "mag": 4.5,
+   "n_ge": 5,
+   "per_year": 0.1119,
+   "n_eq": 0,
+   "fit_per_year": 0.0899
+  },
+  {
+   "mag": 4.6,
+   "n_ge": 5,
+   "per_year": 0.1119,
+   "n_eq": 1,
+   "fit_per_year": 0.0727
+  },
+  {
+   "mag": 4.7,
+   "n_ge": 4,
+   "per_year": 0.0895,
+   "n_eq": 1,
+   "fit_per_year": 0.0588
+  },
+  {
+   "mag": 4.8,
+   "n_ge": 3,
+   "per_year": 0.0672,
+   "n_eq": 0,
+   "fit_per_year": 0.0476
+  },
+  {
+   "mag": 4.9,
+   "n_ge": 3,
+   "per_year": 0.0672,
+   "n_eq": 0,
+   "fit_per_year": 0.0385
+  },
+  {
+   "mag": 5.0,
+   "n_ge": 3,
+   "per_year": 0.0672,
+   "n_eq": 0,
+   "fit_per_year": 0.0312
+  },
+  {
+   "mag": 5.1,
+   "n_ge": 3,
+   "per_year": 0.0672,
+   "n_eq": 1,
+   "fit_per_year": 0.0252
+  },
+  {
+   "mag": 5.2,
+   "n_ge": 2,
+   "per_year": 0.0448,
+   "n_eq": 2,
+   "fit_per_year": 0.0204
+  },
+  {
+   "mag": 5.3,
+   "n_ge": 0,
+   "per_year": 0.0,
+   "n_eq": 0,
+   "fit_per_year": 0.0165
+  }
+ ],
+ "coal": {
+  "features": 2574,
+  "land_share": 0.095,
+  "periods": [
+   {
+    "start": 1970,
+    "label": "1970 to 1974",
+    "n": 108,
+    "near": 41,
+    "share": 0.38
+   },
+   {
+    "start": 1975,
+    "label": "1975 to 1979",
+    "n": 284,
+    "near": 130,
+    "share": 0.458
+   },
+   {
+    "start": 1980,
+    "label": "1980 to 1984",
+    "n": 487,
+    "near": 199,
+    "share": 0.409
+   },
+   {
+    "start": 1985,
+    "label": "1985 to 1989",
+    "n": 560,
+    "near": 203,
+    "share": 0.362
+   },
+   {
+    "start": 1990,
+    "label": "1990 to 1994",
+    "n": 606,
+    "near": 288,
+    "share": 0.475
+   },
+   {
+    "start": 1995,
+    "label": "1995 to 1999",
+    "n": 424,
+    "near": 156,
+    "share": 0.368
+   },
+   {
+    "start": 2000,
+    "label": "2000 to 2004",
+    "n": 438,
+    "near": 186,
+    "share": 0.425
+   },
+   {
+    "start": 2005,
+    "label": "2005 to 2009",
+    "n": 266,
+    "near": 61,
+    "share": 0.229
+   },
+   {
+    "start": 2010,
+    "label": "2010 to 2014",
+    "n": 443,
+    "near": 196,
+    "share": 0.442
+   },
+   {
+    "start": 2015,
+    "label": "2015 to 2019",
+    "n": 426,
+    "near": 82,
+    "share": 0.192
+   },
+   {
+    "start": 2020,
+    "label": "2020 to 2024",
+    "n": 434,
+    "near": 64,
+    "share": 0.147
+   }
+  ],
+  "share_to2014": 0.404,
+  "n_to2014": 3616,
+  "near_to2014": 1460,
+  "share_2015on": 0.17,
+  "n_2015on": 860,
+  "near_2015on": 146,
+  "share_2020on": 0.147,
+  "depth_near_median": 1.7,
+  "depth_far_median": 7.4,
+  "weekend_near": 0.192,
+  "weekend_far": 0.268,
+  "weekend_expected": 0.286,
+  "weekend_near_n": 1460,
+  "weekend_p": 1.8138961992620918e-16
+ },
+ "southeast": {
+  "events": 162,
+  "share_events": 0.029,
+  "share_land": 0.166,
+  "events_modern": 135,
+  "share_events_modern": 0.027
+ },
+ "onshore_since_2008_max": 4.6,
+ "hotspots": [
+  {
+   "n": 239,
+   "max_mag": 2.6,
+   "first": 1970,
+   "last": 1997,
+   "median_year": 1979.0,
+   "median_depth": 0.1,
+   "near_coal": 0.99,
+   "town": "Bonnyrigg",
+   "lon": -3.122,
+   "lat": 55.918
+  },
+  {
+   "n": 237,
+   "max_mag": 3.4,
+   "first": 1973,
+   "last": 2024,
+   "median_year": 1981.0,
+   "median_depth": 3.8499999999999996,
+   "near_coal": 0.93,
+   "town": "Kidsgrove",
+   "lon": -2.151,
+   "lat": 53.047
+  },
+  {
+   "n": 207,
+   "max_mag": 2.2,
+   "first": 1970,
+   "last": 2024,
+   "median_year": 1991.0,
+   "median_depth": 0.1,
+   "near_coal": 0.98,
+   "town": "Clackmannan",
+   "lon": -3.769,
+   "lat": 56.09
+  },
+  {
+   "n": 187,
+   "max_mag": 2.2,
+   "first": 1982,
+   "last": 2014,
+   "median_year": 2014.0,
+   "median_depth": 1.2,
+   "near_coal": 0.96,
+   "town": "Market Warsop",
+   "lon": -0.953,
+   "lat": 53.222
+  },
+  {
+   "n": 101,
+   "max_mag": 3.2,
+   "first": 1975,
+   "last": 2019,
+   "median_year": 2002.0,
+   "median_depth": 5.0,
+   "near_coal": 0.95,
+   "town": "Droylsden",
+   "lon": -2.152,
+   "lat": 53.407
+  },
+  {
+   "n": 95,
+   "max_mag": 3.2,
+   "first": 1972,
+   "last": 2021,
+   "median_year": 1997.0,
+   "median_depth": 5.2,
+   "near_coal": 0.01,
+   "town": "Auchterarder",
+   "lon": -3.778,
+   "lat": 56.27
+  },
+  {
+   "n": 91,
+   "max_mag": 2.3,
+   "first": 1987,
+   "last": 2015,
+   "median_year": 1991.0,
+   "median_depth": 0.1,
+   "near_coal": 1.0,
+   "town": "Shirebrook",
+   "lon": -1.253,
+   "lat": 53.225
+  },
+  {
+   "n": 80,
+   "max_mag": 2.8,
+   "first": 1981,
+   "last": 2019,
+   "median_year": 1998.0,
+   "median_depth": 0.2,
+   "near_coal": 1.0,
+   "town": "Maltby",
+   "lon": -1.249,
+   "lat": 53.404
+  },
+  {
+   "n": 73,
+   "max_mag": 5.2,
+   "first": 1984,
+   "last": 2018,
+   "median_year": 1985.0,
+   "median_depth": 20.6,
+   "near_coal": 0.0,
+   "town": "Nefyn",
+   "lon": -4.536,
+   "lat": 53.02
+  },
+  {
+   "n": 71,
+   "max_mag": 3.6,
+   "first": 1984,
+   "last": 2019,
+   "median_year": 1986.0,
+   "median_depth": 20.7,
+   "near_coal": 0.0,
+   "town": "Criccieth",
+   "lon": -4.238,
+   "lat": 53.026
+  },
+  {
+   "n": 60,
+   "max_mag": 2.6,
+   "first": 1981,
+   "last": 2018,
+   "median_year": 1998.0,
+   "median_depth": 0.1,
+   "near_coal": 0.15,
+   "town": "Stone",
+   "lon": -2.15,
+   "lat": 52.867
+  },
+  {
+   "n": 57,
+   "max_mag": 3.4,
+   "first": 1974,
+   "last": 2024,
+   "median_year": 1980.0,
+   "median_depth": 4.9,
+   "near_coal": 0.0,
+   "town": "Fort William",
+   "lon": -5.472,
+   "lat": 57.133
+  },
+  {
+   "n": 56,
+   "max_mag": 4.7,
+   "first": 1979,
+   "last": 2019,
+   "median_year": 1980.0,
+   "median_depth": 5.2,
+   "near_coal": 0.0,
+   "town": "Longtown",
+   "lon": -2.784,
+   "lat": 55.022
+  },
+  {
+   "n": 52,
+   "max_mag": 2.6,
+   "first": 1977,
+   "last": 2023,
+   "median_year": 1997.0,
+   "median_depth": 4.4,
+   "near_coal": 0.0,
+   "town": "Moffat",
+   "lon": -3.415,
+   "lat": 55.196
+  },
+  {
+   "n": 46,
+   "max_mag": 2.8,
+   "first": 1979,
+   "last": 2024,
+   "median_year": 2012.0,
+   "median_depth": 7.6,
+   "near_coal": 0.0,
+   "town": "Tobermory",
+   "lon": -5.747,
+   "lat": 56.585
+  }
+ ],
+ "hotspot_cells": 575,
+ "hotspot_top10_share": 0.272,
+ "hist_localities": [
+  {
+   "locality": "Caernarvon",
+   "n": 37
+  },
+  {
+   "locality": "Comrie",
+   "n": 33
+  },
+  {
+   "locality": "Inverness",
+   "n": 12
+  },
+  {
+   "locality": "Bethesda",
+   "n": 9
+  },
+  {
+   "locality": "Chichester",
+   "n": 8
+  },
+  {
+   "locality": "Appleby",
+   "n": 8
+  },
+  {
+   "locality": "Derby",
+   "n": 7
+  },
+  {
+   "locality": "Penpont",
+   "n": 7
+  },
+  {
+   "locality": "Dover Straits",
+   "n": 6
+  },
+  {
+   "locality": "Leadhills",
+   "n": 6
+  },
+  {
+   "locality": "Keswick",
+   "n": 6
+  },
+  {
+   "locality": "Hereford",
+   "n": 6
+  }
+ ],
+ "areas": [
+  {
+   "area": "Comrie",
+   "centre": "Comrie",
+   "radius_km": 10,
+   "n": 45,
+   "n_hist": 30,
+   "n_modern": 15,
+   "max_mag": 4.8,
+   "max_date": "1839-10-23",
+   "first": 1608,
+   "last": 2021,
+   "modern_median_year": 1990.0
+  },
+  {
+   "area": "Kidsgrove and Stoke",
+   "centre": "Kidsgrove",
+   "radius_km": 10,
+   "n": 210,
+   "n_hist": 0,
+   "n_modern": 210,
+   "max_mag": 3.0,
+   "max_date": "1980-08-07",
+   "first": 1980,
+   "last": 2024,
+   "modern_median_year": 1980.0
+  },
+  {
+   "area": "Ollerton and Mansfield coalfield",
+   "centre": "Ollerton",
+   "radius_km": 12,
+   "n": 240,
+   "n_hist": 0,
+   "n_modern": 240,
+   "max_mag": 2.3,
+   "max_date": "1987-08-05",
+   "first": 1982,
+   "last": 2015,
+   "modern_median_year": 2014.0
+  },
+  {
+   "area": "Midlothian coalfield",
+   "centre": "Bonnyrigg",
+   "radius_km": 10,
+   "n": 249,
+   "n_hist": 6,
+   "n_modern": 243,
+   "max_mag": 3.1,
+   "max_date": "1968-10-16",
+   "first": 1789,
+   "last": 2021,
+   "modern_median_year": 1979.0
+  },
+  {
+   "area": "Llŷn and Caernarfon",
+   "centre": "Pwllheli",
+   "radius_km": 20,
+   "n": 177,
+   "n_hist": 28,
+   "n_modern": 149,
+   "max_mag": 5.3,
+   "max_date": "1852-11-09",
+   "first": 1534,
+   "last": 2018,
+   "modern_median_year": 1986.0
+  },
+  {
+   "area": "Inverness and the Great Glen",
+   "centre": "Inverness",
+   "radius_km": 20,
+   "n": 16,
+   "n_hist": 11,
+   "n_modern": 5,
+   "max_mag": 5.1,
+   "max_date": "1816-08-13",
+   "first": 1768,
+   "last": 2021,
+   "modern_median_year": 2011.0
+  }
+ ],
+ "comrie": {
+  "hist": 30,
+  "hist_1839_1846": 19,
+  "modern": 15,
+  "max_mag": 4.8
+ },
+ "fracking": {
+  "near": [
+   {
+    "place": "Little Plumpton",
+    "n_5km": 1,
+    "years": [
+     2023
+    ]
+   },
+   {
+    "place": "Weeton",
+    "n_5km": 1,
+    "years": [
+     2023
+    ]
+   }
+  ],
+  "n_2011": 0,
+  "n_2018_2019": 0
+ },
+ "stories": {
+  "1382_Dover_Straits": {
+   "label": "1382 Dover Straits",
+   "id": "H2",
+   "date": "1382-05-21",
+   "year": 1382,
+   "mag": 5.8,
+   "mag_type": "MGMC",
+   "intensity": "7-8",
+   "depth": 25.0,
+   "locality": "Dover Straits",
+   "zone": "Offshore",
+   "near_town": "Broadstairs",
+   "near_town_km": 39.1,
+   "near_place": "Broadstairs",
+   "lat": 51.34,
+   "lon": 2.0,
+   "cat": "historical"
+  },
+  "1580_Dover_Straits": {
+   "label": "1580 Dover Straits",
+   "id": "H3",
+   "date": "1580-04-06",
+   "year": 1580,
+   "mag": 5.8,
+   "mag_type": "MGMC",
+   "intensity": "8",
+   "depth": 22.0,
+   "locality": "Dover Straits",
+   "zone": "Britain coast (within 20 km)",
+   "near_town": "Dover",
+   "near_town_km": 21.8,
+   "near_place": "St Margaret's at Cliffe",
+   "lat": 51.06,
+   "lon": 1.6,
+   "cat": "historical"
+  },
+  "1801_Comrie": {
+   "label": "1801 Comrie",
+   "id": "H56",
+   "date": "1801-09-07",
+   "year": 1801,
+   "mag": 4.6,
+   "mag_type": "MGMC",
+   "intensity": "6",
+   "depth": 9.0,
+   "locality": "Comrie",
+   "zone": "Britain onshore",
+   "near_town": "Crieff",
+   "near_town_km": 9.7,
+   "near_place": "Comrie",
+   "lat": 56.4,
+   "lon": -3.99,
+   "cat": "historical"
+  },
+  "1839_Comrie": {
+   "label": "1839 Comrie",
+   "id": "H41",
+   "date": "1839-10-23",
+   "year": 1839,
+   "mag": 4.8,
+   "mag_type": "MGMC",
+   "intensity": "7",
+   "depth": 9.0,
+   "locality": "Comrie",
+   "zone": "Britain onshore",
+   "near_town": "Crieff",
+   "near_town_km": 8.5,
+   "near_place": "Quoig",
+   "lat": 56.41,
+   "lon": -3.96,
+   "cat": "historical"
+  },
+  "1852_Caernarfon": {
+   "label": "1852 Caernarfon",
+   "id": "H11",
+   "date": "1852-11-09",
+   "year": 1852,
+   "mag": 5.3,
+   "mag_type": "MGMC",
+   "intensity": "6",
+   "depth": 24.0,
+   "locality": "Caernarvon",
+   "zone": "Britain onshore",
+   "near_town": "Rhosgadfan",
+   "near_town_km": 9.0,
+   "near_place": "Nasareth",
+   "lat": 53.02,
+   "lon": -4.3,
+   "cat": "historical"
+  },
+  "1884_Colchester": {
+   "label": "1884 Colchester",
+   "id": "H57",
+   "date": "1884-04-22",
+   "year": 1884,
+   "mag": 4.6,
+   "mag_type": "MGMC",
+   "intensity": "8",
+   "depth": 3.0,
+   "locality": "Colchester",
+   "zone": "Britain onshore",
+   "near_town": "West Mersea",
+   "near_town_km": 5.0,
+   "near_place": "Langenhoe",
+   "lat": 51.82,
+   "lon": 0.9,
+   "cat": "historical"
+  },
+  "1896_Hereford": {
+   "label": "1896 Hereford",
+   "id": "H12",
+   "date": "1896-12-17",
+   "year": 1896,
+   "mag": 5.3,
+   "mag_type": "MGMC",
+   "intensity": "7",
+   "depth": 20.0,
+   "locality": "Hereford",
+   "zone": "Britain onshore",
+   "near_town": "Ledbury",
+   "near_town_km": 8.9,
+   "near_place": "Woolhope Cockshoot",
+   "lat": 52.02,
+   "lon": -2.55,
+   "cat": "historical"
+  },
+  "1906_Swansea": {
+   "label": "1906 Swansea",
+   "id": "H20",
+   "date": "1906-06-27",
+   "year": 1906,
+   "mag": 5.2,
+   "mag_type": "ML",
+   "intensity": "7",
+   "depth": 13.0,
+   "locality": "Swansea",
+   "zone": "Britain onshore",
+   "near_town": "Port Talbot",
+   "near_town_km": 3.3,
+   "near_place": "Baglan",
+   "lat": 51.62,
+   "lon": -3.81,
+   "cat": "historical"
+  },
+  "1931_Dogger_Bank": {
+   "label": "1931 Dogger Bank",
+   "id": "H1",
+   "date": "1931-06-07",
+   "year": 1931,
+   "mag": 6.1,
+   "mag_type": "ML",
+   "intensity": "6-7",
+   "depth": 23.0,
+   "locality": "North Sea",
+   "zone": "Offshore",
+   "near_town": "Withernsea",
+   "near_town_km": 104.0,
+   "near_place": "Out Newton",
+   "lat": 54.08,
+   "lon": 1.5,
+   "cat": "historical"
+  },
+  "1957_Derby": {
+   "label": "1957 Derby",
+   "id": "H13",
+   "date": "1957-02-11",
+   "year": 1957,
+   "mag": 5.3,
+   "mag_type": "ML",
+   "intensity": "6-7",
+   "depth": 13.0,
+   "locality": "Derby",
+   "zone": "Britain onshore",
+   "near_town": "Shepshed",
+   "near_town_km": 6.0,
+   "near_place": "Diseworth",
+   "lat": 52.82,
+   "lon": -1.33,
+   "cat": "historical"
+  },
+  "1979_Longtown": {
+   "label": "1979 Longtown",
+   "id": "M120517",
+   "date": "1979-12-26",
+   "year": 1979,
+   "mag": 4.7,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": null,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Longtown",
+   "near_town_km": 5.1,
+   "near_place": "Kirklinton",
+   "lat": 55.016,
+   "lon": -2.894,
+   "cat": "modern"
+  },
+  "1984_Llyn_Peninsula": {
+   "label": "1984 Llŷn Peninsula",
+   "id": "M121149",
+   "date": "1984-07-19",
+   "year": 1984,
+   "mag": 5.2,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 2.9,
+   "locality": "",
+   "zone": "Britain coast (within 20 km)",
+   "near_town": "Nefyn",
+   "near_town_km": 7.3,
+   "near_place": "Trefor",
+   "lat": 53.0,
+   "lon": -4.5,
+   "cat": "modern"
+  },
+  "1990_Bishops_Castle": {
+   "label": "1990 Bishop's Castle",
+   "id": "M122420",
+   "date": "1990-04-02",
+   "year": 1990,
+   "mag": 5.1,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 14.1,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Bishop's Castle",
+   "near_town_km": 6.8,
+   "near_place": "Bicton",
+   "lat": 52.436,
+   "lon": -3.033,
+   "cat": "modern"
+  },
+  "2002_Dudley": {
+   "label": "2002 Dudley",
+   "id": "M124081",
+   "date": "2002-09-22",
+   "year": 2002,
+   "mag": 4.7,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 14.0,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Sedgley",
+   "near_town_km": 2.7,
+   "near_place": "Gospel End",
+   "lat": 52.533,
+   "lon": -2.159,
+   "cat": "modern"
+  },
+  "2007_Folkestone": {
+   "label": "2007 Folkestone",
+   "id": "M124597",
+   "date": "2007-04-28",
+   "year": 2007,
+   "mag": 4.3,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 5.3,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Folkestone",
+   "near_town_km": 2.4,
+   "near_place": "Gibraltar",
+   "lat": 51.102,
+   "lon": 1.169,
+   "cat": "modern"
+  },
+  "2008_Market_Rasen": {
+   "label": "2008 Market Rasen",
+   "id": "M124671",
+   "date": "2008-02-27",
+   "year": 2008,
+   "mag": 5.2,
+   "mag_type": "ML",
+   "intensity": "6",
+   "depth": 17.8,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Market Rasen",
+   "near_town_km": 1.4,
+   "near_place": "Market Rasen",
+   "lat": 53.4,
+   "lon": -0.332,
+   "cat": "modern"
+  },
+  "2018_Swansea_Valley": {
+   "label": "2018 Swansea Valley",
+   "id": "M125814",
+   "date": "2018-02-17",
+   "year": 2018,
+   "mag": 4.6,
+   "mag_type": "ML",
+   "intensity": "5",
+   "depth": 7.5,
+   "locality": "",
+   "zone": "Britain onshore",
+   "near_town": "Pontardawe",
+   "near_town_km": 5.2,
+   "near_place": "Pen-Rhiw-fawr",
+   "lat": 51.767,
+   "lon": -3.833,
+   "cat": "modern"
+  }
+ },
+ "llyn_aftershocks": 56,
+ "dover_1580_rows": 6,
+ "y1750": {
+  "n": 6,
+  "london": 2,
+  "london_max": 3.1
+ },
+ "pre1700_br": 19,
+ "towns": {
+  "n": 1426,
+  "n_city": 71,
+  "none_25": 46,
+  "share_none_25": 0.032,
+  "ge4_25": 582,
+  "share_ge4_25": 0.408,
+  "ge5_25": 125,
+  "share_ge5_25": 0.088,
+  "ge3_25": 1002,
+  "share_ge3_25": 0.703,
+  "most_10km": [
+   {
+    "name": "Loanhead",
+    "county": "Midlothian",
+    "n_10km": 252,
+    "n_25km": 275,
+    "biggest_mag": 3.2
+   },
+   {
+    "name": "Newcastle-under-Lyme",
+    "county": "Staffordshire",
+    "n_10km": 250,
+    "n_25km": 329,
+    "biggest_mag": 4.6
+   },
+   {
+    "name": "Bonnyrigg",
+    "county": "Midlothian",
+    "n_10km": 249,
+    "n_25km": 273,
+    "biggest_mag": 3.2
+   },
+   {
+    "name": "Dalkeith",
+    "county": "Midlothian",
+    "n_10km": 243,
+    "n_25km": 271,
+    "biggest_mag": 3.2
+   },
+   {
+    "name": "Market Warsop",
+    "county": "Nottinghamshire",
+    "n_10km": 237,
+    "n_25km": 382,
+    "biggest_mag": 4.7
+   },
+   {
+    "name": "Stoke-on-Trent",
+    "county": "City of Stoke-on-Trent",
+    "n_10km": 233,
+    "n_25km": 333,
+    "biggest_mag": 4.6
+   },
+   {
+    "name": "Tillicoultry",
+    "county": "Clackmannanshire",
+    "n_10km": 224,
+    "n_25km": 361,
+    "biggest_mag": 3.7
+   },
+   {
+    "name": "Dollar",
+    "county": "Clackmannanshire",
+    "n_10km": 221,
+    "n_25km": 344,
+    "biggest_mag": 3.7
+   },
+   {
+    "name": "Clackmannan",
+    "county": "Clackmannanshire",
+    "n_10km": 211,
+    "n_25km": 360,
+    "biggest_mag": 3.7
+   },
+   {
+    "name": "Kidsgrove",
+    "county": "Staffordshire",
+    "n_10km": 210,
+    "n_25km": 322,
+    "biggest_mag": 3.4
+   }
+  ],
+  "ge5_list": [
+   {
+    "name": "Dover",
+    "county": "Kent",
+    "biggest_mag": 5.8,
+    "biggest_date": "1580-04-06",
+    "biggest_km": 21.8
+   },
+   {
+    "name": "Deal",
+    "county": "Kent",
+    "biggest_mag": 5.8,
+    "biggest_date": "1580-04-06",
+    "biggest_km": 22.9
+   },
+   {
+    "name": "Pwllheli",
+    "county": "Gwynedd",
+    "biggest_mag": 5.3,
+    "biggest_date": "1852-11-09",
+    "biggest_km": 16.4
+   },
+   {
+    "name": "Harlech",
+    "county": "Gwynedd",
+    "biggest_mag": 5.3,
+    "biggest_date": "1852-11-09",
+    "biggest_km": 22.1
+   },
+   {
+    "name": "Nefyn",
+    "county": "Gwynedd",
+    "biggest_mag": 5.3,
+    "biggest_date": "1852-11-09",
+    "biggest_km": 17.5
+   },
+   {
+    "name": "Ashby-de-la-Zouch",
+    "county": "Leicestershire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 12.6
+   },
+   {
+    "name": "Bethesda",
+    "county": "Gwynedd",
+    "biggest_mag": 5.3,
+    "biggest_date": "1852-11-09",
+    "biggest_km": 23.9
+   },
+   {
+    "name": "Blaenau Ffestiniog",
+    "county": "Gwynedd",
+    "biggest_mag": 5.3,
+    "biggest_date": "1852-11-09",
+    "biggest_km": 24.7
+   },
+   {
+    "name": "Caernarfon",
+    "county": "Gwynedd",
+    "biggest_mag": 5.3,
+    "biggest_date": "1852-11-09",
+    "biggest_km": 13.5
+   },
+   {
+    "name": "Menai Bridge",
+    "county": "Sir Ynys Mon",
+    "biggest_mag": 5.3,
+    "biggest_date": "1852-11-09",
+    "biggest_km": 24.7
+   },
+   {
+    "name": "Rhosgadfan",
+    "county": "Gwynedd",
+    "biggest_mag": 5.3,
+    "biggest_date": "1852-11-09",
+    "biggest_km": 9.0
+   },
+   {
+    "name": "Swadlincote",
+    "county": "Derbyshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 16.2
+   },
+   {
+    "name": "Burton upon Trent",
+    "county": "Staffordshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 21.3
+   },
+   {
+    "name": "Derby",
+    "county": "City of Derby",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 15.3
+   },
+   {
+    "name": "Stapleford",
+    "county": "Nottinghamshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 12.7
+   },
+   {
+    "name": "West Bridgford",
+    "county": "Nottinghamshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 18.5
+   },
+   {
+    "name": "Arnold",
+    "county": "Nottinghamshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 24.5
+   },
+   {
+    "name": "Kimberley",
+    "county": "Nottinghamshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 20.3
+   },
+   {
+    "name": "Ilkeston",
+    "county": "Derbyshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 16.7
+   },
+   {
+    "name": "Nottingham",
+    "county": "City of Nottingham",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 19.3
+   },
+   {
+    "name": "Sandiacre",
+    "county": "Derbyshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 11.8
+   },
+   {
+    "name": "Shepshed",
+    "county": "Leicestershire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 6.0
+   },
+   {
+    "name": "Loughborough",
+    "county": "Leicestershire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 9.9
+   },
+   {
+    "name": "Ibstock",
+    "county": "Leicestershire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 15.4
+   },
+   {
+    "name": "Leicester",
+    "county": "City of Leicester",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 24.6
+   },
+   {
+    "name": "Market Bosworth",
+    "county": "Leicestershire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 22.2
+   },
+   {
+    "name": "Coalville",
+    "county": "Leicestershire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 11.2
+   },
+   {
+    "name": "Porthmadog",
+    "county": "Gwynedd",
+    "biggest_mag": 5.3,
+    "biggest_date": "1852-11-09",
+    "biggest_km": 15.4
+   },
+   {
+    "name": "Criccieth",
+    "county": "Gwynedd",
+    "biggest_mag": 5.3,
+    "biggest_date": "1852-11-09",
+    "biggest_km": 12.0
+   },
+   {
+    "name": "Cotgrave",
+    "county": "Nottinghamshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 21.9
+   },
+   {
+    "name": "Syston",
+    "county": "Leicestershire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 21.9
+   },
+   {
+    "name": "Eastwood",
+    "county": "Nottinghamshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 22.0
+   },
+   {
+    "name": "Heanor",
+    "county": "Derbyshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 21.5
+   },
+   {
+    "name": "Beeston",
+    "county": "Nottinghamshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 14.2
+   },
+   {
+    "name": "Ross-on-Wye",
+    "county": "County of Herefordshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1896-12-17",
+    "biggest_km": 12.0
+   },
+   {
+    "name": "Ledbury",
+    "county": "County of Herefordshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1896-12-17",
+    "biggest_km": 8.9
+   },
+   {
+    "name": "Newent",
+    "county": "Gloucestershire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1896-12-17",
+    "biggest_km": 14.0
+   },
+   {
+    "name": "Great Malvern",
+    "county": "Worcestershire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1896-12-17",
+    "biggest_km": 18.2
+   },
+   {
+    "name": "Bromyard",
+    "county": "County of Herefordshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1896-12-17",
+    "biggest_km": 19.1
+   },
+   {
+    "name": "Cinderford",
+    "county": "Gloucestershire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1896-12-17",
+    "biggest_km": 22.0
+   },
+   {
+    "name": "Mitcheldean",
+    "county": "Gloucestershire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1896-12-17",
+    "biggest_km": 17.8
+   },
+   {
+    "name": "Hereford",
+    "county": "County of Herefordshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1896-12-17",
+    "biggest_km": 12.2
+   },
+   {
+    "name": "Belper",
+    "county": "Derbyshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 24.8
+   },
+   {
+    "name": "Long Eaton",
+    "county": "Derbyshire",
+    "biggest_mag": 5.3,
+    "biggest_date": "1957-02-11",
+    "biggest_km": 9.7
+   },
+   {
+    "name": "Lincoln",
+    "county": "Lincolnshire",
+    "biggest_mag": 5.2,
+    "biggest_date": "2008-02-27",
+    "biggest_km": 23.0
+   },
+   {
+    "name": "Hay-on-Wye",
+    "county": "Powys",
+    "biggest_mag": 5.2,
+    "biggest_date": "1863-10-06",
+    "biggest_km": 23.8
+   },
+   {
+    "name": "Abergavenny",
+    "county": "Sir Fynwy",
+    "biggest_mag": 5.2,
+    "biggest_date": "1863-10-06",
+    "biggest_km": 24.9
+   },
+   {
+    "name": "Ammanford",
+    "county": "Sir Gaerfyrddin",
+    "biggest_mag": 5.2,
+    "biggest_date": "1906-06-27",
+    "biggest_km": 22.8
+   },
+   {
+    "name": "Ystradgynlais",
+    "county": "Powys",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 23.1
+   },
+   {
+    "name": "Pontarddulais",
+    "county": "Abertawe",
+    "biggest_mag": 5.2,
+    "biggest_date": "1906-06-27",
+    "biggest_km": 19.0
+   },
+   {
+    "name": "Kirton in Lindsey",
+    "county": "North Lincolnshire",
+    "biggest_mag": 5.2,
+    "biggest_date": "2008-02-27",
+    "biggest_km": 19.1
+   },
+   {
+    "name": "Inveraray",
+    "county": "Argyll and Bute",
+    "biggest_mag": 5.2,
+    "biggest_date": "1880-11-28",
+    "biggest_km": 14.7
+   },
+   {
+    "name": "Lochgilphead",
+    "county": "Argyll and Bute",
+    "biggest_mag": 5.2,
+    "biggest_date": "1880-11-28",
+    "biggest_km": 18.9
+   },
+   {
+    "name": "Neath",
+    "county": "Castell-nedd Port Talbot",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 10.9
+   },
+   {
+    "name": "Cowbridge",
+    "county": "Bro Morgannwg",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 24.8
+   },
+   {
+    "name": "Swansea",
+    "county": "Abertawe",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 13.7
+   },
+   {
+    "name": "Port Talbot",
+    "county": "Castell-nedd Port Talbot",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 3.3
+   },
+   {
+    "name": "Bridgend",
+    "county": "Pen-y-bont ar Ogwr",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 14.4
+   },
+   {
+    "name": "Porthcawl",
+    "county": "Pen-y-bont ar Ogwr",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 10.9
+   },
+   {
+    "name": "Loughor",
+    "county": "Abertawe",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 23.7
+   },
+   {
+    "name": "Gorseinon",
+    "county": "Abertawe",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 22.4
+   },
+   {
+    "name": "Wragby",
+    "county": "Lincolnshire",
+    "biggest_mag": 5.2,
+    "biggest_date": "2008-02-27",
+    "biggest_km": 12.7
+   },
+   {
+    "name": "Grimsby",
+    "county": "North East Lincolnshire",
+    "biggest_mag": 5.2,
+    "biggest_date": "2008-02-27",
+    "biggest_km": 24.7
+   },
+   {
+    "name": "Porth",
+    "county": "Rhondda Cynon Taf",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 24.6
+   },
+   {
+    "name": "Brigg",
+    "county": "North Lincolnshire",
+    "biggest_mag": 5.2,
+    "biggest_date": "2008-02-27",
+    "biggest_km": 19.8
+   },
+   {
+    "name": "Louth",
+    "county": "Lincolnshire",
+    "biggest_mag": 5.2,
+    "biggest_date": "2008-02-27",
+    "biggest_km": 22.1
+   },
+   {
+    "name": "Treorchy",
+    "county": "Rhondda Cynon Taf",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 20.0
+   },
+   {
+    "name": "Rhondda",
+    "county": "Rhondda Cynon Taf",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 20.7
+   },
+   {
+    "name": "Treherbert",
+    "county": "Rhondda Cynon Taf",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 19.4
+   },
+   {
+    "name": "Market Rasen",
+    "county": "Lincolnshire",
+    "biggest_mag": 5.2,
+    "biggest_date": "2008-02-27",
+    "biggest_km": 1.4
+   },
+   {
+    "name": "Pontardawe",
+    "county": "Castell-nedd Port Talbot",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 18.0
+   },
+   {
+    "name": "Monmouth",
+    "county": "Sir Fynwy",
+    "biggest_mag": 5.2,
+    "biggest_date": "1863-10-06",
+    "biggest_km": 21.7
+   },
+   {
+    "name": "Ferndale",
+    "county": "Rhondda Cynon Taf",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 23.9
+   },
+   {
+    "name": "Pencoed",
+    "county": "Pen-y-bont ar Ogwr",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 18.7
+   },
+   {
+    "name": "Maesteg",
+    "county": "Pen-y-bont ar Ogwr",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 8.1
+   },
+   {
+    "name": "Pontycymer",
+    "county": "Pen-y-bont ar Ogwr",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 13.0
+   },
+   {
+    "name": "Tonypandy",
+    "county": "Rhondda Cynon Taf",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 22.7
+   },
+   {
+    "name": "Glyn-neath",
+    "county": "Castell-nedd Port Talbot",
+    "biggest_mag": 5.2,
+    "biggest_date": "1727-07-19",
+    "biggest_km": 21.8
+   },
+   {
+    "name": "Knighton",
+    "county": "Powys",
+    "biggest_mag": 5.1,
+    "biggest_date": "1990-04-02",
+    "biggest_km": 10.3
+   },
+   {
+    "name": "Bishop's Castle",
+    "county": "Shropshire",
+    "biggest_mag": 5.1,
+    "biggest_date": "1990-04-02",
+    "biggest_km": 6.8
+   },
+   {
+    "name": "Montgomery",
+    "county": "Powys",
+    "biggest_mag": 5.1,
+    "biggest_date": "1990-04-02",
+    "biggest_km": 15.9
+   },
+   {
+    "name": "Presteigne",
+    "county": "Powys",
+    "biggest_mag": 5.1,
+    "biggest_date": "1990-04-02",
+    "biggest_km": 18.2
+   },
+   {
+    "name": "Dingwall",
+    "county": "Highland",
+    "biggest_mag": 5.1,
+    "biggest_date": "1816-08-13",
+    "biggest_km": 19.3
+   },
+   {
+    "name": "Fortrose",
+    "county": "Highland",
+    "biggest_mag": 5.1,
+    "biggest_date": "1816-08-13",
+    "biggest_km": 20.7
+   },
+   {
+    "name": "Inverness",
+    "county": "Highland",
+    "biggest_mag": 5.1,
+    "biggest_date": "1816-08-13",
+    "biggest_km": 8.4
+   },
+   {
+    "name": "Narberth",
+    "county": "Sir Benfro",
+    "biggest_mag": 5.1,
+    "biggest_date": "1892-08-18",
+    "biggest_km": 23.3
+   },
+   {
+    "name": "Pembroke",
+    "county": "Sir Benfro",
+    "biggest_mag": 5.1,
+    "biggest_date": "1892-08-18",
+    "biggest_km": 9.2
+   },
+   {
+    "name": "Pembroke Dock",
+    "county": "Sir Benfro",
+    "biggest_mag": 5.1,
+    "biggest_date": "1892-08-18",
+    "biggest_km": 7.0
+   },
+   {
+    "name": "Neyland",
+    "county": "Sir Benfro",
+    "biggest_mag": 5.1,
+    "biggest_date": "1892-08-18",
+    "biggest_km": 6.4
+   },
+   {
+    "name": "Haverfordwest",
+    "county": "Sir Benfro",
+    "biggest_mag": 5.1,
+    "biggest_date": "1892-08-18",
+    "biggest_km": 12.5
+   },
+   {
+    "name": "Tenby",
+    "county": "Sir Benfro",
+    "biggest_mag": 5.1,
+    "biggest_date": "1892-08-18",
+    "biggest_km": 23.5
+   },
+   {
+    "name": "Llandeilo",
+    "county": "Sir Gaerfyrddin",
+    "biggest_mag": 5.1,
+    "biggest_date": "1775-09-08",
+    "biggest_km": 21.2
+   },
+   {
+    "name": "Milford Haven",
+    "county": "Sir Benfro",
+    "biggest_mag": 5.1,
+    "biggest_date": "1892-08-18",
+    "biggest_km": 1.5
+   },
+   {
+    "name": "Craven Arms",
+    "county": "Shropshire",
+    "biggest_mag": 5.1,
+    "biggest_date": "1990-04-02",
+    "biggest_km": 13.6
+   },
+   {
+    "name": "Newtown",
+    "county": "Powys",
+    "biggest_mag": 5.1,
+    "biggest_date": "1990-04-02",
+    "biggest_km": 21.1
+   },
+   {
+    "name": "Church Stretton",
+    "county": "Shropshire",
+    "biggest_mag": 5.1,
+    "biggest_date": "1990-04-02",
+    "biggest_km": 19.0
+   },
+   {
+    "name": "Ludlow",
+    "county": "Shropshire",
+    "biggest_mag": 5.1,
+    "biggest_date": "1990-04-02",
+    "biggest_km": 22.7
+   },
+   {
+    "name": "Clay Cross",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 12.9
+   },
+   {
+    "name": "Bolsover",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 20.8
+   },
+   {
+    "name": "Alfreton",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 18.2
+   },
+   {
+    "name": "Sutton in Ashfield",
+    "county": "Nottinghamshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 24.4
+   },
+   {
+    "name": "Staveley",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 18.0
+   },
+   {
+    "name": "Sheffield",
+    "county": "Sheffield",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 22.1
+   },
+   {
+    "name": "Matlock",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 7.4
+   },
+   {
+    "name": "Ashbourne",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 22.1
+   },
+   {
+    "name": "Buxton",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 21.9
+   },
+   {
+    "name": "Chapel-en-le-Frith",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 25.0
+   },
+   {
+    "name": "Ripley",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 21.2
+   },
+   {
+    "name": "Wirksworth",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 13.2
+   },
+   {
+    "name": "Workington",
+    "county": "Cumberland",
+    "biggest_mag": 5.0,
+    "biggest_date": "1786-08-11",
+    "biggest_km": 15.2
+   },
+   {
+    "name": "Cleator Moor",
+    "county": "Cumberland",
+    "biggest_mag": 5.0,
+    "biggest_date": "1786-08-11",
+    "biggest_km": 10.6
+   },
+   {
+    "name": "Egremont",
+    "county": "Cumberland",
+    "biggest_mag": 5.0,
+    "biggest_date": "1786-08-11",
+    "biggest_km": 11.2
+   },
+   {
+    "name": "Maryport",
+    "county": "Cumberland",
+    "biggest_mag": 5.0,
+    "biggest_date": "1786-08-11",
+    "biggest_km": 23.6
+   },
+   {
+    "name": "Whitehaven",
+    "county": "Cumberland",
+    "biggest_mag": 5.0,
+    "biggest_date": "1786-08-11",
+    "biggest_km": 6.4
+   },
+   {
+    "name": "Bakewell",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 5.3
+   },
+   {
+    "name": "Chesterfield",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 12.1
+   },
+   {
+    "name": "Darley Dale",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 4.3
+   },
+   {
+    "name": "Dronfield",
+    "county": "Derbyshire",
+    "biggest_mag": 5.0,
+    "biggest_date": "1575-02-26",
+    "biggest_km": 14.1
+   },
+   {
+    "name": "Llanelli",
+    "county": "Sir Gaerfyrddin",
+    "biggest_mag": 5.0,
+    "biggest_date": "1893-11-02",
+    "biggest_km": 22.2
+   },
+   {
+    "name": "St Clears",
+    "county": "Sir Gaerfyrddin",
+    "biggest_mag": 5.0,
+    "biggest_date": "1893-11-02",
+    "biggest_km": 5.9
+   },
+   {
+    "name": "Whitland",
+    "county": "Sir Gaerfyrddin",
+    "biggest_mag": 5.0,
+    "biggest_date": "1893-11-02",
+    "biggest_km": 14.0
+   },
+   {
+    "name": "Kidwelly",
+    "county": "Sir Gaerfyrddin",
+    "biggest_mag": 5.0,
+    "biggest_date": "1893-11-02",
+    "biggest_km": 10.8
+   },
+   {
+    "name": "Burry Port",
+    "county": "Sir Gaerfyrddin",
+    "biggest_mag": 5.0,
+    "biggest_date": "1893-11-02",
+    "biggest_km": 18.0
+   },
+   {
+    "name": "Carmarthen",
+    "county": "Sir Gaerfyrddin",
+    "biggest_mag": 5.0,
+    "biggest_date": "1893-11-02",
+    "biggest_km": 8.9
+   },
+   {
+    "name": "Laugharne",
+    "county": "Sir Gaerfyrddin",
+    "biggest_mag": 5.0,
+    "biggest_date": "1893-11-02",
+    "biggest_km": 5.7
+   }
+  ]
+ },
+ "cities": [
+  {
+   "name": "Leicester",
+   "county": "City of Leicester",
+   "country": "England",
+   "biggest_mag": 5.3,
+   "biggest_date": "1957-02-11",
+   "biggest_km": 24.6,
+   "n_25km": 43
+  },
+  {
+   "name": "Derby",
+   "county": "City of Derby",
+   "country": "England",
+   "biggest_mag": 5.3,
+   "biggest_date": "1957-02-11",
+   "biggest_km": 15.3,
+   "n_25km": 56
+  },
+  {
+   "name": "Hereford",
+   "county": "County of Herefordshire",
+   "country": "England",
+   "biggest_mag": 5.3,
+   "biggest_date": "1896-12-17",
+   "biggest_km": 12.2,
+   "n_25km": 75
+  },
+  {
+   "name": "Nottingham",
+   "county": "City of Nottingham",
+   "country": "England",
+   "biggest_mag": 5.3,
+   "biggest_date": "1957-02-11",
+   "biggest_km": 19.3,
+   "n_25km": 126
+  },
+  {
+   "name": "Lincoln",
+   "county": "Lincolnshire",
+   "country": "England",
+   "biggest_mag": 5.2,
+   "biggest_date": "2008-02-27",
+   "biggest_km": 23.0,
+   "n_25km": 30
+  },
+  {
+   "name": "Swansea",
+   "county": "Abertawe",
+   "country": "Wales",
+   "biggest_mag": 5.2,
+   "biggest_date": "1727-07-19",
+   "biggest_km": 13.7,
+   "n_25km": 44
+  },
+  {
+   "name": "Inverness",
+   "county": "Highland",
+   "country": "Scotland",
+   "biggest_mag": 5.1,
+   "biggest_date": "1816-08-13",
+   "biggest_km": 8.4,
+   "n_25km": 21
+  },
+  {
+   "name": "Sheffield",
+   "county": "Sheffield",
+   "country": "England",
+   "biggest_mag": 5.0,
+   "biggest_date": "1575-02-26",
+   "biggest_km": 22.1,
+   "n_25km": 141
+  },
+  {
+   "name": "Carlisle",
+   "county": "Cumberland",
+   "country": "England",
+   "biggest_mag": 4.9,
+   "biggest_date": "1650-04-11",
+   "biggest_km": 13.8,
+   "n_25km": 90
+  },
+  {
+   "name": "Bangor",
+   "county": "Gwynedd",
+   "country": "Wales",
+   "biggest_mag": 4.9,
+   "biggest_date": "1903-06-19",
+   "biggest_km": 24.3,
+   "n_25km": 92
+  },
+  {
+   "name": "Bradford",
+   "county": "Bradford",
+   "country": "England",
+   "biggest_mag": 4.8,
+   "biggest_date": "1944-12-30",
+   "biggest_km": 19.1,
+   "n_25km": 31
+  },
+  {
+   "name": "Wolverhampton",
+   "county": "City of Wolverhampton",
+   "country": "England",
+   "biggest_mag": 4.7,
+   "biggest_date": "2002-09-22",
+   "biggest_km": 6.2,
+   "n_25km": 54
+  },
+  {
+   "name": "Birmingham",
+   "county": "Birmingham",
+   "country": "England",
+   "biggest_mag": 4.7,
+   "biggest_date": "2002-09-22",
+   "biggest_km": 18.4,
+   "n_25km": 38
+  },
+  {
+   "name": "Portsmouth",
+   "county": "City of Portsmouth",
+   "country": "England",
+   "biggest_mag": 4.7,
+   "biggest_date": "1963-10-25",
+   "biggest_km": 9.0,
+   "n_25km": 11
+  },
+  {
+   "name": "Chichester",
+   "county": "West Sussex",
+   "country": "England",
+   "biggest_mag": 4.7,
+   "biggest_date": "1963-10-25",
+   "biggest_km": 15.4,
+   "n_25km": 12
+  },
+  {
+   "name": "Colchester",
+   "county": "Essex",
+   "country": "England",
+   "biggest_mag": 4.6,
+   "biggest_date": "1884-04-22",
+   "biggest_km": 7.8,
+   "n_25km": 2
+  },
+  {
+   "name": "Stoke-on-Trent",
+   "county": "City of Stoke-on-Trent",
+   "country": "England",
+   "biggest_mag": 4.6,
+   "biggest_date": "1916-01-14",
+   "biggest_km": 19.2,
+   "n_25km": 333
+  },
+  {
+   "name": "Liverpool",
+   "county": "Liverpool",
+   "country": "England",
+   "biggest_mag": 4.5,
+   "biggest_date": "1976-11-03",
+   "biggest_km": 19.9,
+   "n_25km": 28
+  },
+  {
+   "name": "Salford",
+   "county": "Salford",
+   "country": "England",
+   "biggest_mag": 4.4,
+   "biggest_date": "1777-09-14",
+   "biggest_km": 3.4,
+   "n_25km": 206
+  },
+  {
+   "name": "Manchester",
+   "county": "Manchester",
+   "country": "England",
+   "biggest_mag": 4.4,
+   "biggest_date": "1777-09-14",
+   "biggest_km": 4.9,
+   "n_25km": 206
+  },
+  {
+   "name": "Lancaster",
+   "county": "Lancashire",
+   "country": "England",
+   "biggest_mag": 4.4,
+   "biggest_date": "1835-08-20",
+   "biggest_km": 8.1,
+   "n_25km": 26
+  },
+  {
+   "name": "Doncaster",
+   "county": "Doncaster",
+   "country": "England",
+   "biggest_mag": 4.3,
+   "biggest_date": "1905-04-23",
+   "biggest_km": 16.6,
+   "n_25km": 137
+  },
+  {
+   "name": "Canterbury",
+   "county": "Kent",
+   "country": "England",
+   "biggest_mag": 4.3,
+   "biggest_date": "2007-04-28",
+   "biggest_km": 20.8,
+   "n_25km": 10
+  },
+  {
+   "name": "Coventry",
+   "county": "Coventry",
+   "country": "England",
+   "biggest_mag": 4.2,
+   "biggest_date": "2000-09-23",
+   "biggest_km": 15.7,
+   "n_25km": 12
+  },
+  {
+   "name": "Kingston upon Hull",
+   "county": "City of Kingston upon Hull",
+   "country": "England",
+   "biggest_mag": 4.2,
+   "biggest_date": "1703-12-28",
+   "biggest_km": 20.2,
+   "n_25km": 14
+  },
+  {
+   "name": "Gloucester",
+   "county": "Gloucestershire",
+   "country": "England",
+   "biggest_mag": 4.1,
+   "biggest_date": "1768-12-21",
+   "biggest_km": 20.4,
+   "n_25km": 19
+  },
+  {
+   "name": "Newport",
+   "county": "Casnewydd",
+   "country": "Wales",
+   "biggest_mag": 4.1,
+   "biggest_date": "1974-02-25",
+   "biggest_km": 10.3,
+   "n_25km": 120
+  },
+  {
+   "name": "Truro",
+   "county": "Cornwall",
+   "country": "England",
+   "biggest_mag": 4.1,
+   "biggest_date": "1966-07-23",
+   "biggest_km": 22.8,
+   "n_25km": 49
+  },
+  {
+   "name": "Worcester",
+   "county": "Worcestershire",
+   "country": "England",
+   "biggest_mag": 4.1,
+   "biggest_date": "1768-12-21",
+   "biggest_km": 17.5,
+   "n_25km": 25
+  },
+  {
+   "name": "Cardiff",
+   "county": "Caerdydd",
+   "country": "Wales",
+   "biggest_mag": 4.1,
+   "biggest_date": "1974-02-25",
+   "biggest_km": 18.2,
+   "n_25km": 96
+  },
+  {
+   "name": "Wrexham",
+   "county": "Wrecsam",
+   "country": "Wales",
+   "biggest_mag": 4.0,
+   "biggest_date": "1613-03-18",
+   "biggest_km": 23.1,
+   "n_25km": 30
+  },
+  {
+   "name": "Chester",
+   "county": "Cheshire West and Chester",
+   "country": "England",
+   "biggest_mag": 4.0,
+   "biggest_date": "1750-04-02",
+   "biggest_km": 8.2,
+   "n_25km": 37
+  },
+  {
+   "name": "Lichfield",
+   "county": "Staffordshire",
+   "country": "England",
+   "biggest_mag": 4.0,
+   "biggest_date": "1937-07-09",
+   "biggest_km": 17.2,
+   "n_25km": 39
+  },
+  {
+   "name": "St Davids",
+   "county": "Sir Benfro",
+   "country": "Wales",
+   "biggest_mag": 4.0,
+   "biggest_date": "1892-08-18",
+   "biggest_km": 24.5,
+   "n_25km": 13
+  },
+  {
+   "name": "St Asaph",
+   "county": "Sir Ddinbych",
+   "country": "Wales",
+   "biggest_mag": 4.0,
+   "biggest_date": "1613-03-18",
+   "biggest_km": 24.2,
+   "n_25km": 13
+  },
+  {
+   "name": "Leeds",
+   "county": "Leeds",
+   "country": "England",
+   "biggest_mag": 4.0,
+   "biggest_date": "1972-03-07",
+   "biggest_km": 23.0,
+   "n_25km": 20
+  },
+  {
+   "name": "Wakefield",
+   "county": "Wakefield",
+   "country": "England",
+   "biggest_mag": 4.0,
+   "biggest_date": "1972-03-07",
+   "biggest_km": 24.1,
+   "n_25km": 34
+  },
+  {
+   "name": "Ely",
+   "county": "Cambridgeshire",
+   "country": "England",
+   "biggest_mag": 4.0,
+   "biggest_date": "1948-05-28",
+   "biggest_km": 25.0,
+   "n_25km": 3
+  },
+  {
+   "name": "Preston",
+   "county": "Lancashire",
+   "country": "England",
+   "biggest_mag": 3.8,
+   "biggest_date": "1889-02-10",
+   "biggest_km": 24.1,
+   "n_25km": 30
+  },
+  {
+   "name": "Glasgow",
+   "county": "Glasgow City",
+   "country": "Scotland",
+   "biggest_mag": 3.7,
+   "biggest_date": "1940-07-16",
+   "biggest_km": 21.2,
+   "n_25km": 28
+  },
+  {
+   "name": "Stirling",
+   "county": "Stirling",
+   "country": "Scotland",
+   "biggest_mag": 3.7,
+   "biggest_date": "1912-05-03",
+   "biggest_km": 13.1,
+   "n_25km": 364
+  },
+  {
+   "name": "Dunfermline",
+   "county": "Fife",
+   "country": "Scotland",
+   "biggest_mag": 3.7,
+   "biggest_date": "1912-05-03",
+   "biggest_km": 23.2,
+   "n_25km": 245
+  },
+  {
+   "name": "York",
+   "county": "York",
+   "country": "England",
+   "biggest_mag": 3.7,
+   "biggest_date": "1885-06-18",
+   "biggest_km": 21.3,
+   "n_25km": 21
+  },
+  {
+   "name": "Milton Keynes",
+   "county": "Milton Keynes",
+   "country": "England",
+   "biggest_mag": 3.5,
+   "biggest_date": "2020-09-08",
+   "biggest_km": 13.1,
+   "n_25km": 20
+  },
+  {
+   "name": "Bristol",
+   "county": "City of Bristol",
+   "country": "England",
+   "biggest_mag": 3.5,
+   "biggest_date": "1839-09-01",
+   "biggest_km": 16.8,
+   "n_25km": 24
+  },
+  {
+   "name": "Plymouth",
+   "county": "City of Plymouth",
+   "country": "England",
+   "biggest_mag": 3.4,
+   "biggest_date": "1852-08-12",
+   "biggest_km": 16.1,
+   "n_25km": 15
+  },
+  {
+   "name": "Oxford",
+   "county": "Oxfordshire",
+   "country": "England",
+   "biggest_mag": 3.4,
+   "biggest_date": "1764-11-06",
+   "biggest_km": 9.7,
+   "n_25km": 9
+  },
+  {
+   "name": "Norwich",
+   "county": "Norfolk",
+   "country": "England",
+   "biggest_mag": 3.3,
+   "biggest_date": "1757-01-10",
+   "biggest_km": 11.0,
+   "n_25km": 4
+  },
+  {
+   "name": "Peterborough",
+   "county": "City of Peterborough",
+   "country": "England",
+   "biggest_mag": 3.3,
+   "biggest_date": "1992-02-17",
+   "biggest_km": 8.7,
+   "n_25km": 4
+  },
+  {
+   "name": "Edinburgh",
+   "county": "City of Edinburgh",
+   "country": "Scotland",
+   "biggest_mag": 3.2,
+   "biggest_date": "1889-01-18",
+   "biggest_km": 14.1,
+   "n_25km": 269
+  },
+  {
+   "name": "Perth",
+   "county": "Perth and Kinross",
+   "country": "Scotland",
+   "biggest_mag": 3.2,
+   "biggest_date": "1809-01-18",
+   "biggest_km": 23.1,
+   "n_25km": 78
+  },
+  {
+   "name": "Wells",
+   "county": "Somerset",
+   "country": "England",
+   "biggest_mag": 3.2,
+   "biggest_date": "1852-04-03",
+   "biggest_km": 10.8,
+   "n_25km": 26
+  },
+  {
+   "name": "London",
+   "county": "Greater London",
+   "country": "England",
+   "biggest_mag": 3.1,
+   "biggest_date": "1750-03-08",
+   "biggest_km": 2.7,
+   "n_25km": 2
+  },
+  {
+   "name": "Brighton and Hove",
+   "county": "The City of Brighton and Hove",
+   "country": "England",
+   "biggest_mag": 3.1,
+   "biggest_date": "1864-08-21",
+   "biggest_km": 7.1,
+   "n_25km": 2
+  },
+  {
+   "name": "City of London",
+   "county": "Greater London",
+   "country": "England",
+   "biggest_mag": 3.1,
+   "biggest_date": "1750-03-08",
+   "biggest_km": 2.8,
+   "n_25km": 2
+  },
+  {
+   "name": "City of Westminster",
+   "county": "Greater London",
+   "country": "England",
+   "biggest_mag": 3.1,
+   "biggest_date": "1750-03-08",
+   "biggest_km": 2.2,
+   "n_25km": 2
+  },
+  {
+   "name": "Durham",
+   "county": "County Durham",
+   "country": "England",
+   "biggest_mag": 3.1,
+   "biggest_date": "2018-09-15",
+   "biggest_km": 23.6,
+   "n_25km": 33
+  },
+  {
+   "name": "Winchester",
+   "county": "Hampshire",
+   "country": "England",
+   "biggest_mag": 2.9,
+   "biggest_date": "1982-07-19",
+   "biggest_km": 19.5,
+   "n_25km": 5
+  },
+  {
+   "name": "Southampton",
+   "county": "City of Southampton",
+   "country": "England",
+   "biggest_mag": 2.9,
+   "biggest_date": "2015-01-27",
+   "biggest_km": 20.8,
+   "n_25km": 4
+  },
+  {
+   "name": "Exeter",
+   "county": "Devon",
+   "country": "England",
+   "biggest_mag": 2.7,
+   "biggest_date": "2011-06-23",
+   "biggest_km": 22.1,
+   "n_25km": 6
+  },
+  {
+   "name": "Ripon",
+   "county": "North Yorkshire",
+   "country": "England",
+   "biggest_mag": 2.7,
+   "biggest_date": "2011-01-03",
+   "biggest_km": 9.2,
+   "n_25km": 18
+  },
+  {
+   "name": "Southend-on-Sea",
+   "county": "Southend-on-Sea",
+   "country": "England",
+   "biggest_mag": 2.6,
+   "biggest_date": "2023-02-09",
+   "biggest_km": 17.1,
+   "n_25km": 2
+  },
+  {
+   "name": "Chelmsford",
+   "county": "Essex",
+   "country": "England",
+   "biggest_mag": 2.6,
+   "biggest_date": "2023-02-09",
+   "biggest_km": 10.4,
+   "n_25km": 2
+  },
+  {
+   "name": "Sunderland",
+   "county": "Sunderland",
+   "country": "England",
+   "biggest_mag": 2.3,
+   "biggest_date": "2003-06-16",
+   "biggest_km": 15.7,
+   "n_25km": 36
+  },
+  {
+   "name": "Newcastle upon Tyne",
+   "county": "Newcastle upon Tyne",
+   "country": "England",
+   "biggest_mag": 2.3,
+   "biggest_date": "2003-06-16",
+   "biggest_km": 3.2,
+   "n_25km": 27
+  },
+  {
+   "name": "Cambridge",
+   "county": "Cambridgeshire",
+   "country": "England",
+   "biggest_mag": 2.3,
+   "biggest_date": "2022-08-08",
+   "biggest_km": 12.4,
+   "n_25km": 3
+  },
+  {
+   "name": "Bath",
+   "county": "Bath and North East Somerset",
+   "country": "England",
+   "biggest_mag": 1.8,
+   "biggest_date": "1993-07-28",
+   "biggest_km": 22.7,
+   "n_25km": 11
+  },
+  {
+   "name": "Dundee",
+   "county": "Dundee City",
+   "country": "Scotland",
+   "biggest_mag": 1.6,
+   "biggest_date": "1984-02-21",
+   "biggest_km": 14.6,
+   "n_25km": 2
+  },
+  {
+   "name": "Salisbury",
+   "county": "Wiltshire",
+   "country": "England",
+   "biggest_mag": 1.5,
+   "biggest_date": "2010-06-25",
+   "biggest_km": 22.5,
+   "n_25km": 1
+  },
+  {
+   "name": "Aberdeen",
+   "county": "Aberdeen City",
+   "country": "Scotland",
+   "biggest_mag": null,
+   "biggest_date": null,
+   "biggest_km": null,
+   "n_25km": 0
+  },
+  {
+   "name": "St Albans",
+   "county": "Hertfordshire",
+   "country": "England",
+   "biggest_mag": null,
+   "biggest_date": null,
+   "biggest_km": null,
+   "n_25km": 0
+  }
+ ],
+ "city_named": {
+  "Leicester": {
+   "name": "Leicester",
+   "county": "City of Leicester",
+   "country": "England",
+   "biggest_mag": 5.3,
+   "biggest_date": "1957-02-11",
+   "biggest_km": 24.6,
+   "n_25km": 43
+  },
+  "Derby": {
+   "name": "Derby",
+   "county": "City of Derby",
+   "country": "England",
+   "biggest_mag": 5.3,
+   "biggest_date": "1957-02-11",
+   "biggest_km": 15.3,
+   "n_25km": 56
+  },
+  "Hereford": {
+   "name": "Hereford",
+   "county": "County of Herefordshire",
+   "country": "England",
+   "biggest_mag": 5.3,
+   "biggest_date": "1896-12-17",
+   "biggest_km": 12.2,
+   "n_25km": 75
+  },
+  "Nottingham": {
+   "name": "Nottingham",
+   "county": "City of Nottingham",
+   "country": "England",
+   "biggest_mag": 5.3,
+   "biggest_date": "1957-02-11",
+   "biggest_km": 19.3,
+   "n_25km": 126
+  },
+  "Lincoln": {
+   "name": "Lincoln",
+   "county": "Lincolnshire",
+   "country": "England",
+   "biggest_mag": 5.2,
+   "biggest_date": "2008-02-27",
+   "biggest_km": 23.0,
+   "n_25km": 30
+  },
+  "Swansea": {
+   "name": "Swansea",
+   "county": "Abertawe",
+   "country": "Wales",
+   "biggest_mag": 5.2,
+   "biggest_date": "1727-07-19",
+   "biggest_km": 13.7,
+   "n_25km": 44
+  },
+  "Inverness": {
+   "name": "Inverness",
+   "county": "Highland",
+   "country": "Scotland",
+   "biggest_mag": 5.1,
+   "biggest_date": "1816-08-13",
+   "biggest_km": 8.4,
+   "n_25km": 21
+  },
+  "Sheffield": {
+   "name": "Sheffield",
+   "county": "Sheffield",
+   "country": "England",
+   "biggest_mag": 5.0,
+   "biggest_date": "1575-02-26",
+   "biggest_km": 22.1,
+   "n_25km": 141
+  },
+  "Carlisle": {
+   "name": "Carlisle",
+   "county": "Cumberland",
+   "country": "England",
+   "biggest_mag": 4.9,
+   "biggest_date": "1650-04-11",
+   "biggest_km": 13.8,
+   "n_25km": 90
+  },
+  "Bangor": {
+   "name": "Bangor",
+   "county": "Gwynedd",
+   "country": "Wales",
+   "biggest_mag": 4.9,
+   "biggest_date": "1903-06-19",
+   "biggest_km": 24.3,
+   "n_25km": 92
+  },
+  "Bradford": {
+   "name": "Bradford",
+   "county": "Bradford",
+   "country": "England",
+   "biggest_mag": 4.8,
+   "biggest_date": "1944-12-30",
+   "biggest_km": 19.1,
+   "n_25km": 31
+  },
+  "Wolverhampton": {
+   "name": "Wolverhampton",
+   "county": "City of Wolverhampton",
+   "country": "England",
+   "biggest_mag": 4.7,
+   "biggest_date": "2002-09-22",
+   "biggest_km": 6.2,
+   "n_25km": 54
+  },
+  "Birmingham": {
+   "name": "Birmingham",
+   "county": "Birmingham",
+   "country": "England",
+   "biggest_mag": 4.7,
+   "biggest_date": "2002-09-22",
+   "biggest_km": 18.4,
+   "n_25km": 38
+  },
+  "Portsmouth": {
+   "name": "Portsmouth",
+   "county": "City of Portsmouth",
+   "country": "England",
+   "biggest_mag": 4.7,
+   "biggest_date": "1963-10-25",
+   "biggest_km": 9.0,
+   "n_25km": 11
+  },
+  "Chichester": {
+   "name": "Chichester",
+   "county": "West Sussex",
+   "country": "England",
+   "biggest_mag": 4.7,
+   "biggest_date": "1963-10-25",
+   "biggest_km": 15.4,
+   "n_25km": 12
+  },
+  "Colchester": {
+   "name": "Colchester",
+   "county": "Essex",
+   "country": "England",
+   "biggest_mag": 4.6,
+   "biggest_date": "1884-04-22",
+   "biggest_km": 7.8,
+   "n_25km": 2
+  },
+  "Stoke-on-Trent": {
+   "name": "Stoke-on-Trent",
+   "county": "City of Stoke-on-Trent",
+   "country": "England",
+   "biggest_mag": 4.6,
+   "biggest_date": "1916-01-14",
+   "biggest_km": 19.2,
+   "n_25km": 333
+  },
+  "Liverpool": {
+   "name": "Liverpool",
+   "county": "Liverpool",
+   "country": "England",
+   "biggest_mag": 4.5,
+   "biggest_date": "1976-11-03",
+   "biggest_km": 19.9,
+   "n_25km": 28
+  },
+  "Salford": {
+   "name": "Salford",
+   "county": "Salford",
+   "country": "England",
+   "biggest_mag": 4.4,
+   "biggest_date": "1777-09-14",
+   "biggest_km": 3.4,
+   "n_25km": 206
+  },
+  "Manchester": {
+   "name": "Manchester",
+   "county": "Manchester",
+   "country": "England",
+   "biggest_mag": 4.4,
+   "biggest_date": "1777-09-14",
+   "biggest_km": 4.9,
+   "n_25km": 206
+  },
+  "Lancaster": {
+   "name": "Lancaster",
+   "county": "Lancashire",
+   "country": "England",
+   "biggest_mag": 4.4,
+   "biggest_date": "1835-08-20",
+   "biggest_km": 8.1,
+   "n_25km": 26
+  },
+  "Doncaster": {
+   "name": "Doncaster",
+   "county": "Doncaster",
+   "country": "England",
+   "biggest_mag": 4.3,
+   "biggest_date": "1905-04-23",
+   "biggest_km": 16.6,
+   "n_25km": 137
+  },
+  "Canterbury": {
+   "name": "Canterbury",
+   "county": "Kent",
+   "country": "England",
+   "biggest_mag": 4.3,
+   "biggest_date": "2007-04-28",
+   "biggest_km": 20.8,
+   "n_25km": 10
+  },
+  "Coventry": {
+   "name": "Coventry",
+   "county": "Coventry",
+   "country": "England",
+   "biggest_mag": 4.2,
+   "biggest_date": "2000-09-23",
+   "biggest_km": 15.7,
+   "n_25km": 12
+  },
+  "Kingston upon Hull": {
+   "name": "Kingston upon Hull",
+   "county": "City of Kingston upon Hull",
+   "country": "England",
+   "biggest_mag": 4.2,
+   "biggest_date": "1703-12-28",
+   "biggest_km": 20.2,
+   "n_25km": 14
+  },
+  "Gloucester": {
+   "name": "Gloucester",
+   "county": "Gloucestershire",
+   "country": "England",
+   "biggest_mag": 4.1,
+   "biggest_date": "1768-12-21",
+   "biggest_km": 20.4,
+   "n_25km": 19
+  },
+  "Newport": {
+   "name": "Newport",
+   "county": "Casnewydd",
+   "country": "Wales",
+   "biggest_mag": 4.1,
+   "biggest_date": "1974-02-25",
+   "biggest_km": 10.3,
+   "n_25km": 120
+  },
+  "Truro": {
+   "name": "Truro",
+   "county": "Cornwall",
+   "country": "England",
+   "biggest_mag": 4.1,
+   "biggest_date": "1966-07-23",
+   "biggest_km": 22.8,
+   "n_25km": 49
+  },
+  "Worcester": {
+   "name": "Worcester",
+   "county": "Worcestershire",
+   "country": "England",
+   "biggest_mag": 4.1,
+   "biggest_date": "1768-12-21",
+   "biggest_km": 17.5,
+   "n_25km": 25
+  },
+  "Cardiff": {
+   "name": "Cardiff",
+   "county": "Caerdydd",
+   "country": "Wales",
+   "biggest_mag": 4.1,
+   "biggest_date": "1974-02-25",
+   "biggest_km": 18.2,
+   "n_25km": 96
+  },
+  "Wrexham": {
+   "name": "Wrexham",
+   "county": "Wrecsam",
+   "country": "Wales",
+   "biggest_mag": 4.0,
+   "biggest_date": "1613-03-18",
+   "biggest_km": 23.1,
+   "n_25km": 30
+  },
+  "Chester": {
+   "name": "Chester",
+   "county": "Cheshire West and Chester",
+   "country": "England",
+   "biggest_mag": 4.0,
+   "biggest_date": "1750-04-02",
+   "biggest_km": 8.2,
+   "n_25km": 37
+  },
+  "Lichfield": {
+   "name": "Lichfield",
+   "county": "Staffordshire",
+   "country": "England",
+   "biggest_mag": 4.0,
+   "biggest_date": "1937-07-09",
+   "biggest_km": 17.2,
+   "n_25km": 39
+  },
+  "St Davids": {
+   "name": "St Davids",
+   "county": "Sir Benfro",
+   "country": "Wales",
+   "biggest_mag": 4.0,
+   "biggest_date": "1892-08-18",
+   "biggest_km": 24.5,
+   "n_25km": 13
+  },
+  "St Asaph": {
+   "name": "St Asaph",
+   "county": "Sir Ddinbych",
+   "country": "Wales",
+   "biggest_mag": 4.0,
+   "biggest_date": "1613-03-18",
+   "biggest_km": 24.2,
+   "n_25km": 13
+  },
+  "Leeds": {
+   "name": "Leeds",
+   "county": "Leeds",
+   "country": "England",
+   "biggest_mag": 4.0,
+   "biggest_date": "1972-03-07",
+   "biggest_km": 23.0,
+   "n_25km": 20
+  },
+  "Wakefield": {
+   "name": "Wakefield",
+   "county": "Wakefield",
+   "country": "England",
+   "biggest_mag": 4.0,
+   "biggest_date": "1972-03-07",
+   "biggest_km": 24.1,
+   "n_25km": 34
+  },
+  "Ely": {
+   "name": "Ely",
+   "county": "Cambridgeshire",
+   "country": "England",
+   "biggest_mag": 4.0,
+   "biggest_date": "1948-05-28",
+   "biggest_km": 25.0,
+   "n_25km": 3
+  },
+  "Preston": {
+   "name": "Preston",
+   "county": "Lancashire",
+   "country": "England",
+   "biggest_mag": 3.8,
+   "biggest_date": "1889-02-10",
+   "biggest_km": 24.1,
+   "n_25km": 30
+  },
+  "Glasgow": {
+   "name": "Glasgow",
+   "county": "Glasgow City",
+   "country": "Scotland",
+   "biggest_mag": 3.7,
+   "biggest_date": "1940-07-16",
+   "biggest_km": 21.2,
+   "n_25km": 28
+  },
+  "Stirling": {
+   "name": "Stirling",
+   "county": "Stirling",
+   "country": "Scotland",
+   "biggest_mag": 3.7,
+   "biggest_date": "1912-05-03",
+   "biggest_km": 13.1,
+   "n_25km": 364
+  },
+  "Dunfermline": {
+   "name": "Dunfermline",
+   "county": "Fife",
+   "country": "Scotland",
+   "biggest_mag": 3.7,
+   "biggest_date": "1912-05-03",
+   "biggest_km": 23.2,
+   "n_25km": 245
+  },
+  "York": {
+   "name": "York",
+   "county": "York",
+   "country": "England",
+   "biggest_mag": 3.7,
+   "biggest_date": "1885-06-18",
+   "biggest_km": 21.3,
+   "n_25km": 21
+  },
+  "Milton Keynes": {
+   "name": "Milton Keynes",
+   "county": "Milton Keynes",
+   "country": "England",
+   "biggest_mag": 3.5,
+   "biggest_date": "2020-09-08",
+   "biggest_km": 13.1,
+   "n_25km": 20
+  },
+  "Bristol": {
+   "name": "Bristol",
+   "county": "City of Bristol",
+   "country": "England",
+   "biggest_mag": 3.5,
+   "biggest_date": "1839-09-01",
+   "biggest_km": 16.8,
+   "n_25km": 24
+  },
+  "Plymouth": {
+   "name": "Plymouth",
+   "county": "City of Plymouth",
+   "country": "England",
+   "biggest_mag": 3.4,
+   "biggest_date": "1852-08-12",
+   "biggest_km": 16.1,
+   "n_25km": 15
+  },
+  "Oxford": {
+   "name": "Oxford",
+   "county": "Oxfordshire",
+   "country": "England",
+   "biggest_mag": 3.4,
+   "biggest_date": "1764-11-06",
+   "biggest_km": 9.7,
+   "n_25km": 9
+  },
+  "Norwich": {
+   "name": "Norwich",
+   "county": "Norfolk",
+   "country": "England",
+   "biggest_mag": 3.3,
+   "biggest_date": "1757-01-10",
+   "biggest_km": 11.0,
+   "n_25km": 4
+  },
+  "Peterborough": {
+   "name": "Peterborough",
+   "county": "City of Peterborough",
+   "country": "England",
+   "biggest_mag": 3.3,
+   "biggest_date": "1992-02-17",
+   "biggest_km": 8.7,
+   "n_25km": 4
+  },
+  "Edinburgh": {
+   "name": "Edinburgh",
+   "county": "City of Edinburgh",
+   "country": "Scotland",
+   "biggest_mag": 3.2,
+   "biggest_date": "1889-01-18",
+   "biggest_km": 14.1,
+   "n_25km": 269
+  },
+  "Perth": {
+   "name": "Perth",
+   "county": "Perth and Kinross",
+   "country": "Scotland",
+   "biggest_mag": 3.2,
+   "biggest_date": "1809-01-18",
+   "biggest_km": 23.1,
+   "n_25km": 78
+  },
+  "Wells": {
+   "name": "Wells",
+   "county": "Somerset",
+   "country": "England",
+   "biggest_mag": 3.2,
+   "biggest_date": "1852-04-03",
+   "biggest_km": 10.8,
+   "n_25km": 26
+  },
+  "London": {
+   "name": "London",
+   "county": "Greater London",
+   "country": "England",
+   "biggest_mag": 3.1,
+   "biggest_date": "1750-03-08",
+   "biggest_km": 2.7,
+   "n_25km": 2
+  },
+  "Brighton and Hove": {
+   "name": "Brighton and Hove",
+   "county": "The City of Brighton and Hove",
+   "country": "England",
+   "biggest_mag": 3.1,
+   "biggest_date": "1864-08-21",
+   "biggest_km": 7.1,
+   "n_25km": 2
+  },
+  "City of London": {
+   "name": "City of London",
+   "county": "Greater London",
+   "country": "England",
+   "biggest_mag": 3.1,
+   "biggest_date": "1750-03-08",
+   "biggest_km": 2.8,
+   "n_25km": 2
+  },
+  "City of Westminster": {
+   "name": "City of Westminster",
+   "county": "Greater London",
+   "country": "England",
+   "biggest_mag": 3.1,
+   "biggest_date": "1750-03-08",
+   "biggest_km": 2.2,
+   "n_25km": 2
+  },
+  "Durham": {
+   "name": "Durham",
+   "county": "County Durham",
+   "country": "England",
+   "biggest_mag": 3.1,
+   "biggest_date": "2018-09-15",
+   "biggest_km": 23.6,
+   "n_25km": 33
+  },
+  "Winchester": {
+   "name": "Winchester",
+   "county": "Hampshire",
+   "country": "England",
+   "biggest_mag": 2.9,
+   "biggest_date": "1982-07-19",
+   "biggest_km": 19.5,
+   "n_25km": 5
+  },
+  "Southampton": {
+   "name": "Southampton",
+   "county": "City of Southampton",
+   "country": "England",
+   "biggest_mag": 2.9,
+   "biggest_date": "2015-01-27",
+   "biggest_km": 20.8,
+   "n_25km": 4
+  },
+  "Exeter": {
+   "name": "Exeter",
+   "county": "Devon",
+   "country": "England",
+   "biggest_mag": 2.7,
+   "biggest_date": "2011-06-23",
+   "biggest_km": 22.1,
+   "n_25km": 6
+  },
+  "Ripon": {
+   "name": "Ripon",
+   "county": "North Yorkshire",
+   "country": "England",
+   "biggest_mag": 2.7,
+   "biggest_date": "2011-01-03",
+   "biggest_km": 9.2,
+   "n_25km": 18
+  },
+  "Southend-on-Sea": {
+   "name": "Southend-on-Sea",
+   "county": "Southend-on-Sea",
+   "country": "England",
+   "biggest_mag": 2.6,
+   "biggest_date": "2023-02-09",
+   "biggest_km": 17.1,
+   "n_25km": 2
+  },
+  "Chelmsford": {
+   "name": "Chelmsford",
+   "county": "Essex",
+   "country": "England",
+   "biggest_mag": 2.6,
+   "biggest_date": "2023-02-09",
+   "biggest_km": 10.4,
+   "n_25km": 2
+  },
+  "Sunderland": {
+   "name": "Sunderland",
+   "county": "Sunderland",
+   "country": "England",
+   "biggest_mag": 2.3,
+   "biggest_date": "2003-06-16",
+   "biggest_km": 15.7,
+   "n_25km": 36
+  },
+  "Newcastle upon Tyne": {
+   "name": "Newcastle upon Tyne",
+   "county": "Newcastle upon Tyne",
+   "country": "England",
+   "biggest_mag": 2.3,
+   "biggest_date": "2003-06-16",
+   "biggest_km": 3.2,
+   "n_25km": 27
+  },
+  "Cambridge": {
+   "name": "Cambridge",
+   "county": "Cambridgeshire",
+   "country": "England",
+   "biggest_mag": 2.3,
+   "biggest_date": "2022-08-08",
+   "biggest_km": 12.4,
+   "n_25km": 3
+  },
+  "Bath": {
+   "name": "Bath",
+   "county": "Bath and North East Somerset",
+   "country": "England",
+   "biggest_mag": 1.8,
+   "biggest_date": "1993-07-28",
+   "biggest_km": 22.7,
+   "n_25km": 11
+  },
+  "Dundee": {
+   "name": "Dundee",
+   "county": "Dundee City",
+   "country": "Scotland",
+   "biggest_mag": 1.6,
+   "biggest_date": "1984-02-21",
+   "biggest_km": 14.6,
+   "n_25km": 2
+  },
+  "Salisbury": {
+   "name": "Salisbury",
+   "county": "Wiltshire",
+   "country": "England",
+   "biggest_mag": 1.5,
+   "biggest_date": "2010-06-25",
+   "biggest_km": 22.5,
+   "n_25km": 1
+  },
+  "Aberdeen": {
+   "name": "Aberdeen",
+   "county": "Aberdeen City",
+   "country": "Scotland",
+   "biggest_mag": null,
+   "biggest_date": null,
+   "biggest_km": null,
+   "n_25km": 0
+  },
+  "St Albans": {
+   "name": "St Albans",
+   "county": "Hertfordshire",
+   "country": "England",
+   "biggest_mag": null,
+   "biggest_date": null,
+   "biggest_km": null,
+   "n_25km": 0
+  }
+ }
+}
