@@ -1,0 +1,558 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Britain's Earthquakes Since 1382</title>
+<meta name="description" content="Every earthquake in the British Geological Survey catalogues, {{counts.first_year|raw}} to {{counts.last_year|raw}}: {{counts.total|int}} events. Where they cluster, how often a magnitude 4 or 5 happens, the coalfield quakes, and the biggest earthquake near your town.">
+<meta property="og:title" content="Britain's earthquakes since 1382">
+<meta property="og:description" content="{{counts.total|int}} earthquakes from the BGS catalogues. Britain has a magnitude 4 about every {{gr.all4_ret|f1}} years and a magnitude 5 about every {{gr.all5_ret|int}} years. Find the biggest near you.">
+<meta property="og:image" content="https://tristan-hotham.github.io/british-earthquakes/header.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800;9..144,900&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* Sandstone paper. Seismograph ink. Red = instrumental (1970 on). Sepia = historical (before 1970). Charcoal = near a colliery. */
+:root{
+  --bg:#F5EFE4; --panel:#ECE3D3; --fg:#22201C; --muted:#6D6455; --rule:#DED2BE; --card:#FBF8F2; --border:#C9BA9E;
+  --red:#B42A1F; --redl:#E5A196; --sep:#9A6A33; --sepl:#D9BF96; --ink:#1F3557; --inkl:#9DB0CC; --coal:#3B3936; --sea:#EDE6D9;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1B1916; --panel:#24211D; --fg:#ECE5D8; --muted:#ADA392; --rule:#3A342C; --card:#211E1A; --border:#4A4236;
+  --red:#EE6A5C; --redl:#8E453D; --sep:#D7A866; --sepl:#6D5536; --ink:#9DB6DA; --inkl:#3D5070; --coal:#CFC8BC; --sea:#171512; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1B1916; --panel:#24211D; --fg:#ECE5D8; --muted:#ADA392; --rule:#3A342C; --card:#211E1A; --border:#4A4236;
+  --red:#EE6A5C; --redl:#8E453D; --sep:#D7A866; --sepl:#6D5536; --ink:#9DB6DA; --inkl:#3D5070; --coal:#CFC8BC; --sea:#171512; color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 18px/1.62 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+.wrap{max-width:680px;margin:0 auto;padding-block:28px 64px}
+.wrap .bleed{width:min(1080px,calc(100vw - 32px));margin-left:calc((100% - min(1080px,100vw - 32px))/2);margin-right:0}
+a{color:inherit;text-decoration-color:var(--red);text-underline-offset:3px}
+.kicker{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.kicker b{background:var(--red);color:var(--bg);padding:5px 8px;font-weight:500}
+header.hero{border-bottom:6px double var(--fg);padding-bottom:22px;margin-top:18px}
+h1{font:900 clamp(50px,12vw,104px)/.88 var(--display);letter-spacing:-.02em;margin:0;font-variation-settings:"SOFT" 50;color:var(--fg)}
+h1 em{font-style:normal;color:var(--red)}
+.drum{margin:18px 0 4px;width:100%}
+.drum svg{display:block;width:100%;height:auto;overflow:visible}
+.dek{font-size:21px;line-height:1.42;margin:10px 0 0;max-width:48ch}
+.byline{font:400 13px/1.4 var(--mono);color:var(--muted);margin-top:14px}
+h2{font:800 34px/1.04 var(--display);letter-spacing:-.01em;margin:52px 0 10px;text-wrap:balance}
+h2 .n{font:500 13px/1 var(--mono);color:var(--red);display:block;letter-spacing:.1em;margin-bottom:10px}
+h3{font:600 20px/1.25 var(--display);margin:28px 0 6px}
+p{margin:0 0 16px}
+.lede::first-letter{font:900 72px/.8 var(--display);float:left;margin:6px 10px 0 0;color:var(--red)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);margin:26px 0 8px}
+.stats div{background:var(--card);padding:14px 12px}
+.stats b{display:block;font:900 clamp(28px,6vw,40px)/1 var(--display);color:var(--fg)}
+.stats b.r{color:var(--red)}.stats b.s{color:var(--sep)}.stats b.i{color:var(--ink)}
+.stats span{font:400 12px/1.35 var(--mono);color:var(--muted);display:block;margin-top:6px}
+@media (max-width:600px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.figure{margin:26px 0 30px}
+.fig-h{font:600 19px/1.25 var(--display);margin:0 0 4px}
+.fig-sub{font:400 13px/1.45 var(--mono);color:var(--muted);margin:0 0 12px}
+.src{font:400 12px/1.45 var(--mono);color:var(--muted);margin-top:10px}
+.chart{width:100%;position:relative}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:var(--mono);fill:var(--fg)}
+.lab{font-size:12px}.lab.m{fill:var(--muted)}.lab.b{font-weight:500}.lab.s{font-size:11px}
+.tip{position:absolute;pointer-events:none;background:var(--fg);color:var(--bg);font:400 12px/1.45 var(--mono);padding:8px 10px;border-radius:3px;max-width:280px;z-index:1000;transform:translate(-50%,calc(-100% - 12px));display:none}
+.tip b{font-weight:500}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:0 0 10px}
+.btn{font:500 12px/1 var(--mono);background:var(--card);color:var(--fg);border:1px solid var(--border);border-radius:3px;padding:8px 10px;cursor:pointer;min-height:36px}
+.btn[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.btn i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.btn:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.slider{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:center;margin:0 0 8px}
+.slider input{width:100%;accent-color:var(--red)}
+.yr{font:800 26px/1.1 var(--display);margin:2px 0 8px}
+.yr small{font:400 13px/1.3 var(--mono);color:var(--muted);display:block;margin-top:4px}
+.finder{background:var(--panel);border:1px solid var(--rule);padding:14px;margin:0 0 14px}
+.finder label{font:500 12px/1.2 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:8px}
+.search{display:flex;gap:8px;flex-wrap:wrap;position:relative}
+.search input,.search select{font:400 15px/1 var(--mono);padding:10px;border:1px solid var(--border);background:var(--card);color:var(--fg);border-radius:3px;min-width:0}
+.search input{flex:1 1 220px}
+.sugg{position:absolute;left:0;top:44px;z-index:1200;background:var(--card);border:1px solid var(--border);list-style:none;margin:0;padding:0;width:min(420px,100%);max-height:300px;overflow:auto;display:none;box-shadow:0 6px 18px rgba(0,0,0,.12)}
+.sugg li{padding:9px 10px;font:400 13px/1.3 var(--mono);cursor:pointer;border-bottom:1px solid var(--rule)}
+.sugg li:hover,.sugg li.on{background:var(--panel)}
+.sugg li small{color:var(--muted)}
+.mapgrid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(0,1fr);gap:18px;align-items:start}
+@media (max-width:820px){.mapgrid{grid-template-columns:1fr}}
+#map{height:clamp(440px,76vh,700px);border:1px solid var(--border);background:var(--sea);border-radius:2px;z-index:0}
+.legend{display:flex;gap:6px 14px;flex-wrap:wrap;font:400 12px/1.3 var(--mono);color:var(--muted);margin-top:8px;align-items:center}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.side{display:flex;flex-direction:column;gap:12px}
+.card{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--red);padding:12px 14px;font:400 13px/1.5 var(--mono)}
+.card.empty{border-left-color:var(--border);color:var(--muted)}
+.card b.t{font:600 19px/1.2 var(--display);display:block;margin-bottom:6px}
+.card .big{font:900 44px/1 var(--display);color:var(--red);display:block;margin:6px 0 2px}
+.card dl{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;margin:6px 0 8px}
+.card dt{color:var(--muted)}.card dd{margin:0;overflow-wrap:anywhere}
+.card ol{margin:6px 0 0;padding-left:20px}
+.card ol li{cursor:pointer}
+.pill{display:inline-block;font:500 11px/1 var(--mono);padding:4px 7px;border-radius:10px;color:#fff;margin:0 4px 4px 0}
+.pull{font:600 26px/1.25 var(--display);border-left:6px solid var(--red);padding:4px 0 4px 18px;margin:30px 0}
+.note{background:var(--panel);border:1px solid var(--rule);padding:14px 16px;font-size:16px;margin:22px 0}
+.note h3{margin-top:0}
+table.t{width:100%;border-collapse:collapse;font:400 13px/1.35 var(--mono)}
+table.t th{text-align:left;font-weight:500;color:var(--muted);border-bottom:2px solid var(--fg);padding:6px 8px 6px 0;vertical-align:bottom;cursor:pointer}
+table.t td{border-bottom:1px solid var(--rule);padding:7px 8px 7px 0;vertical-align:top}
+table.t td.num,table.t th.num{text-align:right}
+table.t tr.click{cursor:pointer}
+table.t tr.click:hover td{background:var(--panel)}
+.tablewrap{overflow-x:auto;max-height:520px;overflow-y:auto;border-bottom:1px solid var(--rule)}
+.cta{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}
+.cta a{font:500 13px/1 var(--mono);text-decoration:none;border:1px solid var(--fg);padding:11px 14px;border-radius:3px}
+.cta a.p{background:var(--red);border-color:var(--red);color:var(--bg)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 18px;padding:0;list-style:none}
+.chips li{font:400 12.5px/1.3 var(--mono);border:1px solid var(--border);background:var(--card);padding:7px 9px;border-radius:14px;cursor:pointer}
+.chips li b{color:var(--red);font-weight:500}
+.stories{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:18px 0}
+@media (max-width:640px){.stories{grid-template-columns:1fr}}
+.story{background:var(--card);border:1px solid var(--border);padding:12px 14px;font-size:15.5px;line-height:1.5;cursor:pointer}
+.story .h{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:4px}
+.story .h b{font:600 18px/1.2 var(--display)}
+.story .h span{font:900 26px/1 var(--display);color:var(--red);white-space:nowrap}
+.story .h span.s{color:var(--sep)}
+.story .m{font:400 12px/1.4 var(--mono);color:var(--muted);margin-bottom:6px}
+footer{border-top:6px double var(--fg);margin-top:56px;padding-top:16px;font:400 13px/1.55 var(--mono);color:var(--muted)}
+footer p{margin:0 0 10px}
+.theme{position:fixed;right:12px;bottom:12px;z-index:1001}
+.leaflet-container{font:400 12px/1.4 var(--mono);background:var(--sea)}
+.leaflet-tooltip{font:400 12px/1.4 var(--mono)}
+.leaflet-control-attribution{background:color-mix(in srgb,var(--card) 85%,transparent)!important;color:var(--muted)!important;font-size:10px}
+.leaflet-control-attribution a{color:var(--fg)!important}
+.leaflet-bar a{background:var(--card);color:var(--fg);border-bottom-color:var(--border)}
+.leaflet-bar a:hover{background:var(--panel)}
+.leaflet-bar{border:1px solid var(--border)!important}
+@media print{.theme,.controls{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="kicker"><b>Data study</b><span>Seismology × history</span><span>Britain, {{counts.first_year|raw}} to {{counts.last_year|raw}}</span></div>
+<header class="hero">
+  <h1>Britain's <em>earthquakes</em> since 1382</h1>
+  <div class="drum" id="drum" aria-hidden="true"></div>
+  <p class="dek">Britain is not supposed to have earthquakes. It has thousands. I mapped every one in the British Geological Survey's two catalogues, from the Dover Straits shock of {{counts.first_year|raw}} to {{counts.last_year|raw}}, to ask where they happen, how big they get, how often a big one comes, and what the biggest has been near you.</p>
+  <div class="byline">Dr Tristan Hotham, Independent researcher · October 2026 · Data: British Geological Survey UK earthquake catalogues; OS Open Names; OpenStreetMap; Wikipedia</div>
+</header>
+
+<div class="stats">
+  <div><b>{{counts.total|int}}</b><span>earthquakes in the two BGS catalogues, {{counts.total_br|int}} of them on land in Britain or within 20 km of its coast</span></div>
+  <div><b class="s">{{biggest_all.0.mag|f1}}</b><span>the biggest: the Dogger Bank earthquake of 7 June 1931, in the North Sea</span></div>
+  <div><b class="r">{{gr.all4_ret|f1}} yrs</b><span>average gap between magnitude 4 or bigger quakes in Britain since 1750 ({{gr.all4_since1750|int}} of them)</span></div>
+  <div><b class="i">{{coal.share_to2014|pct0}}</b><span>of onshore quakes recorded 1970 to 2014 lay within 5 km of a mapped coal mine; {{coal.share_2020on|pct0}} since 2020</span></div>
+</div>
+
+<p class="lede">At about six o'clock in the evening of 6 April 1580, in Easter week, the ground shook in London, across south-east England and over the sea in Flanders and northern France. Two people were killed in England. The British Geological Survey puts the shock in the Strait of Dover, at magnitude {{stories.1580_Dover_Straits.mag|f1}}, and it is still one of the biggest earthquakes ever to hit England. A Briton who felt it would not have called it rare: the same straits had shaken in 1382, interrupting a church council in London that became known as the Earthquake Synod.</p>
+<p>Britain sits in the middle of a tectonic plate, far from the plate edges where the world's great earthquakes happen. Its earthquakes are small. But they are not rare. The BGS catalogues list {{counts.historical|int}} known earthquakes from {{counts.first_year|raw}} to 1969, worked out from letters, newspapers and diaries describing what people felt, and {{counts.modern|int}} recorded by seismometers from 1970 to {{counts.last_date_text|raw}}. Most are far too small to feel. A few have killed people, toppled chimneys or twisted church spires.</p>
+<p>This study puts both catalogues on one map. It asks four questions: where Britain's earthquakes cluster, how often a big one (magnitude 4 or 5) comes round, how much the record is shaped by our ability to detect small shocks, and how many of the recorded shocks were set off by coal mining. And it lets you look up the biggest earthquake ever recorded near your town.</p>
+
+<h2><span class="n">01 · The map</span>Every recorded earthquake, and the biggest near you</h2>
+<p>Each circle is one earthquake at the epicentre the BGS gives, sized by magnitude. Sepia circles are historical earthquakes (before 1970), located from felt reports; red circles are instrumentally recorded ones (1970 on). Type a town or village to find the biggest earthquake recorded within the distance you choose, or drag the slider to watch the record build up.</p>
+<div class="figure bleed">
+  <div class="finder">
+    <label for="q">The biggest earthquake near you</label>
+    <div class="search">
+      <input id="q" autocomplete="off" placeholder="Type a town or village, e.g. Comrie" aria-label="Find a town or village" aria-autocomplete="list" aria-controls="sugg">
+      <select id="rad" aria-label="Search radius"><option value="10">within 10 km</option><option value="25" selected>within 25 km</option><option value="50">within 50 km</option></select>
+      <ul class="sugg" id="sugg" role="listbox"></ul>
+    </div>
+  </div>
+  <div class="slider">
+    <button class="btn" id="play" aria-label="Play through the years">▶</button>
+    <input type="range" id="year" min="1380" max="{{counts.last_year|raw}}" step="1" value="{{counts.last_year|raw}}" aria-label="Year">
+  </div>
+  <div class="yr" id="yrLab"></div>
+  <div class="controls" id="filters" role="group" aria-label="Filters">
+    <button class="btn" data-k="hist" aria-pressed="true"><i style="background:var(--sep)"></i>Historical, to 1969</button>
+    <button class="btn" data-k="mod" aria-pressed="true"><i style="background:var(--red)"></i>Instrumental, 1970 on</button>
+    <button class="btn" data-m="0" aria-pressed="true">All sizes</button>
+    <button class="btn" data-m="3" aria-pressed="false">3+</button>
+    <button class="btn" data-m="4" aria-pressed="false">4+</button>
+    <button class="btn" id="bCoal" aria-pressed="false">Mark coalfield quakes</button>
+  </div>
+  <div class="mapgrid">
+    <div>
+      <div id="map" role="application" aria-label="Map of British earthquakes sized by magnitude"></div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="side">
+      <div class="card empty" id="card">Search for a place above, or tap a circle, to see the biggest earthquakes recorded near it.</div>
+      <div class="fig-h" style="margin-top:4px">Famous earthquakes</div>
+      <ul class="chips" id="storyChips" style="margin-top:0"></ul>
+    </div>
+  </div>
+  <div class="src">Earthquakes: British Geological Survey, UK historical and modern earthquake catalogues (Contains British Geological Survey materials © UKRI 2026). The modern layer as served starts at magnitude {{counts.modern_min_mag|f1}}. Places: OS Open Names. Coal mines: OpenStreetMap. Distances are straight-line distances to the catalogue epicentre.</div>
+</div>
+
+<h2><span class="n">02 · The big ones</span>Magnitude 5 and bigger</h2>
+<p>Magnitude is a logarithmic scale: each whole step means about ten times more ground motion and about thirty times more energy. In Britain a magnitude 3 is felt by people near the epicentre; a magnitude 4 rattles windows and cups over a wide area; a magnitude 5 is felt across much of the country and brings down chimneys near the epicentre. The catalogues hold {{n_br_ge5|int}} earthquakes of magnitude 5 or more on land in Britain or within 20 km of its coast, and {{n_br_ge4|int}} of magnitude 4 or more.</p>
+<div class="figure">
+  <div class="fig-h">The fifteen biggest earthquakes in Britain and its coastal waters</div>
+  <div class="fig-sub">Magnitude as given by the BGS (ML, or a magnitude estimated from felt effects for historical events). Sepia: historical; red: instrumental.</div>
+  <div class="chart" id="big"></div>
+  <div class="src">The 1931 Dogger Bank earthquake ({{biggest_all.0.mag|f1}}) and the 1382 Dover Straits earthquake ({{stories.1382_Dover_Straits.mag|f1}}) lie more than 20 km offshore and are not in this chart. For historical events the magnitude is an estimate from how widely and how strongly the shaking was felt.</div>
+</div>
+<p>The biggest of all is offshore: the Dogger Bank earthquake of 7 June 1931, magnitude {{stories.1931_Dogger_Bank.mag|f1}}, about {{stories.1931_Dogger_Bank.near_town_km|int}} km from the nearest British town, Withernsea on the Yorkshire coast. Close to the coast, the biggest is the Dover Straits shock of 1580 ({{stories.1580_Dover_Straits.mag|f1}}). On land, three historical shocks share the record at {{biggest_onshore.0.mag|f1}}: Caernarfon in 1852, Hereford in 1896 and Derby in 1957. The biggest instrumentally recorded are Market Rasen in 2008 and the Llŷn Peninsula in 1984, both {{stories.2008_Market_Rasen.mag|f1}} in the BGS catalogue, which places the Llŷn epicentre just off the coast. Tap a card to see it on the map.</p>
+<div class="stories" id="stories"></div>
+<p>Earlier chronicles describe bigger events still, such as the earthquake of 1185 that is said to have damaged Lincoln Cathedral and the one of 11 September 1275 that destroyed the church of St Michael on Glastonbury Tor. These are not in the BGS catalogue, which starts in 1382, and medieval writers sometimes blamed earthquakes for buildings that simply fell down.</p>
+
+<h2><span class="n">03 · Where</span>Where Britain shakes</h2>
+<p>Britain's earthquakes are not spread evenly. The south and east of England are quiet: east of 1° west and south of 53° north lies {{southeast.share_land|pct0}} of Britain's land but only {{southeast.share_events|pct0}} of its recorded earthquakes. The west is busier: north and south Wales, the Welsh borders, Cumbria, the Scottish Highlands and the west coast of Scotland. The ten busiest 20 km squares on the map hold {{hotspot_top10_share|pct0}} of all the instrumentally recorded earthquakes in Britain.</p>
+<div class="figure">
+  <div class="fig-h">The busiest 20 km squares since 1970</div>
+  <div class="fig-sub">Instrumentally recorded earthquakes on land in Britain or within 20 km of its coast. Bar: number recorded. Charcoal: squares where most epicentres lie within 5 km of a mapped coal mine. Tap a row to see it on the map.</div>
+  <div class="chart" id="hot"></div>
+</div>
+<p>Two kinds of place top the list. One is the natural hotspots. The Llŷn Peninsula is the busiest in Wales: the magnitude {{stories.1984_Llyn_Peninsula.mag|f1}} earthquake of 1984 was followed by {{llyn_aftershocks|int}} more recorded earthquakes within 30 km in the next year, most of them aftershocks, and the historical catalogue lists {{areas.4.n_hist|int}} earthquakes within 20 km of Pwllheli from {{areas.4.first|raw}} on. Comrie in Perthshire, close to the Highland Boundary Fault, is the most famous: {{comrie.hist|int}} historical earthquakes within 10 km of the village, {{comrie.hist_1839_1846|int}} of them in the swarm of 1839 to 1846, the largest of magnitude {{comrie.max_mag|f1}} on 23 October 1839. The village is sometimes called the "Shaky Toun", and its Earthquake House, built in 1874 to hold an early seismometer, still stands.</p>
+<p>The other kind is more surprising. The four busiest squares in Britain are not on any famous fault. They are Midlothian, around Bonnyrigg and Dalkeith; the Potteries, around Kidsgrove and Stoke-on-Trent; Clackmannanshire; and north Nottinghamshire, around Ollerton and Market Warsop. They are all coalfields.</p>
+
+<h2><span class="n">04 · The coalfield quakes</span>Earthquakes made by mining</h2>
+<p>When coal is removed from deep underground, the rock above and around the workings settles and the stresses shift. Small earthquakes can follow. They are shallow, which makes them easy to feel at the surface even when they are small. The catalogue does not label which earthquakes were induced, but the pattern is plain. Of the {{coal.n_to2014|int}} onshore earthquakes recorded from 1970 to 2014, {{coal.near_to2014|int}} ({{coal.share_to2014|pct0}}) had epicentres within 5 km of a coal mine mapped in OpenStreetMap, even though only {{coal.land_share|pct0}} of Britain's land lies that close to one.</p>
+<div class="figure">
+  <div class="fig-h">Share of onshore earthquakes within 5 km of a mapped coal mine</div>
+  <div class="fig-sub">Instrumentally recorded earthquakes on land in Britain, five-year periods. Dashed line: share of Britain's land within 5 km of a mapped coal mine.</div>
+  <div class="chart" id="coal"></div>
+  <div class="src">Coal mines: {{coal.features|int}} OpenStreetMap features named as collieries, coal mines or pits, or tagged with coal as the resource (© OpenStreetMap contributors). Many are long closed. An epicentre near a mine is a strong hint of mining-induced seismicity, not proof.</div>
+</div>
+<p>Three more clues point the same way. The near-mine earthquakes were shallow: a median depth of {{coal.depth_near_median|f1}} km, against {{coal.depth_far_median|f1}} km for the rest. They kept to the working week: only {{coal.weekend_near|pct0}} of the near-mine earthquakes up to 2014 fell on a Saturday or Sunday, against {{coal.weekend_far|pct0}} of other onshore earthquakes and the {{coal.weekend_expected|pct0}} you would expect by chance. And they stopped when the mining stopped. After the last deep mines closed in 2015, the share of onshore earthquakes near a coal mine fell to {{coal.share_2015on|pct0}} in 2015 to 2024, and to {{coal.share_2020on|pct0}} since 2020.</p>
+<p class="pull">The busiest earthquake zones in modern Britain were made by people: the coalfields of Midlothian, the Potteries and Nottinghamshire.</p>
+<p>Fracking near Blackpool also set off small earthquakes: a magnitude 2.3 at Preese Hall in 2011 and a 2.9 near Little Plumpton in 2019, after which the government announced an indefinite suspension of fracking. Neither appears in the catalogue layer I used, which has no events within 10 km of those wells in 2011 or in 2018 and 2019, so induced events may be handled separately by the BGS. I report them from published accounts, not from these data.</p>
+
+<h2><span class="n">05 · How often</span>One magnitude 4 every few years</h2>
+<p>Seismologists describe how often earthquakes of different sizes happen with the Gutenberg-Richter law: for every step up in magnitude, earthquakes become about ten times rarer. The slope of that relationship is called the b-value. For the {{gr.n|int}} earthquakes of magnitude {{gr.mc|f1}} or more recorded in Britain from 1980 to {{counts.last_date_text|raw}}, I estimate b = {{gr.b|f2}} (95% interval {{gr.b_ci.0|f2}} to {{gr.b_ci.1|f2}}), close to the global norm of about 1.</p>
+<div class="figure">
+  <div class="fig-h">How often earthquakes of each size happen in Britain</div>
+  <div class="fig-sub">Dots: average number of earthquakes per year at or above each magnitude, 1980 to {{counts.last_year|raw}}, Britain and coastal waters. Line: Gutenberg-Richter fit for magnitude {{gr.mc|f1}} and above. Log scale.</div>
+  <div class="chart" id="gr"></div>
+</div>
+<p>The fit says Britain should expect about {{gr.rate_ge3|f1}} earthquakes of magnitude 3 or more a year (the catalogue recorded {{gr.obs3_rate|f1}} a year), a magnitude 4 or more about every {{gr.ret4|f1}} years (95% interval {{gr.ret4_ci.0|f1}} to {{gr.ret4_ci.1|f1}}) and a magnitude 5 or more about every {{gr.ret5|int}} years ({{gr.ret5_ci.0|int}} to {{gr.ret5_ci.1|int}}). The long record agrees well for magnitude 4: the catalogues hold {{gr.all4_since1750|int}} magnitude 4 or bigger earthquakes in Britain since 1750, one every {{gr.all4_ret|f1}} years. But it holds {{gr.all5_since1750|int}} of magnitude 5 or more, one every {{gr.all5_ret|int}} years, more than the fit predicts. Either recent decades have been quiet for big earthquakes, or the magnitudes estimated from felt reports for historical earthquakes run a little high, or both. With so few big events, nobody can say which.</p>
+
+<h2><span class="n">06 · Seeing more</span>More earthquakes, or better ears?</h2>
+<p>The record grows over time, and almost all of that growth is in what we can detect, not in what the Earth is doing. Before 1700 the historical catalogue includes only earthquakes of magnitude 4 or more, and only {{pre1700_br|int}} of them for Britain survive in the record. In the nineteenth century, newspapers and amateur observers caught many more small shocks: {{detection.hist_1800s|int}} in the 1800s. From 1970 seismometers took over, and the network kept growing.</p>
+<div class="figure">
+  <div class="fig-h">Recorded earthquakes in Britain by size and period</div>
+  <div class="fig-sub">Left: historical catalogue, per 50 years. Right: instrumental catalogue, per decade (2020s to {{counts.last_date_text|raw}}). Darker: bigger. Note the different scales.</div>
+  <div class="chart" id="det"></div>
+</div>
+<p>In the 1970s, {{detection.share_lt2_1970s|pct0}} of the instrumentally recorded earthquakes in Britain were smaller than magnitude 2; by the 1990s it was {{detection.share_lt2_1990s|pct0}}. The number below magnitude 2 rose {{detection.lt2_ratio_80s_70s|f1}} times, from {{detection.lt2_1970s|int}} in the 1970s to {{detection.lt2_1980s|int}} in the 1980s, as stations were added (and as the coalfields were at their busiest). The number of magnitude 3 or bigger, which the network could catch throughout, did not rise: {{detection.ge3_by_decade.0|int}} in the 1970s, {{detection.ge3_by_decade.4|int}} in the 2010s. So a map of every recorded earthquake partly maps where we were listening, and when.</p>
+
+<h2><span class="n">07 · Your town</span>The biggest earthquake near every city</h2>
+<p>For each of the {{towns.n|int}} cities and towns in Ordnance Survey's gazetteer I found the biggest earthquake in either catalogue within 25 km. {{towns.share_ge4_25|pct0}} of them ({{towns.ge4_25|int}}) have had one of magnitude 4 or more that close, and {{towns.ge5_25|int}} have had a magnitude 5. Only {{towns.none_25|int}} have no recorded earthquake within 25 km at all, among them Aberdeen and St Albans. London's biggest within 25 km was a magnitude {{y1750.london_max|f1}} in 1750, one of two London shocks a month apart, in a year with {{y1750.n|words}} earthquakes in the catalogue.</p>
+<div class="figure">
+  <div class="fig-h">Cities and their biggest earthquake within 25 km</div>
+  <div class="fig-sub">OS Open Names cities. Tap a column heading to sort, or a row to see it on the map.</div>
+  <div class="tablewrap"><table class="t" id="cityT"></table></div>
+</div>
+
+<h2><span class="n">08 · Limits</span>What this can and cannot show</h2>
+<p><b>Historical earthquakes are reconstructions.</b> For events before 1970 the BGS works out a location and magnitude from where and how strongly the shaking was felt. They can be tens of kilometres out, and the magnitudes are estimates. Where the catalogue gives an instrumental magnitude (ML) I use it; otherwise its macroseismic magnitude. {{counts.historical_nomag|Words}} historical events have no magnitude. The catalogue's own magnitudes can differ from those quoted elsewhere: it gives the 1984 Llŷn earthquake {{stories.1984_Llyn_Peninsula.mag|f1}}, where many accounts say 5.4.</p>
+<p><b>Detection changes over time.</b> The historical catalogue is selective (before 1700, magnitude 4 or more only), and the instrumental one gets better at catching small events decade by decade. The layer I used starts at magnitude {{counts.modern_min_mag|f1}}. Counts of small earthquakes say as much about the seismometer network as about the Earth. The Gutenberg-Richter fit uses only magnitude {{gr.mc|f1}} and above from 1980, where the b-value is stable.</p>
+<p><b>Induced earthquakes are not labelled.</b> I infer mining-induced seismicity from closeness to mapped coal mines, depth and timing. OpenStreetMap's coal mines are incomplete and include old shallow pits, so this is an indicator, not a classification. The fracking-induced earthquakes near Blackpool are not in the layer at all.</p>
+<p><b>Cleaning.</b> The modern layer contained {{counts.modern_raw|int}} rows; {{counts.modern_dupes|int}} were duplicates (the same event entered more than once, often once by an automatic system and once by an analyst), leaving {{counts.modern|int}} events. "Britain" here means epicentres on land in Great Britain or within 20 km of its coast; the catalogues also include {{counts.offshore|int}} events further offshore ({{counts.offshore_nns|int}} of them in the northern North Sea, north of 58° N), and {{counts.ireland|int}} in Ireland.</p>
+
+<div class="note" id="method">
+  <h3>How I did this</h3>
+  <p><b>Earthquakes.</b> I downloaded the BGS historical catalogue (all known UK earthquakes before 1970, {{counts.historical|int}} events) and the modern catalogue (instrumentally recorded since 1970) from the BGS map services, merged them, removed duplicate rows and placed each epicentre: on land in Great Britain (Natural Earth outline), within 20 km of the coast, in Ireland, on the continent or further offshore. Each event was given its nearest OS Open Names town and settlement.</p>
+  <p><b>Statistics.</b> b-value by Aki's maximum likelihood estimator with Utsu's correction for magnitudes rounded to 0.1; the completeness magnitude ({{gr.mc|f1}}) is where the estimate stops changing as the threshold rises; intervals by bootstrap. Return periods are the inverse of the fitted annual rate. Weekend test: binomial test against 2/7.</p>
+  <p><b>Coal mines.</b> OpenStreetMap features whose name mentions a colliery, coal mine or pit, or tagged with coal as the resource; distance from each epicentre to the nearest. Land share from a 2 km grid of points on British land.</p>
+</div>
+<div class="cta">
+  <a class="p" href="https://github.com/Tristan-Hotham/british-earthquakes">Data and code</a>
+  <a href="https://doi.org/10.5281/zenodo.23729643">Paper (Zenodo)</a>
+  <a href="https://blog.tristanhotham.com/">More history data posts</a>
+</div>
+
+<footer>
+  <p>Dr Tristan Hotham, researcher on social media, campaigns and politics. Independent researcher. ORCID <a href="https://orcid.org/0000-0003-4931-9349">0000-0003-4931-9349</a>.</p>
+  <p>Cite as: Hotham, T. (2026) Britain's earthquakes since 1382: clusters, coalfields and how often the big ones come. Zenodo. <a href="https://doi.org/10.5281/zenodo.23729643">https://doi.org/10.5281/zenodo.23729643</a></p>
+  <p><b>Earthquakes:</b> British Geological Survey, UK historical earthquake catalogue (all known UK events before 1970) and UK modern recorded earthquake catalogue (instrumentally recorded since 1970), via the BGS map services at map.bgs.ac.uk, retrieved 28 October 2026. Contains British Geological Survey materials © UKRI 2026. The copyright in BGS materials is vested in UKRI (NERC); this page uses derived and reformatted catalogue values with acknowledgement.</p>
+  <p>Places: OS Open Names, Ordnance Survey, Open Government Licence v3.0; contains OS data © Crown copyright and database right 2026. Coal mines: © OpenStreetMap contributors, Open Database Licence (ODbL) 1.0. Coastline: Natural Earth (public domain). Stories: Wikipedia articles on British earthquakes (CC BY-SA 4.0), and Undiscovered Scotland on Comrie's Earthquake House. Base map tiles © Esri. Map library: Leaflet.</p>
+  <p>My text, charts and derived tables are released under CC BY 4.0, with the BGS acknowledgement above kept on any reuse; the coal mine flag is derived from OpenStreetMap (ODbL). Code is MIT.</p>
+  <p>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</p>
+</footer>
+</div>
+<div class="tip" id="tip"></div>
+<button class="btn theme" id="theme" aria-label="Toggle dark mode">◐</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+/*DATA*/
+const NS = "http://www.w3.org/2000/svg";
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const el = (t, a = {}, p) => { const e = document.createElementNS(NS, t); for (const k in a) e.setAttribute(k, a[k]); if (p) p.appendChild(e); return e; };
+const fmt = n => n == null ? "" : Math.round(n).toLocaleString("en-GB");
+const pc = (x, d = 0) => (x * 100).toFixed(d) + "%";
+const tip = document.getElementById("tip");
+function showTip(h, x, y) { tip.innerHTML = h; tip.style.display = "block"; const w = tip.offsetWidth; x = Math.max(w / 2 + 8, Math.min(innerWidth - w / 2 - 8, x)); tip.style.left = x + scrollX + "px"; tip.style.top = y + scrollY + "px"; }
+function hideTip() { tip.style.display = "none"; }
+function hover(node, h, click) { node.style.cursor = "pointer"; node.setAttribute("tabindex", "0"); const s = () => { const r = node.getBoundingClientRect(); showTip(h, r.left + r.width / 2, r.top); }; node.addEventListener("pointerenter", s); node.addEventListener("focus", s); node.addEventListener("pointerleave", hideTip); node.addEventListener("blur", hideTip); node.addEventListener("click", e => { e.stopPropagation(); if (click) { hideTip(); click(); } else s(); }); }
+document.addEventListener("click", hideTip);
+const redraws = [];
+function resp(box, render) { let last = 0; const go = (force) => { const w = Math.max(280, Math.round(box.clientWidth)); if (!force && Math.abs(w - last) < 4) return; last = w; box.innerHTML = ""; render(w, w < 560); }; new ResizeObserver(() => go()).observe(box); redraws.push(() => go(true)); go(); }
+const lbl = (svg, x, y, s, cls = "lab", anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }, svg); t.textContent = s; return t; };
+const R = D.R, P = D.P, C = P.ecols, EV = P.E.map((r, i) => { const o = Object.fromEntries(C.map((c, j) => [c, r[j]])); o.i = i; o.year = +o.date.slice(0, 4); return o; });
+const PL = P.P;
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const isDark = () => { const r = document.documentElement; return r.dataset.theme ? r.dataset.theme === "dark" : matchMedia("(prefers-color-scheme: dark)").matches; };
+document.getElementById("theme").onclick = () => { const r = document.documentElement; const dark = isDark(); r.dataset.theme = dark ? "light" : "dark"; redraws.forEach(f => f()); window.__restyle && window.__restyle(); };
+const MON = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const niceDate = d => { const p = d.split("-"); if (p.length === 3) return `${+p[2]} ${MON[+p[1] - 1]} ${p[0]}`; if (p.length === 2) return `${MON[+p[1] - 1]} ${p[0]}`; return p[0]; };
+const ZN = ["on land", "within 20 km of the coast", "offshore", "Ireland", "the continent", "Channel Islands", "Isle of Man"];
+const where = e => (e.loc ? e.loc + ", " : "") + (e.near_km <= 3 ? "at " + e.near : `${e.near_km.toFixed(0)} km from ${e.near}`);
+const magTxt = e => e.mag == null ? "magnitude unknown" : "magnitude " + e.mag.toFixed(1);
+const KM = (a, b, c, d) => { const k = Math.PI / 180, x = (d - b) * k * Math.cos((a + c) / 2 * k), y = (c - a) * k; return Math.sqrt(x * x + y * y) * 6371; };
+const rad = m => m == null ? 2 : 1.3 + Math.pow(Math.max(m - 0.8, 0.2), 1.75) * 1.05;
+
+/* ===== hero drum: every magnitude 4+ in Britain since 1750 ===== */
+resp(document.getElementById("drum"), (W, nar) => {
+  const Ht = nar ? 90 : 120, svg = el("svg", { viewBox: `0 0 ${W} ${Ht}`, role: "img", "aria-label": "Seismograph-style strip with a spike for every magnitude 4 or bigger earthquake in Britain since 1750" }, document.getElementById("drum"));
+  const y0 = 1750, y1 = R.counts.last_year + 1, X = y => (y - y0) / (y1 - y0) * W, mid = Ht * 0.58;
+  const ev = EV.filter(e => e.zone <= 1 && e.mag >= 4 && e.year >= y0).map(e => ({ ...e, t: e.year + ((+e.date.slice(5, 7) || 6) - 1) / 12 }));
+  let d = `M0 ${mid}`; let rnd = 7;
+  const rr = () => { rnd = (rnd * 9301 + 49297) % 233280; return rnd / 233280; };
+  for (let x = 0; x <= W; x += 3) d += `L${x} ${(mid + (rr() - .5) * 2.4).toFixed(1)}`;
+  el("path", { d, fill: "none", stroke: "var(--muted)", "stroke-width": .8, opacity: .7 }, svg);
+  ev.forEach(e => { const x = X(e.t), a = (e.mag - 3.6) * (Ht * 0.24); const s = [];
+    for (let k = 0; k < 7; k++) { const f = Math.exp(-k * .55) * (k % 2 ? -1 : 1); s.push(`L${(x + k * 1.6).toFixed(1)} ${(mid - a * f).toFixed(1)}`); }
+    const p = el("path", { d: `M${x - 1.6} ${mid}` + s.join("") + `L${x + 12} ${mid}`, fill: "none", stroke: e.cat ? "var(--red)" : "var(--sep)", "stroke-width": e.mag >= 5 ? 1.6 : 1.1, "stroke-linejoin": "round" }, svg);
+  });
+  [1750, 1800, 1850, 1900, 1950, 2000].forEach(y => lbl(svg, X(y), Ht - 2, y, "lab s m", y === 1750 ? "start" : "middle"));
+  const dg = EV.filter(e => e.zone <= 1 && e.year >= y0).reduce((a, b) => (b.mag || 0) > (a.mag || 0) ? b : a);
+  lbl(svg, W, 11, `${fmt(ev.length)} earthquakes of magnitude 4+ in Britain, 1750 to ${R.counts.last_year}`, "lab s m", "end");
+});
+
+/* ===== map ===== */
+(() => {
+  const card = document.getElementById("card"), slider = document.getElementById("year");
+  let year = R.counts.last_year, showH = 1, showM = 1, minM = 0, coalOn = false, focus = null;
+  if (!window.L) document.getElementById("map").innerHTML = '<p style="padding:16px;font:400 13px/1.5 var(--mono)">The map library did not load. The charts below still work.</p>';
+  const map = window.L ? L.map("map", { preferCanvas: true, scrollWheelZoom: false, zoomSnap: .25, minZoom: 4, maxZoom: 12 }).fitBounds([[49.9, -7.6], [59.0, 2.2]]) : null;
+  const CC = {}; const col = v => CC[v] || (CC[v] = css(v));
+  let tiles, lay, ring;
+  const vis = e => e.year <= year && (e.cat ? showM : showH) && (minM === 0 || (e.mag != null && e.mag >= minM));
+  if (map) {
+    map.attributionControl.setPrefix('<a href="https://leafletjs.com">Leaflet</a>');
+    map.on("focus", () => map.scrollWheelZoom.enable()); map.on("blur", () => map.scrollWheelZoom.disable());
+    const tileUrl = () => `https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/${isDark() ? "World_Dark_Gray_Base" : "World_Light_Gray_Base"}/MapServer/tile/{z}/{y}/{x}`;
+    tiles = L.tileLayer(tileUrl(), { maxZoom: 12, attribution: 'Tiles &copy; Esri · Earthquakes: Contains British Geological Survey materials &copy; UKRI 2026 · Places: OS Open Names (OGL) · Mines: &copy; OpenStreetMap contributors' }).addTo(map);
+    map.createPane("pts"); map.getPane("pts").style.zIndex = 430;
+    const rr = L.canvas({ pane: "pts", padding: .3, tolerance: 3 });
+    lay = L.layerGroup().addTo(map);
+    const order = EV.map(e => e.i).sort((a, b) => (EV[b].mag || 0) - (EV[a].mag || 0));
+    window.__draw = () => { lay.clearLayers();
+      const z = map.getZoom(), zs = z < 5.5 ? .7 : z < 7 ? .85 : 1;
+      order.forEach(i => { const e = EV[i]; if (!vis(e)) return; const c = col(e.cat ? "--red" : "--sep");
+        const isC = coalOn && e.coal && e.cat && e.zone === 0;
+        const m = L.circleMarker([e.lat, e.lon], { renderer: rr, radius: rad(e.mag) * zs, weight: isC ? 1.6 : .7, color: isC ? col("--coal") : c, opacity: isC ? 1 : .85, fillColor: isC ? col("--coal") : c, fillOpacity: e.mag >= 4 ? .45 : .28 });
+        m.bindTooltip(`<b>${niceDate(e.date)}</b> · ${magTxt(e)}<br>${esc(where(e))}`, { direction: "top" }).on("click", () => showEvent(i)).addTo(lay); });
+      if (focus) { L.circle([focus.lat, focus.lon], { renderer: rr, radius: focus.r * 1000, weight: 2, color: col("--ink"), fill: false, dashArray: "5 4", interactive: false }).addTo(lay);
+        L.circleMarker([focus.lat, focus.lon], { renderer: rr, radius: 5, weight: 2, color: col("--bg"), fillColor: col("--ink"), fillOpacity: 1, interactive: false }).addTo(lay); }
+      if (focus && focus.sel != null) { const e = EV[focus.sel]; L.circleMarker([e.lat, e.lon], { renderer: rr, radius: rad(e.mag) + 6, weight: 3, color: col("--ink"), fill: false, interactive: false }).addTo(lay); }
+    };
+    window.__restyle = () => { for (const k in CC) delete CC[k]; tiles.setUrl(tileUrl()); window.__draw(); };
+    map.on("zoomend", () => window.__draw());
+    matchMedia("(prefers-color-scheme: dark)").addEventListener("change", window.__restyle);
+  }
+  function legend() { document.getElementById("legend").innerHTML = `<span><i style="background:var(--sep)"></i>Historical (felt reports)</span><span><i style="background:var(--red)"></i>Instrumental</span>` +
+    [2, 3, 4, 5, 6].map(m => `<span><svg width="${2 * rad(m) + 2}" height="${2 * rad(m) + 2}" style="vertical-align:middle;margin-right:4px"><circle cx="${rad(m) + 1}" cy="${rad(m) + 1}" r="${rad(m)}" fill="none" stroke="var(--muted)"/></svg>${m}</span>`).join("") + (coalOn ? `<span><i style="background:var(--coal)"></i>Within 5 km of a coal mine</span>` : ""); }
+  function draw() { const v = EV.filter(vis), b = v.filter(e => e.zone <= 1);
+    document.getElementById("yrLab").innerHTML = `${year >= R.counts.last_year ? "1382 to " + R.counts.last_date.slice(0, 4) : "By " + year} <small>${fmt(v.length)} earthquakes shown · ${fmt(b.length)} on land in Britain or within 20 km of its coast</small>`;
+    legend(); if (map) window.__draw(); }
+  function near(lat, lon, r) { return EV.map(e => ({ e, d: KM(lat, lon, e.lat, e.lon) })).filter(o => o.d <= r); }
+  function showPlace(p) { const r = +document.getElementById("rad").value; const n = near(p[2], p[3], r);
+    focus = { lat: p[2], lon: p[3], r, sel: null };
+    year = R.counts.last_year; slider.value = year;
+    const s = n.filter(o => o.e.mag != null).sort((a, b) => b.e.mag - a.e.mag || a.e.year - b.e.year);
+    const recent = n.slice().sort((a, b) => b.e.date.localeCompare(a.e.date))[0];
+    card.className = "card"; card.style.borderLeftColor = "var(--ink)";
+    if (!s.length) { card.innerHTML = `<b class="t">${esc(p[0])}</b><div style="color:var(--muted)">${esc(p[1])}</div><p style="margin:8px 0 0">No earthquake in either catalogue within ${r} km. Try a wider radius.</p>`; }
+    else { const top = s[0]; focus.sel = top.e.i;
+      card.innerHTML = `<b class="t">${esc(p[0])}</b><div style="color:var(--muted)">${esc(p[1])}${p[5] ? " · " + esc(p[5]) : ""}</div>` +
+        `<span class="big">${top.e.mag.toFixed(1)}</span><div>the biggest earthquake recorded within ${r} km: <b>${niceDate(top.e.date)}</b>, ${top.d.toFixed(0)} km away (${esc(where(top.e))})</div><dl style="margin-top:10px">` +
+        `<dt>Recorded</dt><dd>${fmt(n.length)} earthquake${n.length === 1 ? "" : "s"} within ${r} km (${fmt(n.filter(o => !o.e.cat).length)} historical)</dd>` +
+        `<dt>Magnitude 4+</dt><dd>${fmt(s.filter(o => o.e.mag >= 4).length)}</dd>` +
+        `<dt>Most recent</dt><dd>${niceDate(recent.e.date)}, ${magTxt(recent.e)}</dd></dl>` +
+        `<div style="color:var(--muted)">Biggest nearby:</div><ol>${s.slice(0, 5).map(o => `<li data-i="${o.e.i}">${o.e.mag.toFixed(1)} · ${niceDate(o.e.date)} · ${o.d.toFixed(0)} km</li>`).join("")}</ol>`;
+      card.querySelectorAll("li[data-i]").forEach(li => li.onclick = () => { focus.sel = +li.dataset.i; window.__draw(); }); }
+    draw(); if (map) map.flyToBounds(L.latLng(p[2], p[3]).toBounds(r * 2600), { duration: reduce ? 0 : .7 }); }
+  function showEvent(i, fly) { const e = EV[i];
+    focus = { lat: e.lat, lon: e.lon, r: 0, sel: i }; card.className = "card"; card.style.borderLeftColor = `var(${e.cat ? "--red" : "--sep"})`;
+    card.innerHTML = `<b class="t">${niceDate(e.date)}</b><div style="color:var(--muted)">${e.cat ? "Instrumentally recorded" : "Historical, from felt reports"}</div>` +
+      `<span class="big" style="color:var(${e.cat ? "--red" : "--sep"})">${e.mag == null ? "?" : e.mag.toFixed(1)}</span><dl>` +
+      `<dt>Where</dt><dd>${esc(where(e))} (${ZN[e.zone]})</dd>` + (e.depth != null ? `<dt>Depth</dt><dd>${e.depth} km</dd>` : "") +
+      (e.int ? `<dt>Intensity</dt><dd>${esc(e.int)} (strongest felt effects, as given in the catalogue)</dd>` : "") +
+      (e.coal && e.cat && e.zone === 0 ? `<dt>Note</dt><dd>within 5 km of a mapped coal mine</dd>` : "") + `</dl>`;
+    if (map) { window.__draw(); if (fly) map.flyTo([e.lat, e.lon], 8, { duration: reduce ? 0 : .7 }); } }
+  window.__ev = (i) => { showEvent(i, true); document.getElementById("map").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" }); };
+  window.__at = (lat, lon, z) => { if (map) map.flyTo([lat, lon], z, { duration: reduce ? 0 : .7 }); document.getElementById("map").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" }); };
+  slider.oninput = e => { year = +e.target.value; draw(); };
+  let timer = null; const play = document.getElementById("play");
+  play.onclick = () => { if (timer) { clearInterval(timer); timer = null; play.textContent = "▶"; return; } if (year >= R.counts.last_year) year = 1380; play.textContent = "❚❚";
+    timer = setInterval(() => { year = Math.min(R.counts.last_year, year + (year < 1750 ? 10 : year < 1970 ? 3 : 1)); slider.value = year; draw(); if (year >= R.counts.last_year) { clearInterval(timer); timer = null; play.textContent = "▶"; } }, reduce ? 500 : 110); };
+  document.querySelectorAll("#filters [data-k]").forEach(b => b.onclick = () => { if (b.dataset.k === "hist") showH = 1 - showH; else showM = 1 - showM; b.setAttribute("aria-pressed", b.dataset.k === "hist" ? !!showH : !!showM); draw(); });
+  document.querySelectorAll("#filters [data-m]").forEach(b => b.onclick = () => { minM = +b.dataset.m; document.querySelectorAll("#filters [data-m]").forEach(x => x.setAttribute("aria-pressed", x === b)); draw(); });
+  document.getElementById("bCoal").onclick = e => { coalOn = !coalOn; e.target.setAttribute("aria-pressed", coalOn); draw(); };
+  /* place search with suggestions */
+  const q = document.getElementById("q"), sg = document.getElementById("sugg"); let cur = [], hi = -1;
+  const norm = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9 ]/g, "");
+  const KEYS = PL.map(p => [norm(p[0]), norm(p[5] || "")]);
+  const TY = ["city", "town", "village"];
+  function suggest() { const s = norm(q.value.trim()); if (s.length < 2) { sg.style.display = "none"; return; }
+    const a = [], b = []; KEYS.forEach((k, i) => { if (k[0] === s || k[1] === s) a.push(i); else if (k[0].startsWith(s) || k[1].startsWith(s)) b.push(i); });
+    cur = a.concat(b).sort((x, y) => (KEYS[x][0] === s ? 0 : 1) - (KEYS[y][0] === s ? 0 : 1) || PL[x][4] - PL[y][4]).slice(0, 12); hi = -1;
+    sg.innerHTML = cur.length ? cur.map((i, k) => `<li role="option" data-i="${i}">${esc(PL[i][0])} <small>${TY[PL[i][4]]}${PL[i][1] ? ", " + esc(PL[i][1]) : ""}</small></li>`).join("") : `<li><small>No match in OS Open Names cities, towns and villages</small></li>`;
+    sg.style.display = "block"; sg.querySelectorAll("li[data-i]").forEach(li => li.onclick = () => pick(+li.dataset.i)); }
+  function pick(i) { q.value = PL[i][0]; sg.style.display = "none"; showPlace(PL[i]); window.__lastPlace = PL[i]; }
+  q.addEventListener("input", suggest);
+  q.addEventListener("keydown", e => { const li = sg.querySelectorAll("li[data-i]");
+    if (e.key === "ArrowDown" && li.length) { hi = Math.min(li.length - 1, hi + 1); li.forEach((x, k) => x.classList.toggle("on", k === hi)); e.preventDefault(); }
+    else if (e.key === "ArrowUp" && li.length) { hi = Math.max(0, hi - 1); li.forEach((x, k) => x.classList.toggle("on", k === hi)); e.preventDefault(); }
+    else if (e.key === "Enter") { if (cur.length) pick(cur[Math.max(hi, 0)]); e.preventDefault(); } else if (e.key === "Escape") sg.style.display = "none"; });
+  document.addEventListener("click", e => { if (!sg.contains(e.target) && e.target !== q) sg.style.display = "none"; });
+  document.getElementById("rad").onchange = () => { if (window.__lastPlace) showPlace(window.__lastPlace); };
+  window.__place = name => { const i = PL.findIndex(p => p[0] === name && p[4] === 0) >= 0 ? PL.findIndex(p => p[0] === name && p[4] === 0) : PL.findIndex(p => p[0] === name); if (i >= 0) { pick(i); document.getElementById("map").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "center" }); } };
+  /* famous earthquake chips */
+  const ids = Object.fromEntries(Object.entries(P.stories).map(([k, v]) => [k, v]));
+  const idIndex = {}; P.ids.forEach((id, i) => idIndex[id] = i);
+  document.getElementById("storyChips").innerHTML = Object.entries(ids).map(([k, v]) => `<li data-k="${k}"><b>${R.stories[k].mag.toFixed(1)}</b> ${esc(v.label)}</li>`).join("");
+  document.querySelectorAll("#storyChips li").forEach(li => li.onclick = () => showEvent(idIndex[P.stories[li.dataset.k].id], true));
+  window.__evById = id => window.__ev(idIndex[id]);
+  draw();
+})();
+
+/* ===== story cards ===== */
+(() => {
+  const T = {
+    "1382_Dover_Straits": "Damaged Canterbury Cathedral's bell tower and churches across Kent, and interrupted the church council at Blackfriars in London that examined John Wycliffe's writings, remembered as the Earthquake Synod.",
+    "1580_Dover_Straits": "Felt in London, across south-east England and in Flanders and northern France, in Easter week. Two people were killed in England.",
+    "1801_Comrie": "Part of Comrie's long run of earthquakes. Two farmworkers were killed when part of a barn collapsed.",
+    "1839_Comrie": "The largest of the Comrie swarm, felt over most of Scotland; it caused a dam near Stirling to fail.",
+    "1852_Caernarfon": "Felt in Dublin, Belfast, Carlisle and Cheltenham; similar in place and size to the Llŷn earthquake of 1984.",
+    "1884_Colchester": "The most destructive British earthquake since 1580: about 1,250 buildings damaged in Colchester and the villages towards the coast. Reports of deaths are disputed.",
+    "1896_Hereford": "Felt widely across England, Wales and eastern Ireland, early on a December morning.",
+    "1906_Swansea": "One of the most damaging British earthquakes of the twentieth century. Falling bricks injured people in and around Swansea.",
+    "1931_Dogger_Bank": "The strongest earthquake recorded in Britain's waters. A church spire at Filey was twisted, chimneys fell in Hull, and at Madame Tussauds the head of Dr Crippen's waxwork fell off.",
+    "1957_Derby": "Felt across central England; the largest post-war earthquake in Britain until 1984.",
+    "1979_Longtown": "Damaged buildings in Canonbie, Carlisle and Glasgow on Boxing Day.",
+    "1984_Llyn_Peninsula": "Felt across Wales, most of England and parts of Ireland and Scotland, with damage as far away as Liverpool. Often given as 5.4; the BGS catalogue says 5.2.",
+    "1990_Bishops_Castle": "Felt from eastern Ireland to Newcastle and Kent. Chimneys fell in Shrewsbury, about 20 miles away.",
+    "2002_Dudley": "Felt widely in England and Wales, late on a Sunday night.",
+    "2007_Folkestone": "Shallow and centred just north of the town: 474 properties were reported damaged in Folkestone.",
+    "2008_Market_Rasen": "Felt from Hampshire to Newcastle and in the Netherlands. A falling chimney injured a person in Wombwell, South Yorkshire.",
+    "2018_Swansea_Valley": "Centred near Pontardawe: in the catalogue, the biggest onshore earthquake in Britain since Market Rasen in 2008."
+  };
+  const box = document.getElementById("stories");
+  box.innerHTML = Object.keys(T).map(k => { const s = R.stories[k]; return `<div class="story" data-k="${k}" tabindex="0"><div class="h"><b>${esc(s.label.replace(/^\d+ /, ""))}</b><span class="${s.cat === "historical" ? "s" : ""}">${s.mag.toFixed(1)}</span></div>` +
+    `<div class="m">${niceDate(s.date)}${s.intensity ? " · intensity " + esc(s.intensity) : ""}${s.depth ? " · depth " + s.depth + " km" : ""}</div>${T[k]}</div>`; }).join("");
+  box.querySelectorAll(".story").forEach(d => { const go = () => window.__evById(R.stories[d.dataset.k].id); d.onclick = go; d.onkeydown = e => { if (e.key === "Enter") go(); }; });
+})();
+
+/* ===== biggest 15 ===== */
+resp(document.getElementById("big"), (W, nar) => {
+  const V = R.biggest_br, rh = 26, m = { l: nar ? 150 : 210, r: 40, t: 8, b: 26 }, Ht = m.t + m.b + V.length * rh;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${Ht}`, role: "img", "aria-label": "The fifteen biggest earthquakes in Britain" }, document.getElementById("big"));
+  const X = v => m.l + (v - 4) / 2.0 * (W - m.l - m.r);
+  [4, 4.5, 5, 5.5, 6].forEach(t => { el("line", { x1: X(t), x2: X(t), y1: m.t, y2: Ht - m.b, stroke: "var(--rule)" }, svg); lbl(svg, X(t), Ht - 8, t.toFixed(1), "lab s m", "middle"); });
+  V.forEach((e, i) => { const y = m.t + i * rh + rh / 2, c = e.cat === "historical" ? "var(--sep)" : "var(--red)";
+    const st = Object.values(R.stories).find(s => s.id === e.id); const name = st ? st.label.replace(/^\d+ /, "") : (e.locality || e.near_town);
+    lbl(svg, m.l - 8, y + 4, `${e.year} ${name}`, "lab" + (nar ? " s" : ""), "end");
+    el("line", { x1: X(4), x2: X(e.mag), y1: y, y2: y, stroke: c, "stroke-width": 2 }, svg);
+    const dot = el("circle", { cx: X(e.mag), cy: y, r: 6, fill: c }, svg);
+    lbl(svg, X(e.mag) + 10, y + 4, e.mag.toFixed(1), "lab b");
+    hover(dot, `<b>${niceDate(e.date)}</b> · ${e.mag.toFixed(1)}<br>${esc(e.locality || "")} ${e.near_town_km.toFixed(0)} km from ${esc(e.near_town)}`, () => window.__evById(e.id)); });
+});
+
+/* ===== hotspots ===== */
+resp(document.getElementById("hot"), (W, nar) => {
+  const V = R.hotspots.slice(0, 12), rh = 26, m = { l: nar ? 120 : 170, r: 50, t: 8, b: 22 }, Ht = m.t + m.b + V.length * rh;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${Ht}`, role: "img", "aria-label": "Busiest 20 km squares" }, document.getElementById("hot"));
+  const mx = Math.max(...V.map(v => v.n)), X = v => m.l + v / mx * (W - m.l - m.r);
+  V.forEach((h, i) => { const y = m.t + i * rh, coal = h.near_coal >= .5;
+    lbl(svg, m.l - 8, y + rh / 2 + 4, `near ${h.town}`, "lab" + (nar ? " s" : ""), "end");
+    const b = el("rect", { x: m.l, y: y + 4, width: X(h.n) - m.l, height: rh - 9, fill: coal ? "var(--coal)" : "var(--red)", opacity: coal ? .85 : .8 }, svg);
+    lbl(svg, X(h.n) + 6, y + rh / 2 + 4, h.n, "lab b");
+    hover(b, `<b>Near ${esc(h.town)}</b><br>${h.n} earthquakes, ${h.first} to ${h.last}<br>biggest ${h.max_mag.toFixed(1)} · median depth ${h.median_depth == null ? "?" : h.median_depth.toFixed(1)} km<br>${pc(h.near_coal)} within 5 km of a mapped coal mine`, () => window.__at(h.lat, h.lon, 9)); });
+  lbl(svg, m.l, Ht - 4, "earthquakes recorded since 1970", "lab s m");
+});
+
+/* ===== coal share ===== */
+resp(document.getElementById("coal"), (W, nar) => {
+  const V = R.coal.periods, m = { l: 40, r: 10, t: 14, b: 44 }, Ht = nar ? 250 : 270;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${Ht}`, role: "img", "aria-label": "Share of onshore earthquakes near coal mines by five-year period" }, document.getElementById("coal"));
+  const bw = (W - m.l - m.r) / V.length, Y = v => Ht - m.b - v / .6 * (Ht - m.t - m.b);
+  [0, .2, .4].forEach(t => { el("line", { x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t), stroke: "var(--rule)" }, svg); lbl(svg, m.l - 6, Y(t) + 4, pc(t), "lab s m", "end"); });
+  V.forEach((d, i) => { const x = m.l + i * bw;
+    const b = el("rect", { x: x + bw * .15, y: Y(d.share), width: bw * .7, height: Y(0) - Y(d.share), fill: d.start >= 2015 ? "var(--inkl)" : "var(--coal)" }, svg);
+    hover(b, `<b>${d.label}</b><br>${d.near} of ${d.n} onshore earthquakes (${pc(d.share)}) within 5 km of a mapped coal mine`);
+    if (!nar || i % 2 === 0) lbl(svg, x + bw / 2, Ht - m.b + 15, d.start, "lab s m", "middle"); });
+  el("line", { x1: m.l, x2: W - m.r, y1: Y(R.coal.land_share), y2: Y(R.coal.land_share), stroke: "var(--red)", "stroke-dasharray": "5 4", "stroke-width": 1.5 }, svg);
+  el("line", { x1: m.l + 4, x2: m.l + 26, y1: Y(.57), y2: Y(.57), stroke: "var(--red)", "stroke-dasharray": "5 4", "stroke-width": 1.5 }, svg);
+  lbl(svg, m.l + 32, Y(.57) + 4, nar ? `${pc(R.coal.land_share)} of land is within 5 km of a mine` : `${pc(R.coal.land_share)} of Britain's land is within 5 km of a mapped coal mine`, "lab s");
+  const xk = m.l + (2015 - 1970) / 5 * bw; el("line", { x1: xk, x2: xk, y1: Y(.5), y2: Ht - m.b, stroke: "var(--fg)", "stroke-dasharray": "3 3" }, svg);
+  lbl(svg, xk - 4, Y(.5) + 4, nar ? "2015: last deep mines" : "2015: last deep mines close", "lab s", "end");
+  lbl(svg, m.l, Ht - 6, "five-year periods starting", "lab s m");
+});
+
+/* ===== Gutenberg-Richter ===== */
+resp(document.getElementById("gr"), (W, nar) => {
+  const V = R.magfreq.filter(d => d.n_ge > 0), m = { l: 52, r: 14, t: 12, b: 40 }, Ht = nar ? 290 : 330;
+  const svg = el("svg", { viewBox: `0 0 ${W} ${Ht}`, role: "img", "aria-label": "Magnitude frequency plot with Gutenberg-Richter fit" }, document.getElementById("gr"));
+  const X = v => m.l + (v - 1) / 5 * (W - m.l - m.r), lo = -3, hi = 2.5, Y = v => Ht - m.b - (Math.log10(v) - lo) / (hi - lo) * (Ht - m.t - m.b);
+  [100, 10, 1, .1, .01, .001].forEach(t => { el("line", { x1: m.l, x2: W - m.r, y1: Y(t), y2: Y(t), stroke: "var(--rule)" }, svg); lbl(svg, m.l - 6, Y(t) + 4, t >= 1 ? t : t.toString(), "lab s m", "end"); });
+  [1, 2, 3, 4, 5, 6].forEach(t => lbl(svg, X(t), Ht - m.b + 16, t, "lab s m", "middle"));
+  lbl(svg, (m.l + W - m.r) / 2, Ht - 6, "magnitude", "lab s m", "middle");
+  lbl(svg, m.l, m.t - 2, "earthquakes per year at or above this size", "lab s m");
+  const g = R.gr; let d = ""; for (let x = g.mc; x <= 6.01; x += .1) { const v = Math.pow(10, g.a - g.b * x); if (v < 1e-3) break; d += (d ? "L" : "M") + X(x).toFixed(1) + " " + Y(v).toFixed(1); }
+  el("path", { d, fill: "none", stroke: "var(--ink)", "stroke-width": 2 }, svg);
+  V.forEach(v => { const c = el("circle", { cx: X(v.mag), cy: Y(v.per_year), r: 3.6, fill: v.mag >= g.mc - 1e-6 ? "var(--red)" : "var(--redl)" }, svg);
+    hover(c, `<b>Magnitude ${v.mag.toFixed(1)}+</b><br>${fmt(v.n_ge)} recorded since 1980, ${v.per_year < 1 ? v.per_year.toFixed(3) : v.per_year.toFixed(1)} a year`); });
+  const a4 = X(4), y4 = Y(g.rate_ge4); el("line", { x1: a4, x2: a4, y1: y4, y2: Y(.001), stroke: "var(--muted)", "stroke-dasharray": "3 3" }, svg);
+  lbl(svg, a4 - 6, Y(.0022), nar ? `M4+: ${g.ret4.toFixed(1)} yrs` : `M4+: one every ${g.ret4.toFixed(1)} years`, "lab s b", "end");
+  const a5 = X(5), y5 = Y(1 / g.ret5); el("line", { x1: a5, x2: a5, y1: y5, y2: Y(.001), stroke: "var(--muted)", "stroke-dasharray": "3 3" }, svg);
+  lbl(svg, a5 - 6, Y(.007), nar ? `M5+: ${g.ret5.toFixed(0)} yrs` : `M5+: one every ${g.ret5.toFixed(0)} years`, "lab s b", "end");
+  lbl(svg, X(1.05), Y(.03), `b = ${g.b.toFixed(2)} (fit for M${g.mc.toFixed(1)}+)`, "lab s", "start");
+});
+
+/* ===== detection ===== */
+resp(document.getElementById("det"), (W, nar) => {
+  const Ht = nar ? 520 : 280, svg = el("svg", { viewBox: `0 0 ${W} ${Ht}`, role: "img", "aria-label": "Recorded earthquakes by size and period" }, document.getElementById("det"));
+  const H = R.detection.historical.filter(d => d.start >= 1500).map(r => ({ ...r, g5: r.ge5, g4: r.ge4 - r.ge5, l4: r.n - r.ge4 })), Mo = R.detection.modern;
+  const panel = (x0, y0, w, h, rows, keys, cols, labs, xl, title) => {
+    const mx = Math.max(...rows.map(r => keys.reduce((s, k) => s + r[k], 0))), top = Math.ceil(mx / 100) * 100, Y = v => y0 + h - 26 - v / top * (h - 46);
+    lbl(svg, x0, y0 + 10, title, "lab s m");
+    [0, top / 2, top].forEach(t => { el("line", { x1: x0 + 38, x2: x0 + w, y1: Y(t), y2: Y(t), stroke: "var(--rule)" }, svg); lbl(svg, x0 + 34, Y(t) + 4, fmt(t), "lab s m", "end"); });
+    x0 += 40; w -= 40; const bw = w / rows.length;
+    rows.forEach((r, i) => { let acc = 0; keys.forEach((k, j) => { const v = r[k]; if (!v) return; const b = el("rect", { x: x0 + i * bw + bw * .14, y: Y(acc + v), width: bw * .72, height: Y(acc) - Y(acc + v), fill: cols[j] }, svg); acc += v;
+      hover(b, `<b>${xl(r)}</b><br>${labs[j]}: ${fmt(v)}`); });
+      lbl(svg, x0 + i * bw + bw / 2, y0 + h - 10, xl(r, true), "lab s m", "middle"); }); };
+  const gap = 30, w1 = nar ? W : (W - gap) * .48, w2 = nar ? W : (W - gap) * .52;
+  panel(0, 0, w1, nar ? 250 : 280, H, ["g5", "g4", "l4"], ["var(--sep)", "color-mix(in srgb,var(--sep) 60%,var(--bg))", "var(--sepl)"], ["magnitude 5+", "magnitude 4 to 4.9", "below 4 (or unknown)"],
+    (r, s) => s ? (r.start % 100 === 0 ? String(r.start) : "") : r.period, "Historical, per 50 years");
+  panel(nar ? 0 : w1 + gap, nar ? 270 : 0, w2, nar ? 250 : 280, Mo, ["ge4", "m3_4", "m2_3", "lt2"], ["var(--red)", "color-mix(in srgb,var(--red) 70%,var(--bg))", "color-mix(in srgb,var(--red) 42%,var(--bg))", "var(--redl)"],
+    ["magnitude 4+", "3 to 3.9", "2 to 2.9", "below 2"], (r, s) => s ? String(r.decade) + "s" : r.decade + "s", "Instrumental, per decade");
+});
+
+/* ===== cities table ===== */
+(() => {
+  const T = document.getElementById("cityT"); let rows = R.cities.filter(c => !["City of London", "City of Westminster"].includes(c.name)), key = "biggest_mag", dir = -1;
+  const cols = [["name", "City", 0], ["biggest_mag", "Biggest", 1], ["biggest_date", "When", 0], ["biggest_km", "Km away", 1], ["n_25km", "Recorded within 25 km", 1]];
+  function draw() { rows.sort((a, b) => { const x = a[key], y = b[key]; return (x == null) - (y == null) || (x < y ? -1 : x > y ? 1 : 0) * dir; });
+    T.innerHTML = `<thead><tr>${cols.map(c => `<th data-k="${c[0]}" class="${c[2] ? "num" : ""}">${c[1]}${key === c[0] ? (dir > 0 ? " ▲" : " ▼") : ""}</th>`).join("")}</tr></thead><tbody>` +
+      rows.map(r => `<tr class="click" data-n="${esc(r.name)}"><td>${esc(r.name)}</td><td class="num"><b>${r.biggest_mag == null ? "none" : r.biggest_mag.toFixed(1)}</b></td><td>${r.biggest_date ? r.biggest_date.slice(0, 4) : ""}</td><td class="num">${r.biggest_km == null ? "" : r.biggest_km.toFixed(0)}</td><td class="num">${fmt(r.n_25km)}</td></tr>`).join("") + "</tbody>";
+    T.querySelectorAll("th").forEach(th => th.onclick = () => { const k = th.dataset.k; if (k === key) dir = -dir; else { key = k; dir = k === "name" || k === "biggest_date" ? 1 : -1; } draw(); });
+    T.querySelectorAll("tr.click").forEach(tr => tr.onclick = () => { document.getElementById("rad").value = "25"; window.__place(tr.dataset.n); }); }
+  draw();
+})();
+</script>
+</body>
+</html>

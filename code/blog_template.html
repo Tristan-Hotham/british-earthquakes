@@ -1,0 +1,155 @@
+<!-- wp:paragraph -->
+<p><em>Britain is not supposed to have earthquakes. It has thousands. I put every one in the British Geological Survey's two catalogues on one map, from the Dover Straits shock of {{counts.first_year|raw}} to {{counts.last_year|raw}}: {{counts.total|int}} earthquakes. Here is where they happen, how often a big one comes, and why the busiest earthquake zones of modern Britain were made by coal miners.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://tristan-hotham.github.io/british-earthquakes/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.23729643">Read the paper</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:paragraph -->
+<p>At about six in the evening of 6 April 1580, in Easter week, the ground shook in London. The shock was felt across south-east England, Flanders and northern France, and two people were killed in England. The British Geological Survey puts it in the Strait of Dover at magnitude {{stories.1580_Dover_Straits.mag|f1}}. Two centuries earlier, in 1382, the same straits had shaken hard enough to damage Canterbury Cathedral and to interrupt a church council in London, which has been known ever since as the Earthquake Synod.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Britain sits in the middle of a tectonic plate, a long way from the plate edges where the world's great earthquakes happen, so its earthquakes are small. But they are not rare. The BGS keeps two lists: a historical catalogue of {{counts.historical|int}} earthquakes from {{counts.first_year|raw}} to 1969, reconstructed from what people wrote about the shaking, and an instrumental catalogue of earthquakes recorded by seismometers since 1970. After removing {{counts.modern_dupes|int}} duplicate rows, that second list holds {{counts.modern|int}} earthquakes up to {{counts.last_date_text|raw}}. {{counts.total_br|int}} of all the earthquakes lie on land in Britain or within 20 km of its coast.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_map.png|Map of Britain and Ireland covered in circles sized by magnitude: sepia for historical earthquakes before 1970 and red for instrumentally recorded ones since. They are dense in Wales, the Welsh borders, the Midlands, Cumbria and the western Highlands, and sparse in East Anglia and the south east. Labels mark Comrie 1839, Dogger Bank 1931, Market Rasen 2008, the Llŷn Peninsula 1984, Derby 1957, Bishop's Castle 1990, Colchester 1884 and the Dover Straits 1580.|Every earthquake in the two BGS catalogues, {{counts.first_year|raw}} to {{counts.last_year|raw}}, sized by magnitude. Contains British Geological Survey materials © UKRI 2026.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The big ones</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The biggest of all is offshore: the Dogger Bank earthquake of 7 June 1931, magnitude {{stories.1931_Dogger_Bank.mag|f1}}. It twisted a church spire at Filey, brought down chimneys in Hull and, at Madame Tussauds in London, knocked the head off Dr Crippen's waxwork. On land, three historical earthquakes share the record at {{biggest_onshore.0.mag|f1}}: Caernarfon in 1852, Hereford in 1896 and Derby in 1957. The biggest measured by instruments are Market Rasen in 2008, felt from Hampshire to Newcastle, and the Llŷn Peninsula in 1984, both {{stories.2008_Market_Rasen.mag|f1}} in the BGS catalogue (the Llŷn one is often quoted as 5.4).</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_biggest.png|Lollipop chart of the fifteen biggest earthquakes in Britain and its coastal waters, from the 1580 Dover Straits earthquake at 5.8 down to Bishop's Castle 1990 at 5.1. Most are historical; three are instrumental: Llŷn 1984, Market Rasen 2008 and Bishop's Castle 1990.|The fifteen biggest earthquakes on land in Britain or within 20 km of its coast. Sepia: historical (magnitude estimated from felt reports). Red: instrumental.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>The worst damage came from smaller but shallower shocks right under towns. The Colchester earthquake of 1884, only magnitude {{stories.1884_Colchester.mag|f1}}, damaged about 1,250 buildings in Colchester and the villages towards the coast. In 2007 a {{stories.2007_Folkestone.mag|f1}} centred just north of Folkestone left 474 properties reported damaged.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The busiest earthquake zones were coalfields</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I counted the instrumentally recorded earthquakes in every 20 km square of Britain. Some of the busy squares are what you would expect: the Llŷn Peninsula, the western Highlands around Fort William, and Comrie in Perthshire, the "Shaky Toun", which had {{comrie.hist_1839_1846|int}} earthquakes within 10 km in the swarm of 1839 to 1846 alone. But the four busiest squares in Britain are Midlothian, the Potteries around Kidsgrove and Stoke-on-Trent, Clackmannanshire and north Nottinghamshire. All four are coalfields.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_hotspots.png|Bar chart of the twelve busiest 20 km squares since 1970. The top four, near Bonnyrigg, Kidsgrove, Clackmannan and Market Warsop, each have about 190 to 240 earthquakes and are shaded dark because most epicentres lie within 5 km of a mapped coal mine. Natural hotspots such as Auchterarder near Comrie, Nefyn and Criccieth on the Llŷn and Fort William are red.|The busiest 20 km squares since 1970. Dark: most epicentres within 5 km of a coal mine mapped in OpenStreetMap.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>When coal is dug out from deep underground, the rock above settles and the stresses shift, and small earthquakes can follow. The BGS catalogue does not say which earthquakes were induced, but the fingerprints are clear. From 1970 to 2014, {{coal.share_to2014|pct0}} of onshore earthquakes in Britain had epicentres within 5 km of a coal mine mapped in OpenStreetMap, even though only {{coal.land_share|pct0}} of Britain's land is that close to one. Those near-mine earthquakes were shallow, with a median depth of {{coal.depth_near_median|f1}} km against {{coal.depth_far_median|f1}} km for the rest. They kept to the working week: only {{coal.weekend_near|pct0}} fell on a Saturday or Sunday, against {{coal.weekend_far|pct0}} of other earthquakes and the {{coal.weekend_expected|pct0}} you would expect by chance. And when the last deep mines closed in 2015, they faded.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_coal.png|Bar chart by five-year period from 1970 to 2024 of the share of onshore earthquakes within 5 km of a mapped coal mine. Dark bars between about 23 and 47 percent until 2010 to 2014, then pale bars at 19 and 15 percent after the last deep mines closed in 2015. A dashed line at 10 percent marks the share of land that close to a mine.|Share of onshore earthquakes within 5 km of a mapped coal mine, by five-year period.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph -->
+<p>The busiest earthquake zones in modern Britain were made by people.</p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>One oddity: the small earthquakes set off by fracking near Blackpool, a 2.3 in 2011 and a 2.9 in 2019, are not in the catalogue layer I used. I report them from published accounts, and anyone using these data should know that induced events may be kept separately.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How often does a big one come?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Seismologists use the Gutenberg-Richter law: each step up in magnitude makes earthquakes roughly ten times rarer. Fitting it to the {{gr.n|int}} British earthquakes of magnitude {{gr.mc|f1}} or more since 1980 gives a slope (the b-value) of {{gr.b|f2}}, close to the global norm. It predicts a magnitude 4 or bigger in Britain about every {{gr.ret4|f1}} years and a magnitude 5 about every {{gr.ret5|int}} years.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_magfreq.png|Log-scale chart of the number of earthquakes per year at or above each magnitude in Britain since 1980. The red points fall along a straight blue line from about 18 a year at magnitude 2 to about one every four years at magnitude 4. Above magnitude 4.5 the points sit above the line.|How often earthquakes of each size happen in Britain, 1980 to {{counts.last_year|raw}}, with the Gutenberg-Richter fit.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>The long record agrees for magnitude 4: the two catalogues hold {{gr.all4_since1750|int}} earthquakes of magnitude 4 or more in Britain since 1750, one every {{gr.all4_ret|f1}} years. But they hold {{gr.all5_since1750|int}} of magnitude 5 or more, one every {{gr.all5_ret|int}} years, more than the fit predicts. Either big earthquakes are a little commoner than small ones suggest, or the magnitudes worked out from historical felt reports run a little high. With so few big events, nobody can yet say which.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">More earthquakes, or better ears?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The record grows over time, but mostly because we got better at listening. Before 1700 the historical catalogue includes only earthquakes of magnitude 4 or more; just {{pre1700_br|int}} in Britain survive. Newspapers caught many more small shocks in the 1800s. Since 1970 the seismometer network has kept growing: in the 1970s {{detection.share_lt2_1970s|pct0}} of recorded British earthquakes were below magnitude 2, and by the 1990s {{detection.share_lt2_1990s|pct0}}. The number of magnitude 3 or bigger did not rise at all.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"sizeSlug":"full"} -->
+<figure class="wp-block-image size-full">{{IMG|b_detection.png|Two stacked bar charts. Left: historical earthquakes in Britain per 50 years from 1500, rising from a handful to over 130 in 1900 to 1949, mostly small ones. Right: instrumental earthquakes per decade since the 1970s, from about 430 in the 1970s to over 1,100 in the 1980s and 1990s, almost all of the growth below magnitude 2.|Recorded earthquakes in Britain by size and period. Most of the growth is in small earthquakes that we could not detect before.}}</figure>
+<!-- /wp:image -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The biggest earthquake near you</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The interactive map lets you type any town or village and see the biggest earthquake recorded near it. Of {{towns.n|int}} cities and towns, {{towns.share_ge4_25|pct0}} have had a magnitude 4 or more within 25 km and {{towns.ge5_25|int}} have had a magnitude 5. Leicester, Derby and Nottingham all sit within 25 km of the {{city_named.Derby.biggest_mag|f1}} of 1957; Lincoln of Market Rasen's {{city_named.Lincoln.biggest_mag|f1}}. London's biggest within 25 km is a {{city_named.London.biggest_mag|f1}} in 1750, one of two London shocks a month apart that year. Only {{towns.none_25|int}} towns have no recorded earthquake within 25 km at all, among them Aberdeen and St Albans.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How I did this</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I downloaded the BGS historical and instrumental catalogues from the BGS map services, merged them, removed duplicate rows (the same event entered by the automatic system and again by an analyst) and placed each epicentre on land, near the coast or offshore using the Natural Earth outline, with its nearest town from OS Open Names. The b-value uses Aki's maximum likelihood method above magnitude {{gr.mc|f1}}, where the estimate is stable. Coal mines are OpenStreetMap features named as collieries, coal mines or pits. Historical magnitudes and locations are estimates from felt reports, the instrumental layer starts at magnitude {{counts.modern_min_mag|f1}}, and closeness to a mapped mine is an indicator of mining-induced seismicity, not proof.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://tristan-hotham.github.io/british-earthquakes/">Explore the interactive version</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://doi.org/10.5281/zenodo.23729643">Read the paper</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="https://github.com/Tristan-Hotham/british-earthquakes">Data and code</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Notes and sources</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Earthquakes: British Geological Survey, UK historical earthquake catalogue and UK modern recorded earthquake catalogue, via the <a href="https://map.bgs.ac.uk">BGS map services</a>, retrieved 28 October 2026. Contains British Geological Survey materials © UKRI 2026.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Places: <a href="https://www.ordnancesurvey.co.uk/products/os-open-names">OS Open Names</a>, contains OS data © Crown copyright and database right 2026, Open Government Licence v3.0. Coal mines: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>, ODbL. Coastline: Natural Earth.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Stories: Wikipedia, <a href="https://en.wikipedia.org/wiki/List_of_earthquakes_in_the_British_Isles">List of earthquakes in the British Isles</a> and the articles on the 1382 and 1580 Dover Straits, 1884 Colchester, 1931 Dogger Bank, 1984 Llŷn Peninsula, 2007 Kent and 2008 Market Rasen earthquakes and on fracking in the United Kingdom (CC BY-SA 4.0); <a href="https://www.undiscoveredscotland.co.uk/comrie/earthquakehouse/">Undiscovered Scotland</a> on Comrie's Earthquake House.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Paper, data and code: <a href="https://doi.org/10.5281/zenodo.23729643">Zenodo</a> and <a href="https://github.com/Tristan-Hotham/british-earthquakes">GitHub</a>.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->

@@ -1,0 +1,215 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\setmainfont{TeX Gyre Pagella}
+\newfontfamily\headfont{Inter}[UprightFont=*-ExtraBold,BoldFont=*-ExtraBold,Extension=.otf,Path=/usr/share/fonts/opentype/inter/]
+\usepackage[a4paper,margin=2.3cm]{geometry}
+\usepackage{graphicx,booktabs,float,caption,array}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{setspace}
+\setstretch{1.05}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\titleformat{\section}{\headfont\Large}{\thesection}{0.8em}{}
+\titleformat{\subsection}{\headfont\large}{\thesubsection}{0.8em}{}
+\captionsetup{font=small,labelfont=bf}
+\urlstyle{same}
+\hypersetup{pdftitle={Britain's Earthquakes Since 1382: Clusters, Coalfields and How Often the Big Ones Come},pdfauthor={Tristan Hotham}}
+
+\begin{document}
+\begin{center}
+{\Large\bfseries Britain's Earthquakes Since 1382: Clusters, Coalfields\\[2pt] and How Often the Big Ones Come\par}
+\vspace{1.2em}
+{\large Tristan Hotham\par}
+\vspace{0.3em}
+{\small Independent researcher\\
+ORCID: 0000-0003-4931-9349\\
+DOI: \href{https://doi.org/10.5281/zenodo.23729643}{https://doi.org/10.5281/zenodo.23729643}\par}
+\vspace{0.8em}
+2026
+\end{center}
+
+\begin{quote}
+\small
+\begin{center}\textbf{Abstract}\end{center}
+Britain lies far from any plate boundary, yet its earthquake record is long and rich. I combine the British Geological Survey's historical catalogue (all known UK earthquakes before 1970, {{counts.historical|int}} events from {{counts.first_year|raw}}) with its instrumental catalogue (1970 to {{counts.last_date_text|raw}}, {{counts.modern|int}} events after removing {{counts.modern_dupes|int}} duplicate rows) and place every epicentre relative to the British coast, Ordnance Survey towns and mapped coal mines. {{counts.total_br|int}} earthquakes lie on land in Great Britain or within 20 km of its coast. For magnitude {{gr.mc|f1}} and above since 1980, the Gutenberg-Richter b-value is {{gr.b|f2}} (95\% interval {{gr.b_ci.0|f2}} to {{gr.b_ci.1|f2}}), implying a magnitude 4 or larger about every {{gr.ret4|f1}} years and a magnitude 5 or larger about every {{gr.ret5|int}} years; the long record since 1750 holds {{gr.all4_since1750|int}} and {{gr.all5_since1750|int}} such events, one every {{gr.all4_ret|f1}} and {{gr.all5_ret|int}} years. The record is strongly shaped by detection: the share of instrumental events below magnitude 2 rose from {{detection.share_lt2_1970s|pct0}} in the 1970s to {{detection.share_lt2_1990s|pct0}} in the 1990s while counts of magnitude 3 and above did not rise. The four busiest 20 km squares since 1970 are all coalfields. Of onshore earthquakes recorded from 1970 to 2014, {{coal.share_to2014|pct0}} lay within 5 km of a coal mine mapped in OpenStreetMap, against {{coal.land_share|pct0}} of British land; they were shallower and less frequent at weekends, and the share fell to {{coal.share_2020on|pct0}} after the last deep mines closed in 2015. {{towns.share_ge4_25|pct0}} of British towns and cities have had a magnitude 4 or larger within 25 km.
+
+\textbf{Keywords:} earthquakes; seismicity; Great Britain; historical seismology; Gutenberg-Richter; magnitude of completeness; induced seismicity; coal mining; open data
+\end{quote}
+
+\section{Introduction}
+
+Britain is not usually thought of as earthquake country, and by world standards it is not. It sits in the interior of the Eurasian plate, and its largest known earthquakes are around magnitude 6. Yet earthquakes in Britain are frequent, they are sometimes damaging, and their record is unusually long. The British Geological Survey (BGS) maintains two catalogues: a historical catalogue of all known UK earthquakes before 1970, compiled from felt reports in chronicles, letters and newspapers, and an instrumental catalogue of earthquakes recorded by seismometers since 1970. Musson (2003) counted ten documented deaths in British earthquakes, from falling masonry and collapsing buildings.
+
+This note uses both catalogues together to ask four simple questions. Where do British earthquakes cluster? How often does a magnitude 4 or 5 come round? How much does the record reflect the growth of the means of detecting earthquakes rather than the earthquakes themselves? And how many of the recorded shocks bear the marks of coal mining? A final, practical output is a look-up of the biggest earthquake ever recorded near each British town, which is the most-used feature of the interactive version at \url{https://tristan-hotham.github.io/british-earthquakes/}.
+
+The aim is descriptive and modest. I do not revise any catalogue entry or re-estimate any magnitude. The interest lies in putting the long historical record and the dense modern record on the same map and the same scale, and in being explicit about what each can and cannot show.
+
+\section{Data}
+
+\subsection{The BGS catalogues}
+
+Both catalogues were retrieved from the BGS ArcGIS map services (map.bgs.ac.uk) on 28 October 2026. The historical layer describes itself as the ``earthquake catalogue of all known UK events until 1969'', covering 10\textdegree{} W to 4\textdegree{} E and 49\textdegree{} to 62\textdegree{} N, including Ireland and some earthquakes in northern France felt in the UK. It notes that before 1700 only earthquakes of magnitude 4.0 ML or greater are included, and after 1700 all known events of 3.0 ML or greater with some smaller ones. It has {{counts.historical|int}} rows, from 21 May {{counts.first_year|raw}} (the Dover Straits earthquake) to 1969, with date, time, location, depth, local magnitude (ML) where one exists, a macroseismic magnitude (MGMC), a preferred magnitude, maximum intensity and a locality name. Two copies of the layer served by the BGS are identical. The preferred magnitude equals ML where the catalogue gives one and MGMC otherwise; I use that rule. {{counts.historical_nomag|Words}} events have no magnitude.
+
+The modern layer has {{counts.modern_raw|int}} rows from 1970 to {{counts.last_date_text|raw}}, each with a time, location, depth, ML and, for some, a maximum intensity. The layer as served contains no event below ML {{counts.modern_min_mag|f1}}. Many rows are duplicates: the same event entered by the automatic system and again by an analyst, sometimes with a magnitude differing by 0.1. I drop exact duplicates and then treat rows within 5 seconds and 0.1\textdegree{} of each other as one event, keeping the analyst-reviewed row. This removes {{counts.modern_dupes|int}} rows and leaves {{counts.modern|int}} events. In total the merged catalogue has {{counts.total|int}} earthquakes.
+
+\subsection{Places and coal mines}
+
+Each epicentre is placed with the Natural Earth 1:10m land outline: on land in Great Britain ({{counts.onshore|int}} events), within 20 km of the British coast ({{counts.coast|int}}), in Ireland ({{counts.ireland|int}}), on the continent, or further offshore ({{counts.offshore|int}}, of which {{counts.offshore_nns|int}} lie in the northern North Sea north of 58\textdegree{} N). ``Britain'' in what follows means the first two groups: {{counts.total_br|int}} earthquakes. Each event is given its nearest OS Open Names city or town and its nearest populated place.
+
+For coal mining I use OpenStreetMap features within the UK whose name mentions a colliery, coal mine or pit, or which carry the tag resource=coal: {{coal.features|int}} features, many of them long-closed mines, railway branches to collieries, or old shallow pits. Their positions are a rough map of where coal was worked, not an inventory of deep mines.
+
+\subsection{Background sources}
+
+For the stories behind the largest events I use the English Wikipedia articles listed in the references, and for Comrie's Earthquake House the Undiscovered Scotland page. These are used only for context, not for any number in the analysis.
+
+\section{Methods}
+
+\textbf{Magnitude-frequency.} The Gutenberg-Richter relation, $\log_{10} N(\geq M) = a - bM$ (Gutenberg and Richter 1944), describes how the number of earthquakes falls with magnitude. I estimate $b$ by maximum likelihood (Aki 1965) with the correction for magnitudes binned to 0.1 units (Utsu 1966): $b = \log_{10} e \,/\, (\bar{M} - (M_c - 0.05))$, where $M_c$ is the magnitude of completeness. I use instrumental events in Britain from 1 January 1980 to {{counts.last_date_text|raw}} ({{gr.years|f1}} years). $M_c$ is chosen where the estimate of $b$ stops changing as the threshold rises (Table~\ref{tab:stab}): $b$ rises from {{gr.stability.0.b|f2}} at a threshold of 1.0 to {{gr.stability.3.b|f2}} at 1.6 and then stays between about 0.90 and 0.93 up to 2.8. I take $M_c = {{gr.mc|f1}}$. Intervals come from 2,000 bootstrap resamples of the magnitudes, with a Poisson draw for the count. Return periods are the inverse of the fitted annual rate at each magnitude.
+
+\begin{table}[tbp]\centering\small
+\caption{Stability of the b-value estimate with the magnitude threshold, Britain, 1980 to {{counts.last_year|raw}}.}\label{tab:stab}
+\begin{tabular}{rrr}\toprule Threshold & Events & b\\\midrule
+{{TABLE_STAB}}
+\bottomrule\end{tabular}\end{table}
+
+\textbf{Detection over time.} I count events by decade (instrumental) and by 50-year period (historical) in magnitude bands.
+
+\textbf{Hotspots.} Instrumental events in Britain are counted in 20 km squares of the British National Grid. Each square is labelled with the OS town nearest the mean position of its epicentres.
+
+\textbf{Coal mines.} For each onshore instrumental event I compute the distance to the nearest coal-mine feature. I compare the share within 5 km with the share of British land within 5 km of a feature, measured on a 2 km grid of points. I also compare depths and the share of events on Saturdays and Sundays (binomial test against 2/7).
+
+\textbf{Towns.} For every OS Open Names city and town ({{towns.n|int}} places) I find the largest event in either catalogue within 25 km and count events within 10 and 25 km.
+
+\section{Results}
+
+\subsection{The largest earthquakes}
+
+Figure~\ref{fig:map} maps every earthquake in both catalogues. The largest is the Dogger Bank earthquake of 7 June 1931, magnitude {{stories.1931_Dogger_Bank.mag|f1}}, in the North Sea about {{stories.1931_Dogger_Bank.near_town_km|int}} km from the nearest British town. The 1382 Dover Straits earthquake ({{stories.1382_Dover_Straits.mag|f1}}) also lies more than 20 km offshore. Within Britain and its coastal waters the catalogues hold {{n_br_ge5|int}} earthquakes of magnitude 5 or more and {{n_br_ge4|int}} of magnitude 4 or more (Table~\ref{tab:big}, Figure~\ref{fig:big}). The largest is the Dover Straits earthquake of 6 April 1580 ({{stories.1580_Dover_Straits.mag|f1}}), which killed two people in England. On land, three historical earthquakes share the record at {{biggest_onshore.0.mag|f1}}: Caernarfon (1852), Hereford (1896) and Derby (1957). The largest instrumentally recorded events are Market Rasen (27 February 2008) and the Ll\^{y}n Peninsula (19 July 1984), both {{stories.2008_Market_Rasen.mag|f1}} in the catalogue; the BGS places the Ll\^{y}n epicentre just off the coast. The Ll\^{y}n earthquake is often quoted as 5.4 elsewhere, a reminder that magnitudes for the same event differ between sources.
+
+Most of the largest events are historical. That is partly the length of the record (588 years against 55) and partly, perhaps, the method: macroseismic magnitudes are estimated from the area over which shaking was felt and are uncertain by several tenths of a unit.
+
+{{TABLE_BIG}}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.86\textwidth]{f_map.png}
+\caption{Every earthquake in the BGS historical (sepia, {{counts.first_year|raw}} to 1969) and instrumental (red, 1970 to {{counts.last_year|raw}}) catalogues, sized by magnitude, with some of the events discussed in the text. Natural Earth land outline.}\label{fig:map}
+\end{figure}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.85\textwidth]{f_biggest.png}
+\caption{The fifteen largest earthquakes on land in Britain or within 20 km of its coast. Magnitude as given in the BGS catalogues.}\label{fig:big}
+\end{figure}
+
+\subsection{Where earthquakes cluster}
+
+British seismicity is concentrated in the west and north: Wales and the Welsh borders, Cumbria and the Scottish Highlands and west coast. The south and east of England are quiet: the area east of 1\textdegree{} W and south of 53\textdegree{} N holds {{southeast.share_land|pct0}} of British land but {{southeast.share_events|pct0}} of recorded earthquakes. The ten busiest 20 km squares hold {{hotspot_top10_share|pct0}} of all instrumental events in Britain (Table~\ref{tab:hot}, Figure~\ref{fig:hot}).
+
+Among natural clusters, the Ll\^{y}n Peninsula stands out: the 1984 earthquake was followed by {{llyn_aftershocks|int}} further catalogued earthquakes within 30 km in the next year, and the historical catalogue lists {{areas.4.n_hist|int}} earthquakes within 20 km of Pwllheli from {{areas.4.first|raw}}. Comrie in Perthshire, close to the Highland Boundary Fault, has {{comrie.hist|int}} historical earthquakes within 10 km, {{comrie.hist_1839_1846|int}} of them in the swarm of 1839 to 1846, the largest of magnitude {{comrie.max_mag|f1}} on 23 October 1839. The Earthquake House built there in 1874 to hold an early seismometer still stands.
+
+The four busiest squares, however, are all coalfields: Midlothian (around Bonnyrigg), the Potteries (around Kidsgrove and Stoke-on-Trent), Clackmannanshire and north Nottinghamshire (around Market Warsop and Ollerton). In each, more than 90\% of epicentres lie within 5 km of a mapped coal mine and the median catalogued depth is a few kilometres or less.
+
+{{TABLE_HOT}}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.85\textwidth]{f_hotspots.png}
+\caption{The twelve busiest 20 km squares in Britain since 1970, labelled by the OS town nearest the mean epicentre. Dark bars: squares where most epicentres lie within 5 km of a mapped coal mine.}\label{fig:hot}
+\end{figure}
+
+\subsection{Coal-mining seismicity}
+
+Of the {{coal.n_to2014|int}} onshore instrumental earthquakes from 1970 to 2014, {{coal.near_to2014|int}} ({{coal.share_to2014|pct0}}) lie within 5 km of a mapped coal mine, against {{coal.land_share|pct0}} of British land (Figure~\ref{fig:coal}). Three further features point to mining. The near-mine events are shallow (median catalogued depth {{coal.depth_near_median|f1}} km against {{coal.depth_far_median|f1}} km). They are under-represented at weekends: {{coal.weekend_near|pct0}} fell on a Saturday or Sunday against {{coal.weekend_far|pct0}} of other onshore events and {{coal.weekend_expected|pct0}} expected by chance (binomial test, p $<$ 0.001, n = {{coal.weekend_near_n|int}}). And the pattern fades with the industry. Hatfield and Thoresby collieries closed in mid 2015 and Kellingley, the last deep mine, in December 2015; in 2015 to 2024 the share of onshore earthquakes near a mapped mine fell to {{coal.share_2015on|pct0}}, and since 2020 to {{coal.share_2020on|pct0}}, still above the land share, perhaps because coalfields also contain natural seismicity or because the features include many old pits in seismically active areas.
+
+The catalogue does not label induced events, so these figures are indicators. Not all near-mine events are induced, and some induced events will be further than 5 km from any mapped feature. A related check is negative: the small earthquakes induced by hydraulic fracturing near Blackpool in 2011 (ML 2.3 at Preese Hall) and 2019 (ML 2.9 near Preston New Road) do not appear in the layer used. There are no events within 10 km of Weeton in 2011 and none within 10 km of Little Plumpton in 2018 or 2019. Induced events may be held separately; anyone using these layers for hazard work should check.
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.85\textwidth]{f_coal.png}
+\caption{Share of onshore instrumental earthquakes with an epicentre within 5 km of a coal mine mapped in OpenStreetMap, by five-year period. Dashed line: share of British land within 5 km of such a feature.}\label{fig:coal}
+\end{figure}
+
+\subsection{How often: magnitude-frequency}
+
+For the {{gr.n|int}} events of magnitude {{gr.mc|f1}} or more in Britain since 1980, $b = {{gr.b|f2}}$ (bootstrap 95\% interval {{gr.b_ci.0|f2}} to {{gr.b_ci.1|f2}}; standard error {{gr.b_se|f2}}) and $a = {{gr.a|f2}}$ (per year) (Figure~\ref{fig:gr}). The fit implies {{gr.rate_ge3|f1}} events of magnitude 3 or more per year, against {{gr.obs3_rate|f1}} observed; a magnitude 4 or more every {{gr.ret4|f1}} years (95\% interval {{gr.ret4_ci.0|f1}} to {{gr.ret4_ci.1|f1}}); a magnitude 5 or more every {{gr.ret5|int}} years ({{gr.ret5_ci.0|int}} to {{gr.ret5_ci.1|int}}); and, by extrapolation well beyond the data, a magnitude 6 every {{gr.ret6|int}} years.
+
+The long record gives an independent check (Table~\ref{tab:rates}). From 1750 to 1969 the historical catalogue holds {{gr.hist4_1750_1969|int}} events of magnitude 4 or more in Britain (one every {{gr.hist4_ret|f1}} years) and {{gr.hist5_1750_1969|int}} of 5 or more (one every {{gr.hist5_ret|f1}} years). Across both catalogues since 1750 the figures are {{gr.all4_since1750|int}} and {{gr.all5_since1750|int}}: one magnitude 4 every {{gr.all4_ret|f1}} years and one magnitude 5 every {{gr.all5_ret|f1}} years. For magnitude 4 the instrumental fit and the long record agree. For magnitude 5 the long record has roughly twice as many events as the fit predicts. The instrumental period itself has {{gr.obs5|int}} events of 5 or more since 1980, one every {{gr.obs5_ret|f1}} years, also more than the fit. With so few large events the discrepancy may be chance; it may also reflect a b-value that is lower for larger events, or macroseismic magnitudes for historical events that run high. I cannot separate these explanations here.
+
+{{TABLE_RATES}}
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.8\textwidth]{f_magfreq.png}
+\caption{Annual rate of earthquakes at or above each magnitude in Britain, 1980 to {{counts.last_year|raw}}, with the Gutenberg-Richter fit for magnitude {{gr.mc|f1}} and above. Pale points lie below the completeness magnitude.}\label{fig:gr}
+\end{figure}
+
+\subsection{Detection over time}
+
+The number of recorded earthquakes is not a measure of seismic activity alone (Figure~\ref{fig:det}). The historical catalogue has {{pre1700_br|int}} events in Britain before 1700, all of magnitude 4 or more by the catalogue's own rule, and {{detection.hist_1800s|int}} in the nineteenth century, when newspapers and observers reported many small shocks. In the instrumental catalogue, the share of events in Britain below magnitude 2 rose from {{detection.share_lt2_1970s|pct0}} in the 1970s to {{detection.share_lt2_1990s|pct0}} in the 1990s and {{detection.share_lt2_2010s|pct0}} in the 2010s, and the count below magnitude 2 rose {{detection.lt2_ratio_80s_70s|f1}} times from the 1970s ({{detection.lt2_1970s|int}}) to the 1980s ({{detection.lt2_1980s|int}}), when the coalfield swarms were also at their peak. Counts of magnitude 3 and above did not rise: {{detection.ge3_by_decade.0|int}} in the 1970s, {{detection.ge3_by_decade.1|int}} in the 1980s, {{detection.ge3_by_decade.2|int}} in the 1990s, {{detection.ge3_by_decade.3|int}} in the 2000s and {{detection.ge3_by_decade.4|int}} in the 2010s. Maps of all recorded earthquakes therefore partly map the network and the attention of observers.
+
+\begin{figure}[tbp]\centering
+\includegraphics[width=0.92\textwidth]{f_detection.png}
+\caption{Recorded earthquakes in Britain by magnitude band: historical catalogue per 50 years (left) and instrumental catalogue per decade (right; the 2020s run to {{counts.last_date_text|raw}}). Note the different scales.}\label{fig:det}
+\end{figure}
+
+\subsection{Earthquakes near towns}
+
+Of {{towns.n|int}} OS cities and towns, {{towns.ge3_25|int}} ({{towns.share_ge3_25|pct0}}) have had an earthquake of magnitude 3 or more within 25 km, {{towns.ge4_25|int}} ({{towns.share_ge4_25|pct0}}) a magnitude 4 or more and {{towns.ge5_25|int}} ({{towns.share_ge5_25|pct0}}) a magnitude 5 or more. {{towns.none_25|int}} have no catalogued event within 25 km. Among cities, the largest earthquakes within 25 km are {{city_named.Leicester.biggest_mag|f1}} for Leicester, Derby and Nottingham (Derby 1957) and Hereford (1896), {{city_named.Lincoln.biggest_mag|f1}} for Lincoln (2008) and Swansea (1727). London's largest within 25 km is {{city_named.London.biggest_mag|f1}}, one of {{y1750.london|words}} London earthquakes in 1750, a year with {{y1750.n|words}} events in the catalogue.
+
+\section{Discussion}
+
+Three points stand out. First, the familiar picture of British seismicity is real but partly a picture of people. The densest clusters of instrumentally recorded earthquakes in Britain are not on famous faults but in coalfields, and their timing, depth and decline after 2015 all fit mining-induced seismicity. Anyone counting recent British earthquakes by area should separate the coalfields.
+
+Second, the long record is valuable for the rare large events. Fifty-five years of instrumental data contain only {{gr.obs5|int}} events of magnitude 5 or more in Britain; the historical catalogue adds {{gr.hist5_1750_1969|int}} more since 1750. The agreement for magnitude 4 between a fit to modern small events and the historical count is reassuring. The disagreement at magnitude 5 deserves caution in both directions: it argues against relying only on extrapolation from small instrumental events, and also against treating historical macroseismic magnitudes as exact.
+
+Third, detection changes everything for small events. Any comparison of counts across decades, or between the historical and instrumental catalogues, must fix a magnitude threshold above which both are complete.
+
+\section{Limitations}
+
+Historical locations and magnitudes are reconstructions from felt reports and can be tens of kilometres and several tenths of a magnitude unit out. The historical catalogue is selective before 1700 and only partly complete for small events afterwards. The instrumental layer used here starts at ML {{counts.modern_min_mag|f1}} and appears not to include the fracking-induced events of 2011 and 2019. Duplicate removal used simple time and distance rules and may merge a very small number of genuine near-simultaneous events. The coal-mine features from OpenStreetMap are incomplete and include old shallow workings, so the near-mine share is an indicator, not a classification. The b-value depends on the chosen completeness magnitude and period; Table~\ref{tab:stab} shows how it varies. ``Britain'' as used here includes events within 20 km of the coast; epicentres offshore are less well located.
+
+\section{Conclusion}
+
+Two BGS catalogues together list {{counts.total|int}} earthquakes, {{counts.total_br|int}} of them in Britain or its coastal waters. Britain has a magnitude 4 earthquake about every three years, and has had a magnitude 5 about every {{gr.all5_ret|int}} years since 1750. Most recorded earthquakes are small, and many of the smallest were made by coal mining. The interactive version lets anyone see the largest recorded earthquake near any town.
+
+
+
+\section*{Data and code availability}
+
+Derived data (one row per earthquake with placement, nearest town and distance to the nearest mapped coal mine; decade, magnitude-frequency, hotspot, coal-period and town summaries) and all reported numbers (\texttt{results.json}) are at \url{https://github.com/Tristan-Hotham/british-earthquakes}, with the analysis code, and in the Zenodo record for this paper (\url{https://doi.org/10.5281/zenodo.23729643}). The interactive version is at \url{https://tristan-hotham.github.io/british-earthquakes/}. Contains British Geological Survey materials \textcopyright{} UKRI 2026; the BGS asks that an acknowledgement is made when any part of its catalogues is reproduced. Contains OS data \textcopyright{} Crown copyright and database right 2026 (Open Government Licence v3.0). Coal-mine features \textcopyright{} OpenStreetMap contributors (ODbL 1.0). My text and derived tables are released under CC BY 4.0; code is MIT.
+
+\section*{Funding and competing interests}
+
+This work received no funding. The author declares no competing interests.
+
+\section*{Use of AI}
+
+I wrote the text, with drafting and editing assistance from Claude (Anthropic), which also helped prepare the analysis code. I reviewed and checked all text and results.
+
+\section*{References}
+\small
+\setlength{\parskip}{0.35em}
+\hangindent=1.5em Aki, K. (1965). Maximum likelihood estimate of b in the formula log N = a $-$ bM and its confidence limits. \textit{Bulletin of the Earthquake Research Institute, University of Tokyo} 43, 237 to 239.
+
+\hangindent=1.5em British Geological Survey (2026a). UK historical earthquake catalogue (all known UK events until 1969). Via the BGS map services, \url{https://map.bgs.ac.uk}, retrieved 28 October 2026. Dataset record \url{http://data.bgs.ac.uk/id/dataHolding/13480080}. Contains British Geological Survey materials \textcopyright{} UKRI 2026.
+
+\hangindent=1.5em British Geological Survey (2026b). UK modern recorded earthquakes catalogue (instrumentally recorded since 1970). Via the BGS map services, \url{https://map.bgs.ac.uk}, retrieved 28 October 2026. Contains British Geological Survey materials \textcopyright{} UKRI 2026.
+
+\hangindent=1.5em Gutenberg, B. and Richter, C.~F. (1944). Frequency of earthquakes in California. \textit{Bulletin of the Seismological Society of America} 34(4), 185 to 188.
+
+\hangindent=1.5em Musson, R.~M.~W. (2003). Fatalities in British earthquakes. \textit{Astronomy and Geophysics} 44(1). As cited in Wikipedia, List of earthquakes in the British Isles.
+
+\hangindent=1.5em Natural Earth. 1:10m land. Public domain. \url{https://www.naturalearthdata.com}
+
+\hangindent=1.5em OpenStreetMap contributors (2026). OpenStreetMap data, via the QLever SPARQL endpoint, retrieved October 2026. ODbL 1.0. \url{https://www.openstreetmap.org}
+
+\hangindent=1.5em Ordnance Survey (2026). OS Open Names. Open Government Licence v3.0. \url{https://www.ordnancesurvey.co.uk/products/os-open-names}
+
+\hangindent=1.5em Undiscovered Scotland. Earthquake House, Comrie. \url{https://www.undiscoveredscotland.co.uk/comrie/earthquakehouse/}
+
+\hangindent=1.5em Utsu, T. (1966). A statistical significance test of the difference in b-value between two earthquake groups. \textit{Journal of Physics of the Earth} 14, 37 to 40.
+
+\hangindent=1.5em Wikipedia contributors (2026). List of earthquakes in the British Isles; 1382 Dover Straits earthquake; 1580 Dover Straits earthquake; 1884 Colchester earthquake; 1931 Dogger Bank earthquake; 1984 Ll\^{y}n Peninsula earthquake; 1990 Bishop's Castle earthquake; 2007 Kent earthquake; 2008 Market Rasen earthquake; Fracking in the United Kingdom; Coal mining in the United Kingdom. English Wikipedia, CC BY-SA 4.0, retrieved October 2026. \url{https://en.wikipedia.org}
+
+\end{document}
