@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite it as below."
+title: "Britain's Earthquakes Since 1382: Clusters, Coalfields and How Often the Big Ones Come"
+type: dataset
+authors:
+  - family-names: Hotham
+    given-names: Tristan
+    orcid: "https://orcid.org/0000-0003-4931-9349"
+    affiliation: "Independent researcher"
+doi: "10.5281/zenodo.23729643"
+url: "https://maps.tristanhotham.com/british-earthquakes/"
+repository-code: "https://github.com/Tristan-Hotham/british-earthquakes"
+license: CC-BY-4.0
+keywords:
+  - "earthquakes"
+  - "seismicity"
+  - "Great Britain"
+  - "historical seismology"
+  - "Gutenberg-Richter"
+  - "b-value"
+  - "induced seismicity"
+  - "coal mining"
+  - "detection bias"
+  - "open data"
